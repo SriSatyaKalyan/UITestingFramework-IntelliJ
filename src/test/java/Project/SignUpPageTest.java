@@ -25,7 +25,7 @@ import resources.baseClass;
 public class SignUpPageTest extends baseClass{
 	
 	//Creating instances of PageObjects
-	public signuppageObjects signuppageobject = new signuppageObjects(driver);
+//	public signuppageObjects signuppageobject = new signuppageObjects(driver);
 	
 	//Mandatory Step needed to make sure that the logs are shown
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
@@ -42,6 +42,7 @@ public class SignUpPageTest extends baseClass{
 	//Verifying the title text for the page
 	@Test
 	public void TitleTextValidation() {
+		signuppageObjects signuppageobject = new signuppageObjects(driver);
 		log.info("SignUpPageTest.TitleTextValidation");
 		
 		String title_text = signuppageobject.getTitleText().getText();
@@ -60,6 +61,7 @@ public class SignUpPageTest extends baseClass{
 	//Test which takes in the various credentials from the DataProvider method and sends them as input to the sign-in section
 	@Test(dataProvider = "SignupDetails")
 	public void SignUpTest(String fullname, String emailaddress, boolean subscriptionCheckbox, String password, String confirmpassword, boolean termsofuseCheckbox, String credentialsinfo) {
+		signuppageObjects signuppageobject = new signuppageObjects(driver);
 		log.info("SignUpPageTest.SignUpTest");
 		log.info(credentialsinfo);
 		signuppageobject.fullName().sendKeys(fullname);

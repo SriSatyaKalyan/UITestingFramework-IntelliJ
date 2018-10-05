@@ -18,7 +18,7 @@ public class homepageObjects {
 	By popup        =  By.xpath("//div[@class='sumome-react-wysiwyg-popup-animation-group']");
 	By nothanks = By.xpath("//div[@class='sumome-react-wysiwyg-component sumome-react-wysiwyg-popup-button sumome-react-wysiwyg-button'] //*[contains(text(),'THANKS')]");
 	By nothanksbutton    = By.xpath("//div[@class='sumome-react-wysiwyg-component sumome-react-wysiwyg-popup-button sumome-react-wysiwyg-button']//*[contains(text(),'THANKS')]");
-	
+	By alerttextheading  = By.xpath("//div[@class='sumome-react-wysiwyg-move-handle'] //*[contains(text(),'Newsletter')]");
 	
 	public homepageObjects(WebDriver driver) {
 	// TODO Auto-generated constructor stub
@@ -47,5 +47,9 @@ public class homepageObjects {
 	
 	public WebElement getNoThanksbutton() {
 		return driver.findElement(nothanksbutton);
+	}
+
+	public WebElement getAlertText() {
+		return driver.findElement(alerttextheading);
 	}
 }

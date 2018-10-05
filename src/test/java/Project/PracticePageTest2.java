@@ -36,6 +36,7 @@ public class PracticePageTest2 extends baseClass{
 	//Initializing the driver and navigating to the practicepage
 	@BeforeMethod
 	public void openBrowser() throws IOException, InterruptedException {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		driver = initializeDriver();
 		log.info("Driver is initialized");
 		driver.get(prop.getProperty("practicepage"));
@@ -45,6 +46,7 @@ public class PracticePageTest2 extends baseClass{
 	//Verifying the title text for the SwitchWindow section
 	@Test
 	public void getSwitchWindowTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getSwitchWindowTitle");
 		
 		if(practicepageobjects.getSwitchWindowTitle().getText().contains("Switch Window Example")) {
@@ -57,6 +59,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if a new window will be opened if the necessary actions are performed
 	@Test
 	public void OpenNewWindow() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.OpenNewWindow");
 		
 		practicepageobjects.getWindowButton().click();
@@ -78,6 +81,7 @@ public class PracticePageTest2 extends baseClass{
 	//Verifying the title text for the SwitchTab section
 	@Test
 	public void getSwitchTabTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getSwitchTabTitle");
 		
 		if(practicepageobjects.getSwitchTabTitle().getText().contains("Switch Tab Example")) {
@@ -90,6 +94,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if a new tab will be opened when the necessary actions are performed
 	@Test
 	public void OpenNewTab() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.OpenNewTab");
 		
 		practicepageobjects.getTabButton().click();
@@ -112,6 +117,7 @@ public class PracticePageTest2 extends baseClass{
 	//Verifying the title text for the SwitchAlert section
 	@Test
 	public void getSwitchAlertTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getSwitchAlertTitle");
 		
 		if(practicepageobjects.getSwitchAlertTitle().getText().contains("Switch To Alert")) {
@@ -124,6 +130,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test where we check if the alert box is opening as intended and if it is being dismissed
 	@Test
 	public void getAlert() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getAlert");
 		
 		practicepageobjects.getAlertNameBox().sendKeys(prop.getProperty("alertname1"));
@@ -140,6 +147,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test where we check if the alert box is opening as intended and if it is being confirmed
 	@Test
 	public void getConfirm() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getConfirm");
 			
 		practicepageobjects.getAlertNameBox().sendKeys(prop.getProperty("alertname2"));
@@ -156,6 +164,7 @@ public class PracticePageTest2 extends baseClass{
 	////Verifying the title text for the Table section
 	@Test
 	public void getTableTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getTableTitle");
 		
 		if(practicepageobjects.getWebTableTitle().getText().contains("Web Table")) {
@@ -168,6 +177,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test validating the total price produced if all the courses are taken
 	@Test
 	public void getTable() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getTable");
 		
 		int count = practicepageobjects.getWebTable().findElements(By.cssSelector("td:nth-child(3)")).size();
@@ -182,6 +192,7 @@ public class PracticePageTest2 extends baseClass{
 	//Verifying the title text for the ElementDisplayed section
 	@Test
 	public void getElementDisplayedTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getElementDisplayedTitle");
 		
 		if(practicepageobjects.getElementExampleTitle().getText().contains("Element Displayed")) {
@@ -194,6 +205,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if the required element can be displayed
 	@Test
 	public void elementShow() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.elementShow");
 		
 		practicepageobjects.getShowButton().click();
@@ -207,6 +219,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if the required element can be hidden
 	@Test
 	public void elementHide() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.elementHide");
 		
 		practicepageobjects.getHideButton().click();
@@ -220,6 +233,7 @@ public class PracticePageTest2 extends baseClass{
 	//Verifying the title text for the MouseHover section
 	@Test
 	public void mouseHoverTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverTitle");
 		
 		if (practicepageobjects.getMouseHoverTitle().getText().contains("Example")) {
@@ -232,6 +246,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if the mouse hovering actioncan be performed and a required selection can be made	
 	@Test
 	public void mouseHoverselectTop() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverselectTop");
 		
 		Actions action = new Actions(driver);
@@ -247,6 +262,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if the mouse hovering actioncan be performed and a required selection can be made
 	@Test
 	public void mouseHoverselectReload() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverselectReload");
 		
 		Actions action = new Actions(driver);
@@ -262,6 +278,7 @@ public class PracticePageTest2 extends baseClass{
 	//Verifying the title text for the iFrame section
 	@Test
 	public void iFrameTitle() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.iFrameTitle");
 		
 		if (practicepageobjects.getiFrameTitle().getText().contains("")) {
@@ -274,6 +291,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if an operation can be performed on the frame
 	@Test
 	public void iFrameOperation() {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.iFrameOperation");
 		
 		driver.switchTo().frame(practicepageobjects.getiFrame());
@@ -288,6 +306,7 @@ public class PracticePageTest2 extends baseClass{
 	//Test checking if all the links in the page can be opened at a time
 	@Test
 	public void accessAllLinks() throws InterruptedException {
+		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.accessAllLinks");
 		
 		WebElement linksset = practicepageobjects.getLinksBox(); //footer_driver

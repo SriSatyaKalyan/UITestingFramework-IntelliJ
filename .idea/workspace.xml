@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="" />
+    <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/PopupPresence.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/PopupPresence.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/elementHide.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/elementHide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/getTable.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/getTable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/getTableTitle.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/getTableTitle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/mouseHoverselectReload.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/mouseHoverselectReload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/selectDropDownOptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/selectDropDownOptions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/titleTextValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/titleTextValidation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Framework/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +42,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="153">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -43,8 +60,8 @@
       <file leaf-file-name="data.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="17">
+              <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -52,8 +69,23 @@
       <file leaf-file-name="HomePageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Project/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="509">
+              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepageObjects.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,24 +93,10 @@
       <file leaf-file-name="PracticePageTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+            <state relative-caret-position="50">
+              <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practicepageObjects1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/practicepageObjects1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2202#2203#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +118,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/resources/data.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/data.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" />
       </list>
     </option>
@@ -127,7 +148,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest.PopupPresence">
+  <component name="RunManager" selected="TestNG.HomePageTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -229,24 +250,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/satya/Downloads/UITestingFramework/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
-      <option name="METHOD_NAME" value="PopupPresence" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="0" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -258,7 +273,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="HomePageTest.PopupPresence (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -268,12 +283,12 @@
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
       <option name="METHOD_NAME" value="PopupPresence" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -297,39 +312,10 @@
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
       <option name="METHOD_NAME" value="PopupPresence" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="PracticePageTest1.getSuggestedCountry (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="getSuggestedCountry" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -345,7 +331,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="PracticePageTest1.getSuggestedCountry" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTest1.selectDropDownOptions (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -358,7 +344,36 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="getSuggestedCountry" />
+      <option name="METHOD_NAME" value="selectDropDownOptions" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PracticePageTest1.selectDropDownOptions" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
+      <option name="METHOD_NAME" value="selectDropDownOptions" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -397,19 +412,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry" />
-      <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry (1)" />
+      <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions" />
+      <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions (1)" />
+      <item itemvalue="TestNG.C:/Users/satya/Downloads/UITestingFramework/testng.xml" />
       <item itemvalue="TestNG.HomePageTest.PopupPresence" />
-      <item itemvalue="TestNG.HomePageTest.PopupPresence (1)" />
       <item itemvalue="TestNG.HomePageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTest.PopupPresence" />
-        <item itemvalue="TestNG.HomePageTest.PopupPresence (1)" />
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry (1)" />
-        <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry" />
+        <item itemvalue="TestNG.HomePageTest.PopupPresence" />
+        <item itemvalue="TestNG.C:/Users/satya/Downloads/UITestingFramework/testng.xml" />
+        <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions (1)" />
+        <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions" />
       </list>
     </recent_temporary>
   </component>
@@ -427,55 +442,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PracticePageTest1_getSuggestedCountry - 2018.10.04 at 01h 21m 49s.xml">
-      <configuration name="PracticePageTest1.getSuggestedCountry" configurationId="TestNG" />
+    <history-entry file="PracticePageTest1_selectDropDownOptions_(1) - 2018.10.04 at 17h 43m 34s.xml">
+      <configuration name="PracticePageTest1.selectDropDownOptions (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PracticePageTest1_getSuggestedCountry_(1) - 2018.10.04 at 01h 24m 54s.xml">
-      <configuration name="PracticePageTest1.getSuggestedCountry (1)" configurationId="TestNG" />
+    <history-entry file="C__Users_satya_Downloads_UITestingFramework_testng_xml - 2018.10.04 at 17h 57m 47s.xml">
+      <configuration name="C:/Users/satya/Downloads/UITestingFramework/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PracticePageTest1_getSuggestedCountry_(1) - 2018.10.04 at 01h 26m 23s.xml">
-      <configuration name="PracticePageTest1.getSuggestedCountry (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_PopupPresence - 2018.10.04 at 01h 30m 55s.xml">
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 00h 28m 12s.xml">
       <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_PopupPresence_(1) - 2018.10.04 at 01h 33m 16s.xml">
-      <configuration name="HomePageTest.PopupPresence (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest - 2018.10.04 at 01h 42m 04s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_PopupPresence - 2018.10.04 at 01h 42m 32s.xml">
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 00h 42m 15s.xml">
       <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_PopupPresence_(1) - 2018.10.04 at 01h 46m 05s.xml">
-      <configuration name="HomePageTest.PopupPresence (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_PopupPresence - 2018.10.04 at 01h 52m 30s.xml">
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 01h 03m 24s.xml">
       <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_PopupPresence - 2018.10.04 at 11h 16m 37s.xml">
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 01h 07m 16s.xml">
+      <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 01h 08m 25s.xml">
+      <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 01h 10m 00s.xml">
+      <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 01h 18m 27s.xml">
+      <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_PopupPresence - 2018.10.05 at 01h 20m 38s.xml">
       <configuration name="HomePageTest.PopupPresence" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.324031" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.40930232" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.4868217" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.3858521" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3279743" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21010248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21676737" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -487,13 +511,72 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/practicepageObjects1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2202#2203#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="166" column="4" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="166" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -588,34 +671,10 @@
     <entry file="file://$PROJECT_DIR$/Framework/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0-sources.jar!/org/openqa/selenium/remote/ErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1208">
           <caret line="213" selection-start-line="213" selection-end-line="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="32" column="130" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="130" />
         </state>
       </provider>
     </entry>
@@ -626,9 +685,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5083">
+          <caret line="338" column="1" lean-forward="true" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/practicepageObjects1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="265">
           <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -638,34 +714,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="94">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+        <state relative-caret-position="50">
+          <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Project/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="509">
+          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
         </state>
       </provider>
     </entry>

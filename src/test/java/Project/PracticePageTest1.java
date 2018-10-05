@@ -150,16 +150,17 @@ public class PracticePageTest1 extends baseClass{
 	
 	//Test performing the selection of DropDown options and selecting one of them
 	@Test
-	public void selectDropDownOptions() {
+	public void selectDropDownOptions() throws InterruptedException {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.selectDropDownOptions");
 
 		practicepageobjects.hitDropdownmenu().click();
 		
-		for (int i=1;i<=3; i++) {
+		for (int i=0;i<3; i++) {
 			if(practicepageobjects.selectDropdownOptions().get(i).getText().contains(prop.getProperty("optionnumber"))) {
 				log.info("Selected the required option");
 				practicepageobjects.selectDropdownOptions().get(i).click();
+				Thread.sleep(2000);
 				Assert.assertTrue(true);
 			}
 		}

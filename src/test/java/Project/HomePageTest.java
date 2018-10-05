@@ -55,14 +55,7 @@ public class HomePageTest extends baseClass{
 		wait.until(ExpectedConditions.visibilityOfElementLocated(homepageobjects.findPopup()));
 		wait.until(ExpectedConditions.elementToBeClickable(homepageobjects.findNoThanks()));
 
-		//Multiple failed attempts at getting the text on the alert box
-//		Alert alert = driver.switchTo().alert();
-//		System.out.println(alert.getText());
-
-		Thread.sleep(3000);
-		Object errormessage = jsExec.executeScript("return window.getError.message");
-		System.out.println(errormessage.toString());
-
+		Assert.assertEquals(homepageobjects.getAlertText().getText(), "Join Our Newsletter");
 		homepageobjects.getNoThanksbutton().click();
 //		log.info(driver.switchTo().alert().getText());
 	}
