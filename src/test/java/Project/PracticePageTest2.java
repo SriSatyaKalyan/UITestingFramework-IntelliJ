@@ -35,7 +35,7 @@ public class PracticePageTest2 extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
 	//Initializing the driver and navigating to the practicepage
-	@BeforeMethod(groups = {"important"})
+	@BeforeMethod(groups = {"must"})
 	public void openBrowser() throws IOException, InterruptedException {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		driver = initializeDriver();
@@ -331,7 +331,7 @@ public class PracticePageTest2 extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod(groups = {"important"})
+	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
 		log.info("Closing the driver");
 		driver.quit();

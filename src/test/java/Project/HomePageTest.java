@@ -35,7 +35,7 @@ public class HomePageTest extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 		
 	//Initializing the driver and navigating to the homepage
-	@BeforeMethod(groups = {"important"})
+	@BeforeMethod(groups = {"must"})
 	public void openBrowser() throws IOException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -89,7 +89,7 @@ public class HomePageTest extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod(groups = {"important"})
+	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
 		driver.close();
 		driver = null;

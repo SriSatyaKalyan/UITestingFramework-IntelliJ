@@ -38,7 +38,7 @@ public class LoginPageTest extends baseClass {
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
 	//Initializing the driver and navigating to the loginpage
-	@BeforeMethod(groups = {"important"})
+	@BeforeMethod(groups = {"must"})
 	public void openBrowser() throws IOException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -159,7 +159,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Closing the driver
-	@AfterMethod(groups = {"important"})
+	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
 		driver.close();
 		driver = null;

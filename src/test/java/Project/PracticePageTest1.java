@@ -27,7 +27,7 @@ public class PracticePageTest1 extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
 	//Initializing the driver and navigating to the practicepage
-	@BeforeMethod(groups = {"important"})
+	@BeforeMethod(groups = {"must"})
 	public void openBrowser() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -193,7 +193,7 @@ public class PracticePageTest1 extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod(groups = {"important"})
+	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
 		log.info("Closing the driver");
 		driver.close();

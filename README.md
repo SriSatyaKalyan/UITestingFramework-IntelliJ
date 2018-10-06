@@ -20,3 +20,7 @@ Upcoming Modifications:
 -> Also make sure that an Excel sheet is added for data-handling and ApachePOI is used to handle it (I honestly don't know how else to handle it)
 3) Establish a working connection with Jenkins
 4) Make Log4j2 working
+
+Groups:
+Important -> Solely created to understand how groups are supposed to be handled in TestNG. I went head with including the @Before and @After methods into the groups as well. But I strongly believe that there is a much better way to handle the methods
+Modification1 -> Changed @Before and @After methods into 'must' groups and then made sure that this group is included into every testng.xml file handling groups

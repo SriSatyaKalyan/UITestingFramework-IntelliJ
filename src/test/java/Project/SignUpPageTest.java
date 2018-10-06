@@ -31,7 +31,7 @@ public class SignUpPageTest extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 		
 	//Initializing the driver and navigating to the homepage
-	@BeforeMethod
+	@BeforeMethod(groups = {"must"})
 	public void openBrowser() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -59,7 +59,7 @@ public class SignUpPageTest extends baseClass{
 	}
 	
 	//Test which takes in the various credentials from the DataProvider method and sends them as input to the sign-in section
-	@Test(dataProvider = "SignupDetails")
+	@Test(dataProvider = "SignupDetails", groups = {"regression"})
 	public void SignUpTest(String fullname, String emailaddress, boolean subscriptionCheckbox, String password, String confirmpassword, boolean termsofuseCheckbox, String credentialsinfo) {
 		signuppageObjects signuppageobject = new signuppageObjects(driver);
 		log.info("SignUpPageTest.SignUpTest");
@@ -167,7 +167,7 @@ public class SignUpPageTest extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod(groups = {"important"})
+	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
 		driver.close();
 		driver = null;
