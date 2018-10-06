@@ -38,7 +38,7 @@ public class LoginPageTest extends baseClass {
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
 	//Initializing the driver and navigating to the loginpage
-	@BeforeMethod
+	@BeforeMethod(groups = {"important"})
 	public void openBrowser() throws IOException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -134,7 +134,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Clicking on the ForgotPassword button and checking if the error message is being produced
-	@Test
+	@Test(groups = {"important"})
 	public void SendInstructions() throws InterruptedException {
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
         homepageObjects homepageobjects = new homepageObjects(driver);
@@ -159,7 +159,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Closing the driver
-	@AfterMethod
+	@AfterMethod(groups = {"important"})
 	public void closeBrowser() {
 		driver.close();
 		driver = null;

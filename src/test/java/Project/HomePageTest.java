@@ -35,7 +35,7 @@ public class HomePageTest extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 		
 	//Initializing the driver and navigating to the homepage
-	@BeforeClass
+	@BeforeMethod(groups = {"important"})
 	public void openBrowser() throws IOException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -44,7 +44,7 @@ public class HomePageTest extends baseClass{
 	}
 	
 	//Checking the presence of popup and removing it from performing further tests
-	@Test
+	@Test(groups = {"important"})
 	public void PopupPresence() throws InterruptedException {
 		homepageObjects homepageobjects = new homepageObjects(driver);
 		JavascriptExecutor jsExec = (JavascriptExecutor)driver;
@@ -89,7 +89,7 @@ public class HomePageTest extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterClass
+	@AfterMethod(groups = {"important"})
 	public void closeBrowser() {
 		driver.close();
 		driver = null;

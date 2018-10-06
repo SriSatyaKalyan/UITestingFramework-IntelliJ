@@ -18,6 +18,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,7 +35,7 @@ public class PracticePageTest2 extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
 	//Initializing the driver and navigating to the practicepage
-	@BeforeMethod
+	@BeforeMethod(groups = {"important"})
 	public void openBrowser() throws IOException, InterruptedException {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		driver = initializeDriver();
@@ -304,7 +305,7 @@ public class PracticePageTest2 extends baseClass{
 	}
 	
 	//Test checking if all the links in the page can be opened at a time
-	@Test
+	@Test(groups = {"important"})
 	public void accessAllLinks() throws InterruptedException {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.accessAllLinks");
@@ -330,10 +331,10 @@ public class PracticePageTest2 extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod
+	@AfterMethod(groups = {"important"})
 	public void closeBrowser() {
 		log.info("Closing the driver");
-		driver.close();
+		driver.quit();
 		driver = null;
 	}	
 }

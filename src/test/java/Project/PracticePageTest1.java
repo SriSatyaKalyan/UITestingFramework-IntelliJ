@@ -12,9 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.openqa.selenium.By;
 import pageObjects.practicepageObjects1;
 import resources.baseClass;
@@ -29,7 +27,7 @@ public class PracticePageTest1 extends baseClass{
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
 	//Initializing the driver and navigating to the practicepage
-	@BeforeMethod
+	@BeforeMethod(groups = {"important"})
 	public void openBrowser() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
@@ -38,7 +36,7 @@ public class PracticePageTest1 extends baseClass{
 	}
 	
     //Validating the title text 
-	@Test
+	@Test(groups = {"important"})
 	public void TitleTextValidation() {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.TitleTextValidation");
@@ -195,7 +193,7 @@ public class PracticePageTest1 extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod
+	@AfterMethod(groups = {"important"})
 	public void closeBrowser() {
 		log.info("Closing the driver");
 		driver.close();

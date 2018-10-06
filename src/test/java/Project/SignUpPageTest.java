@@ -40,7 +40,7 @@ public class SignUpPageTest extends baseClass{
 	}
 	
 	//Verifying the title text for the page
-	@Test
+	@Test(groups = {"important"})
 	public void TitleTextValidation() {
 		signuppageObjects signuppageobject = new signuppageObjects(driver);
 		log.info("SignUpPageTest.TitleTextValidation");
@@ -167,7 +167,7 @@ public class SignUpPageTest extends baseClass{
 	}
 	
 	//Closing the driver
-	@AfterMethod
+	@AfterMethod(groups = {"important"})
 	public void closeBrowser() {
 		driver.close();
 		driver = null;
