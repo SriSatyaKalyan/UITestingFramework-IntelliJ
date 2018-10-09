@@ -11,7 +11,10 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.core.util.FileUtils;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -30,21 +33,26 @@ public class baseClass {
 	public WebDriver initializeDriver() throws IOException {
 		
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\satya\\Downloads\\UITestingFramework\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\satya\\Downloads\\UITestingFramework-IntelliJ\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		
 		String browserName = prop.getProperty("browser");
 		
 		//Loop for Deciding which browser the driver should operate on
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\chromedriver.exe");
-			driver = new ChromeDriver();
+//			System.setProperty("webdriver.chrome.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\chromedriver.exe");
+//			ChromeDriverManager.getInstance().setup();
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+
 		}else if(browserName.equals("firefox")){	
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\geckodriver.exe");
-			driver = new FirefoxDriver();		
+//			System.setProperty("webdriver.gecko.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\geckodriver.exe");
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
 		}else {
-			System.setProperty("webdriver.ie.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\IEDriverServer.exe");
-			driver = new InternetExplorerDriver();			
+//			System.setProperty("webdriver.ie.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\IEDriverServer.exe");
+            WebDriverManager.iedriver().setup();
+            driver = new InternetExplorerDriver();
 		}
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
