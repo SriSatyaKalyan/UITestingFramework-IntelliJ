@@ -17,8 +17,6 @@
        </groups>
 
        <classes>
-           <!--<class name="Groups.GroupsInitialization"/>-->
-
            <!--<class name="Project.HomePageTest"/>-->
            <!--<class name="Project.LoginPageTest"/>-->
 

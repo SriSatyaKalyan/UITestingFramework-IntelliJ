@@ -12,6 +12,8 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.DriverManagerType;
+import io.github.bonigarcia.wdm.PhantomJsDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.core.util.FileUtils;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +24,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 public class baseClass {
 	
@@ -49,15 +52,17 @@ public class baseClass {
 //			System.setProperty("webdriver.gecko.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\geckodriver.exe");
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-		}else {
+		}else if (browserName.equals("ie")){
 //			System.setProperty("webdriver.ie.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\IEDriverServer.exe");
             WebDriverManager.iedriver().setup();
             driver = new InternetExplorerDriver();
-		}
+		}else{
+            WebDriverManager.phantomjs().setup();
+            driver = new PhantomJSDriver();
+        }
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
-	
 	}
 	
 	//Method to generate random strings of words for various email names
@@ -83,4 +88,3 @@ public class baseClass {
 		FileHandler.copy(screenshotfile, new File("C:\\Users\\satya\\Downloads\\UITestingFramework\\TestFailureScreenshots\\" + nameoftest + ".png"));
 	}
 }
-

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="" />
+    <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-importantgroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-importantgroup.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Framework/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +32,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="class" value="1" />
+          <entry key="java" value="4" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
@@ -33,7 +41,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
@@ -45,16 +54,16 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37" />
-          <entry key="Properties" value="35" />
-          <entry key="XML" value="241" />
+          <entry key="JAVA" value="190" />
+          <entry key="Properties" value="48" />
+          <entry key="XML" value="274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37" />
-          <entry key="properties" value="35" />
-          <entry key="xml" value="241" />
+          <entry key="java" value="190" />
+          <entry key="properties" value="48" />
+          <entry key="xml" value="274" />
         </counts>
       </usages-collector>
     </session>
@@ -62,10 +71,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Groups/GroupsInitialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng-importantgroup.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="544">
+              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -73,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+            <state relative-caret-position="765">
+              <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -82,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="-68">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -91,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -111,6 +132,7 @@
       <find>important</find>
       <find>testng</find>
       <find>java</find>
+      <find>phantom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,7 +150,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Groups/GroupsInitialization.java" />
         <option value="$PROJECT_DIR$/testng-regressiongroup.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" />
@@ -136,9 +157,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/testng-importantgroup.xml" />
         <option value="$PROJECT_DIR$/src/main/java/resources/baseClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/data.properties" />
+        <option value="$PROJECT_DIR$/testng-importantgroup.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Groups/GroupsInitialization.java" />
       </list>
     </option>
   </component>
@@ -235,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539127933685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539133743352" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -260,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ImportantGroup">
+  <component name="RunManager" selected="TestNG.PracticePageTest2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -328,27 +350,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.PopupPresence" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
-      <option name="METHOD_NAME" value="PopupPresence" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ImportantGroup" type="TestNG" factoryName="TestNG">
       <module name="UITestingFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
@@ -378,6 +379,29 @@
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticePageTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest2" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -420,18 +444,18 @@
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
       <item itemvalue="TestNG.Basic TestNG.xml" />
-      <item itemvalue="TestNG.HomePageTest.PopupPresence" />
       <item itemvalue="TestNG.HomePageTest" />
       <item itemvalue="TestNG.C:/Users/satya/Downloads/UITestingFramework/testng-importantgroup.xml" />
       <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.PracticePageTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PracticePageTest2" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.Basic TestNG.xml" />
         <item itemvalue="TestNG.C:/Users/satya/Downloads/UITestingFramework/testng-importantgroup.xml" />
         <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.PopupPresence" />
       </list>
     </recent_temporary>
   </component>
@@ -446,32 +470,11 @@
       <option name="presentableId" value="Default" />
       <updated>1538603265774</updated>
       <workItem from="1539113141980" duration="4974000" />
-      <workItem from="1539127394592" duration="538000" />
+      <workItem from="1539127394592" duration="5604000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImportantGroup - 2018.10.09 at 15h 38m 39s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest - 2018.10.09 at 15h 42m 17s.xml">
-      <configuration name="LoginPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 16h 25m 46s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 16h 50m 49s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 16h 53m 02s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 16h 57m 18s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 16h 59m 24s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ImportantGroup - 2018.10.09 at 17h 03m 15s.xml">
       <configuration name="ImportantGroup" configurationId="TestNG" />
     </history-entry>
@@ -481,9 +484,30 @@
     <history-entry file="ImportantGroup - 2018.10.09 at 19h 28m 48s.xml">
       <configuration name="ImportantGroup" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ImportantGroup - 2018.10.09 at 19h 57m 01s.xml">
+      <configuration name="ImportantGroup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ImportantGroup - 2018.10.09 at 20h 13m 15s.xml">
+      <configuration name="ImportantGroup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ImportantGroup - 2018.10.09 at 20h 25m 28s.xml">
+      <configuration name="ImportantGroup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ImportantGroup - 2018.10.09 at 20h 51m 57s.xml">
+      <configuration name="ImportantGroup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ImportantGroup - 2018.10.09 at 20h 53m 39s.xml">
+      <configuration name="ImportantGroup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ImportantGroup - 2018.10.09 at 20h 58m 00s.xml">
+      <configuration name="ImportantGroup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PracticePageTest2 - 2018.10.09 at 21h 07m 29s.xml">
+      <configuration name="PracticePageTest2" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5512000" />
+    <option name="totallyTimeSpent" value="10578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +531,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.28756058" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.4184168" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +539,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329582" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3279743" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073206" side_tool="true" weight="0.40930232" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3215434" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32148626" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -605,26 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Groups/GroupsInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Project/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
@@ -693,31 +697,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        <state relative-caret-position="208">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/2.2.4/webdrivermanager-2.2.4.jar!/io/github/bonigarcia/wdm/WebDriverManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="-68">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng-importantgroup.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="544">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Groups/GroupsInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
