@@ -85,6 +85,6 @@ public class baseClass {
 	//Method to get screenshot and provide path as to where the screenshots should be saved
 	public void getScreenshot(String nameoftest) throws IOException {
 		File screenshotfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(screenshotfile, new File("C:\\Users\\satya\\Downloads\\UITestingFramework\\TestFailureScreenshots\\" + nameoftest + ".png"));
+		FileHandler.copy(screenshotfile, new File(System.getProperty("user.dir") + "\\TestFailureScreenshots\\" + nameoftest + ".png"));
 	}
 }
