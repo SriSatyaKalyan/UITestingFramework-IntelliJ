@@ -112,6 +112,12 @@
 		  <version>2.21.0</version>
 	  </dependency>
 
+      <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
+      <dependency>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.7</version>
+      </dependency>
 
   </dependencies>
 	<build>
