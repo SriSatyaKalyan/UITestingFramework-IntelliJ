@@ -5,24 +5,25 @@
 
 package Project;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Iterator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.Keys;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import junit.framework.Assert;
 import pageObjects.homepageObjects;
 import pageObjects.loginpageObjects;
 import resources.baseClass;
@@ -110,6 +111,91 @@ public class LoginPageTest extends baseClass {
 		data[1][1]      = "123456";
 		data[1][2]      = "UnRestricted User";
 		
+		return data;
+	}
+
+	@Test(dataProvider = "LoginDetailsfromExcelSheet")
+	public void LoginDetailswithExcelSheet(String username, String password, String text) throws Exception {
+		loginpageObjects loginpageobjects = new loginpageObjects(driver);
+//		homepageObjects homepageobjects = new homepageObjects(driver);
+
+		log.info("LoginPageTest.LoginDetails");
+		driver.navigate().to(prop.getProperty("loginpage"));
+
+		log.info("LoginPageTest.LoginDetails");
+		log.info(text);
+
+		loginpageobjects.emailId().sendKeys(username);
+		loginpageobjects.passwordId().sendKeys(password);
+		loginpageobjects.clickLogin().click();
+
+		if(loginpageobjects.getErrorMessage().size() > 0) {
+			log.info("Expected Error Message - Credentials Invalid");
+			Assert.assertTrue(true);
+		}
+	}
+
+	@DataProvider
+	@Test
+	public Object[][] LoginDetailsfromExcelSheet() throws IOException {
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\datasheets.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		int numberofsheets = workbook.getNumberOfSheets();
+		Object[][] data = new Object[3][3];
+		int columnnumber = 0;
+		int rownumber = 0;
+		for (int i = 0; i < numberofsheets; i++) {
+			if (workbook.getSheetName(i).equalsIgnoreCase("logindetails")) {
+				XSSFSheet logindetailssheet = workbook.getSheetAt(i);
+
+				Iterator<Row> rows = logindetailssheet.iterator(); //A sheet is a collection of rows
+				Row firstrow = rows.next();
+
+				Iterator<Cell> cell = firstrow.cellIterator();
+				int columnchanger = 0;
+				int column = 0;
+
+				while (cell.hasNext()) {
+					Cell value = cell.next();
+					if (value.getStringCellValue().equalsIgnoreCase("Credentials")) {
+						column = columnchanger;
+					} else {
+						columnchanger++;
+					}
+				}
+//				System.out.println("The column number is " + column);
+
+//				int columnnumber = 0;
+//				int rownumber = 0;
+
+				while (rows.hasNext()) {
+					columnnumber = 0;
+					Row row = rows.next();
+					if (row.getCell(column).getStringCellValue().equalsIgnoreCase("DataSet" + (rownumber+1))) {
+						Iterator<Cell> credentialrow = row.cellIterator();
+						while (credentialrow.hasNext()) {
+//							System.out.println("One of the credentials: " + credentialrow.next().getStringCellValue());
+							data[rownumber][columnnumber] = credentialrow.next().getStringCellValue();
+							columnnumber++;
+						}
+					}
+					rownumber++;
+				}
+			}
+		}
+
+//		Object data[][] = new Object[2][3];
+//		//1st row
+//		data[0][0]      = "pratyusha321@gmail.com";
+//		data[0][1]      = "123456";
+//		data[0][2]      = "Restricted User";
+//
+//		//2nd Row
+//		data[1][0]      = "batman@gotham.com";
+//		data[1][1]      = "123456";
+//		data[1][2]      = "UnRestricted User";
+//
 		return data;
 	}
 	

@@ -4,7 +4,7 @@
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-importantgroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-importantgroup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Framework/target/" />
@@ -67,44 +67,46 @@
     <session id="-1890940215">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="xml" value="59" />
+          <entry key="java" value="1069" />
+          <entry key="xml" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="XML" value="59" />
+          <entry key="JAVA" value="1069" />
+          <entry key="XML" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="3" />
           <entry key="html" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="4" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="3" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -116,28 +118,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng-importantgroup.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="147" column="36" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
+            <state>
+              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -145,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+            <state relative-caret-position="223">
+              <caret line="38" column="129" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -161,19 +145,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/resources/Log4j2.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="91">
+              <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng-regressiongroup.xml">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="34">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -217,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/homepageObjects.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" />
@@ -228,6 +214,7 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/testng-importantgroup.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" />
       </list>
     </option>
   </component>
@@ -259,6 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,20 +258,52 @@
             <path>
               <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539194998078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539289850812" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -291,7 +312,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
       <recent name="C:\Users\satya\Downloads\UITestingFramework" />
     </key>
   </component>
@@ -307,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ImportantGroup">
+  <component name="RunManager" selected="TestNG.LoginPageTest (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -322,55 +347,6 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Basic TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="UITestingFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/satya/Downloads/UITestingFramework/testng-importantgroup.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
-      <option name="METHOD_NAME" value="PopupPresence" />
-      <option name="PARAMETERS" value="0" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,7 +369,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -401,22 +377,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.LoginDetails" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -424,15 +394,69 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest2" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.LoginDetailsfromExcelSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginDetailsfromExcelSheet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.LoginDetailswithExcelSheet (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginDetailswithExcelSheet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.LoginDetailswithExcelSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginDetailswithExcelSheet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -468,19 +492,19 @@
     <list>
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.Basic TestNG.xml" />
-      <item itemvalue="TestNG.HomePageTest" />
-      <item itemvalue="TestNG.C:/Users/satya/Downloads/UITestingFramework/testng-importantgroup.xml" />
-      <item itemvalue="TestNG.LoginPageTest" />
-      <item itemvalue="TestNG.PracticePageTest2" />
+      <item itemvalue="TestNG.LoginPageTest.LoginDetails" />
+      <item itemvalue="TestNG.LoginPageTest (1)" />
+      <item itemvalue="TestNG.LoginPageTest.LoginDetailsfromExcelSheet" />
+      <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet" />
+      <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PracticePageTest2" />
-        <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.Basic TestNG.xml" />
-        <item itemvalue="TestNG.C:/Users/satya/Downloads/UITestingFramework/testng-importantgroup.xml" />
-        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.LoginPageTest (1)" />
+        <item itemvalue="TestNG.LoginPageTest.LoginDetailsfromExcelSheet" />
+        <item itemvalue="TestNG.LoginPageTest.LoginDetails" />
+        <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet" />
+        <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -497,44 +521,46 @@
       <workItem from="1539113141980" duration="4974000" />
       <workItem from="1539127394592" duration="9742000" />
       <workItem from="1539155424303" duration="1802000" />
-      <workItem from="1539192436844" duration="2510000" />
+      <workItem from="1539192436844" duration="3230000" />
+      <workItem from="1539274930408" duration="11102000" />
+      <workItem from="1539287825454" duration="1604000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImportantGroup - 2018.10.09 at 20h 13m 15s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetailswithExcelSheet - 2018.10.11 at 15h 53m 42s.xml">
+      <configuration name="LoginPageTest.LoginDetailswithExcelSheet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 20h 25m 28s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetailswithExcelSheet - 2018.10.11 at 16h 17m 27s.xml">
+      <configuration name="LoginPageTest.LoginDetailswithExcelSheet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 20h 51m 57s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetails - 2018.10.11 at 16h 18m 35s.xml">
+      <configuration name="LoginPageTest.LoginDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 20h 53m 39s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetailswithExcelSheet - 2018.10.11 at 16h 18m 54s.xml">
+      <configuration name="LoginPageTest.LoginDetailswithExcelSheet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.09 at 20h 58m 00s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetailswithExcelSheet - 2018.10.11 at 16h 21m 14s.xml">
+      <configuration name="LoginPageTest.LoginDetailswithExcelSheet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PracticePageTest2 - 2018.10.09 at 21h 07m 29s.xml">
-      <configuration name="PracticePageTest2" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetailswithExcelSheet - 2018.10.11 at 16h 22m 39s.xml">
+      <configuration name="LoginPageTest.LoginDetailswithExcelSheet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.10 at 03h 14m 15s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetails - 2018.10.11 at 16h 24m 22s.xml">
+      <configuration name="LoginPageTest.LoginDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.10 at 03h 29m 58s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetails - 2018.10.11 at 16h 25m 48s.xml">
+      <configuration name="LoginPageTest.LoginDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.10 at 03h 31m 40s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_LoginDetailsfromExcelSheet - 2018.10.11 at 16h 26m 05s.xml">
+      <configuration name="LoginPageTest.LoginDetailsfromExcelSheet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportantGroup - 2018.10.10 at 03h 32m 02s.xml">
-      <configuration name="ImportantGroup" configurationId="TestNG" />
+    <history-entry file="LoginPageTest_(1) - 2018.10.11 at 16h 31m 06s.xml">
+      <configuration name="LoginPageTest (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19028000" />
+    <option name="totallyTimeSpent" value="32454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +575,7 @@
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -558,7 +584,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.33764136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.38933763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -680,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -705,13 +724,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Groups/GroupsInitialization.java" />
-    <entry file="file://$PROJECT_DIR$/testng-regressiongroup.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -749,17 +761,66 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng-regressiongroup.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/Log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng-importantgroup.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="325">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/ss/usermodel/Row.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/ss/usermodel/Cell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="34">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="38" column="129" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="129" />
         </state>
       </provider>
     </entry>
@@ -770,31 +831,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="147" column="36" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/Log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="91">
+          <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
