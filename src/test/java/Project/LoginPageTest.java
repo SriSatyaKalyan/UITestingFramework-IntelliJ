@@ -8,6 +8,7 @@ package Project;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 import org.apache.logging.log4j.LogManager;
@@ -114,8 +115,8 @@ public class LoginPageTest extends baseClass {
 		return data;
 	}
 
-	@Test(dataProvider = "LoginDetailsfromExcelSheet")
-	public void LoginDetailswithExcelSheet(String username, String password, String text) throws Exception {
+	@Test(dataProvider = "getDatafromExcelSheet")
+	public void LoginDetailswithExcelSheet(String username, String password, String text) throws IOException {
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 //		homepageObjects homepageobjects = new homepageObjects(driver);
 
@@ -135,69 +136,35 @@ public class LoginPageTest extends baseClass {
 		}
 	}
 
-	@DataProvider
-	@Test
-	public Object[][] LoginDetailsfromExcelSheet() throws IOException {
-		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\datasheets.xlsx");
-		XSSFWorkbook workbook = new XSSFWorkbook(file);
+//    @DataProvider
+    @Test
+	public void getDatafromExcelSheet() throws IOException {
 
-		int numberofsheets = workbook.getNumberOfSheets();
-		Object[][] data = new Object[3][3];
-		int columnnumber = 0;
-		int rownumber = 0;
-		for (int i = 0; i < numberofsheets; i++) {
-			if (workbook.getSheetName(i).equalsIgnoreCase("logindetails")) {
-				XSSFSheet logindetailssheet = workbook.getSheetAt(i);
+        ArrayList<String> dataset1 = LoginDetailsfromExcelSheet("DataSet1");
+        ArrayList<String> dataset2 = LoginDetailsfromExcelSheet("DataSet2");
+        ArrayList<String> dataset3 = LoginDetailsfromExcelSheet("DataSet3");
 
-				Iterator<Row> rows = logindetailssheet.iterator(); //A sheet is a collection of rows
-				Row firstrow = rows.next();
-
-				Iterator<Cell> cell = firstrow.cellIterator();
-				int columnchanger = 0;
-				int column = 0;
-
-				while (cell.hasNext()) {
-					Cell value = cell.next();
-					if (value.getStringCellValue().equalsIgnoreCase("Credentials")) {
-						column = columnchanger;
-					} else {
-						columnchanger++;
-					}
-				}
-//				System.out.println("The column number is " + column);
-
-//				int columnnumber = 0;
-//				int rownumber = 0;
-
-				while (rows.hasNext()) {
-					columnnumber = 0;
-					Row row = rows.next();
-					if (row.getCell(column).getStringCellValue().equalsIgnoreCase("DataSet" + (rownumber+1))) {
-						Iterator<Cell> credentialrow = row.cellIterator();
-						while (credentialrow.hasNext()) {
-//							System.out.println("One of the credentials: " + credentialrow.next().getStringCellValue());
-							data[rownumber][columnnumber] = credentialrow.next().getStringCellValue();
-							columnnumber++;
-						}
-					}
-					rownumber++;
-				}
-			}
-		}
-
-//		Object data[][] = new Object[2][3];
-//		//1st row
-//		data[0][0]      = "pratyusha321@gmail.com";
-//		data[0][1]      = "123456";
-//		data[0][2]      = "Restricted User";
+        System.out.println(dataset1.get(0));
+//        String exceldata[][] = new String[3][3];
+//        //1st row
+//        exceldata[0][0]      = dataset1.get(0);
+//        exceldata[0][1]      = dataset1.get(1);
+//        exceldata[0][2]      = dataset1.get(0);
 //
-//		//2nd Row
-//		data[1][0]      = "batman@gotham.com";
-//		data[1][1]      = "123456";
-//		data[1][2]      = "UnRestricted User";
+//        //2nd Row
+//        exceldata[1][0]      = dataset2.get(0);
+//        exceldata[1][1]      = dataset2.get(1);
+//        exceldata[1][2]      = dataset2.get(2);
 //
-		return data;
-	}
+//        //3rd Row
+//        exceldata[2][0]      = dataset3.get(0);
+//        exceldata[2][1]      = dataset3.get(1);
+//        exceldata[2][2]      = dataset3.get(2);
+//
+//        System.out.println(exceldata[0][0]);
+
+//        return exceldata;
+    }
 	
 	//Verifying the presence of "Reset Password" button after clicking on ForgotPassword icon
 	@Test

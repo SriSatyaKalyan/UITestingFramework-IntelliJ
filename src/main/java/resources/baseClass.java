@@ -6,21 +6,23 @@
 package resources;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
-import io.github.bonigarcia.wdm.DriverManagerType;
-import io.github.bonigarcia.wdm.PhantomJsDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.logging.log4j.core.util.FileUtils;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
@@ -86,5 +88,48 @@ public class baseClass {
 	public void getScreenshot(String nameoftest) throws IOException {
 		File screenshotfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileHandler.copy(screenshotfile, new File(System.getProperty("user.dir") + "\\TestFailureScreenshots\\" + nameoftest + ".png"));
+	}
+
+	//Method for accessing data through the Excel sheet
+	public ArrayList<String> LoginDetailsfromExcelSheet(String dataset) throws IOException, FileNotFoundException {
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\datasheets.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+
+		int numberofsheets = workbook.getNumberOfSheets();
+		ArrayList<String> credentiallist = new ArrayList<String>();
+
+		for (int i = 0; i < numberofsheets; i++) {
+			if (workbook.getSheetName(i).equalsIgnoreCase("logindetails")) {
+				XSSFSheet logindetailssheet = workbook.getSheetAt(i);
+
+				Iterator<Row> rows = logindetailssheet.iterator(); //A sheet is a collection of rows
+				Row firstrow = rows.next();
+
+				Iterator<Cell> cell = firstrow.cellIterator();
+				int columnchanger = 0;
+				int column = 0;
+
+				while (cell.hasNext()) {
+					Cell value = cell.next();
+					if (value.getStringCellValue().equalsIgnoreCase("Credentials")) {
+						column = columnchanger;
+					} else {
+						columnchanger++;
+					}
+				}
+
+				while (rows.hasNext()) {
+					Row row = rows.next();
+					if (row.getCell(column).getStringCellValue().equalsIgnoreCase(dataset)) {
+						Iterator<Cell> credentialrow = row.cellIterator();
+						while (credentialrow.hasNext()) {
+							System.out.println("One of the credentials: " + credentialrow.next().getStringCellValue());
+//							credentiallist.add(credentialrow.next().getStringCellValue());
+						}
+					}
+				}
+			}
+		}
+		return credentiallist;
 	}
 }
