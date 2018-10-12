@@ -123,8 +123,8 @@ public class baseClass {
 					if (row.getCell(column).getStringCellValue().equalsIgnoreCase(dataset)) {
 						Iterator<Cell> credentialrow = row.cellIterator();
 						while (credentialrow.hasNext()) {
-							System.out.println("One of the credentials: " + credentialrow.next().getStringCellValue());
-//							credentiallist.add(credentialrow.next().getStringCellValue());
+//							System.out.println("One of the credentials: " + credentialrow.next().getStringCellValue());
+							credentiallist.add(credentialrow.next().getStringCellValue());
 						}
 					}
 				}

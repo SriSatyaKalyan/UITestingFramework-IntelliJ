@@ -5,18 +5,11 @@
 
 package Project;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -74,12 +67,10 @@ public class LoginPageTest extends baseClass {
 			Assert.assertFalse(true);
 		}
 	}
-	
-	
+
 	@Test(dataProvider = "LoginDetails")
 	public void LoginDetails(String username, String password, String text) throws IOException {
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
-        homepageObjects homepageobjects = new homepageObjects(driver);
 
 	    log.info("LoginPageTest.LoginDetails");
 		driver.navigate().to(prop.getProperty("loginpage"));
@@ -118,7 +109,6 @@ public class LoginPageTest extends baseClass {
 	@Test(dataProvider = "getDatafromExcelSheet")
 	public void LoginDetailswithExcelSheet(String username, String password, String text) throws IOException {
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
-//		homepageObjects homepageobjects = new homepageObjects(driver);
 
 		log.info("LoginPageTest.LoginDetails");
 		driver.navigate().to(prop.getProperty("loginpage"));
@@ -136,41 +126,37 @@ public class LoginPageTest extends baseClass {
 		}
 	}
 
-//    @DataProvider
-    @Test
-	public void getDatafromExcelSheet() throws IOException {
+    @DataProvider
+	public Object[][] getDatafromExcelSheet() throws IOException {
+		baseClass base = new baseClass();
 
-        ArrayList<String> dataset1 = LoginDetailsfromExcelSheet("DataSet1");
-        ArrayList<String> dataset2 = LoginDetailsfromExcelSheet("DataSet2");
-        ArrayList<String> dataset3 = LoginDetailsfromExcelSheet("DataSet3");
+        ArrayList<String> dataset1 = base.LoginDetailsfromExcelSheet("DataSet1");
+        ArrayList<String> dataset2 = base.LoginDetailsfromExcelSheet("DataSet2");
+        ArrayList<String> dataset3 = base.LoginDetailsfromExcelSheet("DataSet3");
+        String exceldata[][] = new String[3][3];
+        
+        //1st row
+        exceldata[0][0]      = dataset1.get(1);
+        exceldata[0][1]      = dataset1.get(2);
+        exceldata[0][2]      = dataset1.get(3);
 
-        System.out.println(dataset1.get(0));
-//        String exceldata[][] = new String[3][3];
-//        //1st row
-//        exceldata[0][0]      = dataset1.get(0);
-//        exceldata[0][1]      = dataset1.get(1);
-//        exceldata[0][2]      = dataset1.get(0);
-//
-//        //2nd Row
-//        exceldata[1][0]      = dataset2.get(0);
-//        exceldata[1][1]      = dataset2.get(1);
-//        exceldata[1][2]      = dataset2.get(2);
-//
-//        //3rd Row
-//        exceldata[2][0]      = dataset3.get(0);
-//        exceldata[2][1]      = dataset3.get(1);
-//        exceldata[2][2]      = dataset3.get(2);
-//
-//        System.out.println(exceldata[0][0]);
+        //2nd Row
+        exceldata[1][0]      = dataset2.get(1);
+        exceldata[1][1]      = dataset2.get(2);
+        exceldata[1][2]      = dataset2.get(3);
 
-//        return exceldata;
+        //3rd Row
+        exceldata[2][0]      = dataset3.get(1);
+        exceldata[2][1]      = dataset3.get(2);
+        exceldata[2][2]      = dataset3.get(3);
+
+        return exceldata;
     }
 	
 	//Verifying the presence of "Reset Password" button after clicking on ForgotPassword icon
 	@Test
 	public void ForgotPassword() {
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
-        homepageObjects homepageobjects = new homepageObjects(driver);
 
 		log.info("LoginPageTest.ForgotPassword");
 		driver.navigate().to(prop.getProperty("loginpage"));
@@ -190,7 +176,6 @@ public class LoginPageTest extends baseClass {
 	@Test(groups = {"important"})
 	public void SendInstructions() throws InterruptedException {
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
-        homepageObjects homepageobjects = new homepageObjects(driver);
 
 		log.info("LoginPageTest.SendInstructions");
 		driver.navigate().to(prop.getProperty("loginpage"));
