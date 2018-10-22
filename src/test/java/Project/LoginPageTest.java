@@ -42,7 +42,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Verifying the presence of LoginButton
-	@Test
+	@Test (invocationCount = 2)
 	public void LoginButton() {
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 		homepageObjects homepageobjects = new homepageObjects(driver);
@@ -134,7 +134,7 @@ public class LoginPageTest extends baseClass {
         ArrayList<String> dataset2 = base.LoginDetailsfromExcelSheet("DataSet2");
         ArrayList<String> dataset3 = base.LoginDetailsfromExcelSheet("DataSet3");
         String exceldata[][] = new String[3][3];
-        
+
         //1st row
         exceldata[0][0]      = dataset1.get(1);
         exceldata[0][1]      = dataset1.get(2);

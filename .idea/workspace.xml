@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,24 +66,29 @@
     <session id="-1890940215">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.101" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1706" />
+          <entry key="java" value="1715" />
           <entry key="xml" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1706" />
+          <entry key="JAVA" value="1715" />
           <entry key="XML" value="171" />
         </counts>
       </usages-collector>
@@ -130,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="126" column="56" lean-forward="true" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
+            <state relative-caret-position="1717">
+              <caret line="126" column="56" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -224,7 +228,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="743" />
@@ -238,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,57 +250,17 @@
               <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITestingFramework-IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITestingFramework-IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539319255292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540231461751" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -378,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.LoginDetailsfromExcelSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -388,8 +353,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
-      <option name="METHOD_NAME" value="LoginDetailsfromExcelSheet" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -397,7 +360,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.LoginDetailswithExcelSheet (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.LoginButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -407,9 +370,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
-      <option name="METHOD_NAME" value="LoginDetailswithExcelSheet" />
+      <option name="METHOD_NAME" value="LoginButton" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -485,18 +447,18 @@
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
       <item itemvalue="TestNG.LoginPageTest (1)" />
-      <item itemvalue="TestNG.LoginPageTest.LoginDetailsfromExcelSheet" />
       <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet" />
-      <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet (1)" />
       <item itemvalue="TestNG.LoginPageTest.getDatafromExcelSheet" />
+      <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.LoginPageTest.LoginButton" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginPageTest (1)" />
+        <item itemvalue="TestNG.LoginPageTest.LoginButton" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet" />
         <item itemvalue="TestNG.LoginPageTest.getDatafromExcelSheet" />
-        <item itemvalue="TestNG.LoginPageTest.LoginDetailswithExcelSheet (1)" />
-        <item itemvalue="TestNG.LoginPageTest.LoginDetailsfromExcelSheet" />
       </list>
     </recent_temporary>
   </component>
@@ -516,26 +478,16 @@
       <workItem from="1539192436844" duration="3230000" />
       <workItem from="1539274930408" duration="11102000" />
       <workItem from="1539287825454" duration="6195000" />
-      <workItem from="1539303561968" duration="3713000" />
+      <workItem from="1539303561968" duration="3879000" />
+      <workItem from="1539363854026" duration="1204000" />
+      <workItem from="1539548482678" duration="1734000" />
+      <workItem from="1539910130909" duration="1192000" />
+      <workItem from="1539981464957" duration="157000" />
+      <workItem from="1540225936383" duration="1870000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPageTest_getDatafromExcelSheet - 2018.10.11 at 17h 38m 00s.xml">
-      <configuration name="LoginPageTest.getDatafromExcelSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_getDatafromExcelSheet - 2018.10.12 at 00h 01m 42s.xml">
-      <configuration name="LoginPageTest.getDatafromExcelSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_getDatafromExcelSheet - 2018.10.12 at 00h 21m 25s.xml">
-      <configuration name="LoginPageTest.getDatafromExcelSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_getDatafromExcelSheet - 2018.10.12 at 00h 22m 13s.xml">
-      <configuration name="LoginPageTest.getDatafromExcelSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_getDatafromExcelSheet - 2018.10.12 at 00h 23m 52s.xml">
-      <configuration name="LoginPageTest.getDatafromExcelSheet" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginPageTest_getDatafromExcelSheet - 2018.10.12 at 00h 24m 34s.xml">
       <configuration name="LoginPageTest.getDatafromExcelSheet" configurationId="TestNG" />
     </history-entry>
@@ -551,9 +503,24 @@
     <history-entry file="LoginPageTest_(1) - 2018.10.12 at 00h 40m 34s.xml">
       <configuration name="LoginPageTest (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginPageTest - 2018.10.14 at 16h 27m 49s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_(1) - 2018.10.22 at 12h 38m 56s.xml">
+      <configuration name="LoginPageTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_LoginButton - 2018.10.22 at 13h 53m 41s.xml">
+      <configuration name="LoginPageTest.LoginButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_LoginButton - 2018.10.22 at 13h 56m 32s.xml">
+      <configuration name="LoginPageTest.LoginButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_(1) - 2018.10.22 at 13h 59m 35s.xml">
+      <configuration name="LoginPageTest (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40758000" />
+    <option name="totallyTimeSpent" value="47081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,10 +532,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="752" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15506808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -577,7 +544,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.35864297" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.32471728" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -698,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,20 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-126">
@@ -819,17 +769,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/baseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="126" column="56" lean-forward="true" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
+        <state relative-caret-position="1717">
+          <caret line="126" column="56" selection-start-line="126" selection-start-column="56" selection-end-line="126" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
