@@ -106,7 +106,7 @@ public class LoginPageTest extends baseClass {
 		return data;
 	}
 
-	@Test(dataProvider = "getDatafromExcelSheet")
+	@Test(dataProvider = "getDatafromExcelSheet", retryAnalyzer = Retry.class)
 	public void LoginDetailswithExcelSheet(String username, String password, String text) throws IOException {
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 
@@ -173,7 +173,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Clicking on the ForgotPassword button and checking if the error message is being produced
-	@Test(groups = {"important"})
+	@Test(groups = {"important"},retryAnalyzer = Retry.class)
 	public void SendInstructions() throws InterruptedException {
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
 

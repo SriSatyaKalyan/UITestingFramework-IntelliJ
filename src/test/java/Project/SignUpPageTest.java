@@ -40,7 +40,7 @@ public class SignUpPageTest extends baseClass{
 	}
 	
 	//Verifying the title text for the page
-	@Test(groups = {"important"})
+	@Test(groups = {"important"},retryAnalyzer = Retry.class)
 	public void TitleTextValidation() {
 		signuppageObjects signuppageobject = new signuppageObjects(driver);
 		log.info("SignUpPageTest.TitleTextValidation");

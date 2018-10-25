@@ -44,7 +44,7 @@ public class HomePageTest extends baseClass{
 	}
 	
 	//Checking the presence of popup and removing it from performing further tests
-	@Test(groups = {"important"})
+	@Test(groups = {"important"},retryAnalyzer = Retry.class)
 	public void PopupPresence() throws InterruptedException {
 		homepageObjects homepageobjects = new homepageObjects(driver);
 		JavascriptExecutor jsExec = (JavascriptExecutor)driver;

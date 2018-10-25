@@ -36,7 +36,7 @@ public class PracticePageTest1 extends baseClass{
 	}
 	
     //Validating the title text 
-	@Test(groups = {"important"})
+	@Test(groups = {"important"},retryAnalyzer = Retry.class)
 	public void TitleTextValidation() {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.TitleTextValidation");

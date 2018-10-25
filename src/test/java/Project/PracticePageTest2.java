@@ -305,7 +305,7 @@ public class PracticePageTest2 extends baseClass{
 	}
 	
 	//Test checking if all the links in the page can be opened at a time
-	@Test(groups = {"important"})
+	@Test(groups = {"important"},retryAnalyzer = Retry.class)
 	public void accessAllLinks() throws InterruptedException {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.accessAllLinks");
