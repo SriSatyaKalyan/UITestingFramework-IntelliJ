@@ -40,12 +40,12 @@ public class baseClass {
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
-		
+
 		String browserName = prop.getProperty("browser");
-		
+
 		//Loop for Deciding which browser the driver should operate on
 		if(browserName.equals("chrome")) {
-//			System.setProperty("webdriver.chrome.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
 //			ChromeDriverManager.getInstance().setup();
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();

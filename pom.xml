@@ -18,7 +18,7 @@
 	</dependency>
 	
 	<dependency>
-    	<groupId>com.relevantcodes</groupId>
+		<groupId>com.relevantcodes</groupId>
     	<artifactId>extentreports</artifactId>
     	<version>2.41.2</version>
 	</dependency>
@@ -40,7 +40,7 @@
 		<groupId>org.testng</groupId>
 		<artifactId>testng</artifactId>
 		<version>6.8</version>
-		<scope>compile</scope>
+	    <scope>compile</scope>
 	</dependency>
 
 	  <!--Dependenciues for handling Data Driven testing through Excel Sheet-->
@@ -72,16 +72,12 @@
     </dependency>
 
 	<!--Dependencies added to make the project independent of the chrome driver binaries in the local computer-->
-	<dependency>
-	  <groupId>io.github.bonigarcia</groupId>
-	  <artifactId>webdrivermanager</artifactId>
-	  <version>1.4.3</version>
-	</dependency>
+
 
 	<dependency>
 	  <groupId>org.seleniumhq.selenium</groupId>
 	  <artifactId>selenium-chrome-driver</artifactId>
-	  <version>2.50.0</version>
+	  <version>3.9.0</version>   <!--3.141.59--> <!--2.50.0-->
 	</dependency>
 	<!--These dependencies end here-->
 
@@ -89,13 +85,13 @@
       <dependency>
           <groupId>io.github.bonigarcia</groupId>
           <artifactId>webdrivermanager</artifactId>
-          <version>3.0.0</version>
+         <version>3.3.0</version>
           <scope>test</scope>
       </dependency>
       <dependency>
           <groupId>io.github.bonigarcia</groupId>
           <artifactId>webdrivermanager</artifactId>
-          <version>3.0.0</version>
+          <version>3.3.0</version>
           <scope>compile</scope>
       </dependency>
       <!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
