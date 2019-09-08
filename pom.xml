@@ -7,8 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>UITestingFramework</name>
   <url>http://maven.apache.org</url>
-  
- 
+
   <dependencies>
   
   	<dependency>
@@ -43,7 +42,7 @@
 	    <scope>compile</scope>
 	</dependency>
 
-	  <!--Dependenciues for handling Data Driven testing through Excel Sheet-->
+	  <!--Dependencies for handling Data Driven testing through Excel Sheet-->
 	  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 	  <dependency>
 		  <groupId>org.apache.poi</groupId>
@@ -77,19 +76,6 @@
 		  <artifactId>log4j-1.2-api</artifactId>
 		  <version>2.2</version>
 	  </dependency>
-	  <!--
-	  <dependency>
-	  <groupId>org.apache.logging.log4j</groupId>
-	  <artifactId>log4j-api</artifactId>
-	  <version>2.11.0</version>
-	</dependency>
-	
-	<dependency>
-	  <groupId>org.apache.logging.log4j</groupId>
-	  <artifactId>log4j-core</artifactId>
-	  <version>2.11.0</version>
-	</dependency>
--->
 
     <dependency>
 	  <groupId>junit</groupId>
@@ -99,8 +85,6 @@
     </dependency>
 
 	<!--Dependencies added to make the project independent of the chrome driver binaries in the local computer-->
-
-
 	<dependency>
 	  <groupId>org.seleniumhq.selenium</groupId>
 	  <artifactId>selenium-chrome-driver</artifactId>
@@ -121,13 +105,13 @@
           <version>3.3.0</version>
           <scope>compile</scope>
       </dependency>
+
       <!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
       <dependency>
           <groupId>com.codeborne</groupId>
           <artifactId>phantomjsdriver</artifactId>
           <version>1.4.2</version>
       </dependency>
-
 
       <!-- https://mvnrepository.com/artifact/org.webjars.npm/phantomjs -->
       <!--<dependency>-->
@@ -152,68 +136,214 @@
       </dependency>
 
   </dependencies>
-	<build>
 
-  	<pluginManagement>
-  		<plugins>
-  			<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
-  			
-  			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
-				<configuration>
-				<compilerVersion>1.8</compilerVersion>
-				<source>1.6</source>
-				<target>1.6</target>
-				</configuration>
-			</plugin>
-			 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.21.0</version>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
+<profiles>
 
-  			<plugin>
-  				<groupId>org.eclipse.m2e</groupId>
-  				<artifactId>lifecycle-mapping</artifactId>
-  				<version>1.0.0</version>
-  				<configuration>
-  					<lifecycleMappingMetadata>
-  						<pluginExecutions>
-  							<pluginExecution>
-  								<pluginExecutionFilter>
-  									<groupId>
-  										org.apache.maven.plugins
-  									</groupId>
-  									<artifactId>
-  										maven-compiler-plugin
-  									</artifactId>
-  									<versionRange>
-  										[3.0,)
-  									</versionRange>
-  									<goals>
-  										<goal>compile</goal>
-  										<goal>testCompile</goal>
-  									</goals>
-  								</pluginExecutionFilter>
-  								<action>
-  									<ignore></ignore>
-  								</action>
-  							</pluginExecution>
-  						</pluginExecutions>
-  					</lifecycleMappingMetadata>
-  				</configuration>
-  			</plugin>
-  		</plugins>
-  	</pluginManagement>
-  </build>
+	<!-- This profile is for all the test cases -->
+	<profile>
+		<id>Complete</id>
+		<build>
+			<pluginManagement>
+				<plugins>
+					<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.0</version>
+						<configuration>
+							<compilerVersion>1.8</compilerVersion>
+							<source>1.6</source>
+							<target>1.6</target>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.21.0</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
+								<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.eclipse.m2e</groupId>
+						<artifactId>lifecycle-mapping</artifactId>
+						<version>1.0.0</version>
+						<configuration>
+							<lifecycleMappingMetadata>
+								<pluginExecutions>
+									<pluginExecution>
+										<pluginExecutionFilter>
+											<groupId>
+												org.apache.maven.plugins
+											</groupId>
+											<artifactId>
+												maven-compiler-plugin
+											</artifactId>
+											<versionRange>
+												[3.0,)
+											</versionRange>
+											<goals>
+												<goal>compile</goal>
+												<goal>testCompile</goal>
+											</goals>
+										</pluginExecutionFilter>
+										<action>
+											<ignore></ignore>
+										</action>
+									</pluginExecution>
+								</pluginExecutions>
+							</lifecycleMappingMetadata>
+						</configuration>
+					</plugin>
+				</plugins>
+			</pluginManagement>
+		</build>
+
+	</profile>
+
+	<!-- This profile is for Regression test cases -->
+	<profile>
+		<id>Regression</id>
+		<build>
+			<pluginManagement>
+				<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.0</version>
+					<configuration>
+						<compilerVersion>1.8</compilerVersion>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.21.0</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
+							<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.maven.plugins
+										</groupId>
+										<artifactId>
+											maven-compiler-plugin
+										</artifactId>
+										<versionRange>
+											[3.0,)
+										</versionRange>
+										<goals>
+											<goal>compile</goal>
+											<goal>testCompile</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	</profile>
+
+	<!-- This profile is for the most important test cases -->
+	<profile>
+		<id>Important</id>
+		<build>
+			<pluginManagement>
+				<plugins>
+					<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.0</version>
+						<configuration>
+							<compilerVersion>1.8</compilerVersion>
+							<source>1.6</source>
+							<target>1.6</target>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.21.0</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>
+								<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.eclipse.m2e</groupId>
+						<artifactId>lifecycle-mapping</artifactId>
+						<version>1.0.0</version>
+						<configuration>
+							<lifecycleMappingMetadata>
+								<pluginExecutions>
+									<pluginExecution>
+										<pluginExecutionFilter>
+											<groupId>
+												org.apache.maven.plugins
+											</groupId>
+											<artifactId>
+												maven-compiler-plugin
+											</artifactId>
+											<versionRange>
+												[3.0,)
+											</versionRange>
+											<goals>
+												<goal>compile</goal>
+												<goal>testCompile</goal>
+											</goals>
+										</pluginExecutionFilter>
+										<action>
+											<ignore></ignore>
+										</action>
+									</pluginExecution>
+								</pluginExecutions>
+							</lifecycleMappingMetadata>
+						</configuration>
+					</plugin>
+				</plugins>
+			</pluginManagement>
+		</build>
+	</profile>
+
+</profiles>
 
 </project>
+
+
+
