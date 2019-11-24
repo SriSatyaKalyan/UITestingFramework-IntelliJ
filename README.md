@@ -15,11 +15,12 @@ http://www.qaclickacademy.com/
 
 ** Upcoming Modifications **
 - [ ] Headless Browser Integration
-- [ ] Data-Driven Framework for LoginPageTest-LoginDetails test && PracticePageTest1-getSuggestedCountry test
-  * - [ ] This would follow a feature workflow in Git
-  * - [ ] Also make sure that an Excel sheet is added for data-handling and ApachePOI is used to handle it (I honestly don't know how else to handle it)
 - [ ] Establish a working connection with Jenkins
-- [ ] Make Log4j2 working
+
+** Pointers to be Addressed **
+- [ ] DO NOT use a static webdrive reference
+- [ ] DO NOT use Implicit Waits
+- [ ] Let the TestNG library handle error messages
 
 ## Groups: ##
 
