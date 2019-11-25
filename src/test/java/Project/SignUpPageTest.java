@@ -35,6 +35,7 @@ public class SignUpPageTest extends baseClass{
 	public void openBrowser() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
+		driver.manage().window().maximize();
 		driver.get(prop.getProperty("signuppage"));
 		log.info("Navigated to SignUp Page");
 	}

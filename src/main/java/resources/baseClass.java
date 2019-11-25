@@ -34,7 +34,7 @@ public class baseClass {
 	
 	public Properties prop;
 	
-	//Method to intialize driver based on the browser preference
+	//Method to initialize driver based on the browser preference
 	public WebDriver initializeDriver() throws IOException {
 		
 		prop = new Properties();

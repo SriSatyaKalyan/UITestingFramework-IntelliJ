@@ -40,6 +40,7 @@ public class PracticePageTest2 extends baseClass{
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		driver = initializeDriver();
 		log.info("Driver is initialized");
+		driver.manage().window().maximize();
 		driver.get(prop.getProperty("practicepage"));
 		log.info("Navigated to Practice Page2");
 	}

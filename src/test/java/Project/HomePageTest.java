@@ -39,6 +39,7 @@ public class HomePageTest extends baseClass{
 	public void openBrowser() throws IOException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
+        driver.manage().window().maximize();
 		driver.get(prop.getProperty("homepage"));
 		log.info("Navigated to HomePage");
 	}

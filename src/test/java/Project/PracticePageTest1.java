@@ -31,6 +31,7 @@ public class PracticePageTest1 extends baseClass{
 	public void openBrowser() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
+		driver.manage().window().maximize();
 		driver.get(prop.getProperty("practicepage"));
 		log.info("Navigated to Practice Page");
 	}
