@@ -47,7 +47,7 @@ public class SignUpPageTest extends baseClass{
 		log.info("SignUpPageTest.TitleTextValidation");
 		
 		String title_text = signuppageobject.getTitleText().getText();
-		String expected = "Sign Up to QaClickAcademy";
+		String expected = "Rahul Shetty Academy";
 		System.out.println(title_text);
 		
 		if(title_text.contains(expected)) {

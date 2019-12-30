@@ -30,8 +30,6 @@ public class signuppageObjects {
 	By passworderrormessage = By.xpath("//*[contains(text(), 'Password confirmation')]");
 	By termsofuseerrormessage = By.xpath("//*[contains(text(), 'Terms of Use and Privacy Policy')]");
 	By verificationtext      = By.xpath("//*[contains(text(),'My Courses')]");
-	//Oops! Please fix the following
-	//You must agree to the Terms of Use and Privacy Policy
 	
 	public signuppageObjects(WebDriver driver) {
 		this.driver = driver;
