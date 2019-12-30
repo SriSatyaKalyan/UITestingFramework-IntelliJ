@@ -11,10 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -60,11 +57,14 @@ public class LoginPageTest extends baseClass {
 		//System.out.println("Popup visible");
 		wait.until(ExpectedConditions.elementToBeClickable(homepageobjects.findNoThanks()));
 		homepageobjects.getNoThanksbutton().click();
-		
+
+		System.out.println("Came here 1");
 		loginpageobjects.selectLogin().click();
+
+		System.out.println("Came here 2");
 		String title_text = loginpageobjects.getTitleText().getText();
 		//System.out.println(title_text);
-		String expected = "Log In to QaClickAcademy";
+		String expected = "Rahul Shetty Academy";
 		
 		if (title_text.contains(expected)) {
 			Assert.assertTrue(true);
@@ -174,11 +174,11 @@ public class LoginPageTest extends baseClass {
 
 		if(loginpageobjects.getResetPassword().size() > 0) {
 			log.info("Reset Password button is present");
-			System.out.println("In the first conditional branch");
+			//System.out.println("In the first conditional branch");
 			Assert.assertTrue(true);
 		}else {
 			log.error("Reset Password button is not present");
-			System.out.println("In the second conditional branch");
+			//System.out.println("In the second conditional branch");
 			Assert.assertFalse(true);
 		}
 	}

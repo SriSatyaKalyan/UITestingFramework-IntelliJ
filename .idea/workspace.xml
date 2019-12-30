@@ -4,7 +4,6 @@
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +117,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginPageTest.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
@@ -137,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.LoginButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +163,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest2" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.LoginDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="LoginDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -173,24 +210,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SignUpPageTest.SignUpTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
@@ -202,25 +221,6 @@
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
       <option name="METHOD_NAME" value="SignUpTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUpPageTest.TitleTextValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
-      <option name="METHOD_NAME" value="TitleTextValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -241,19 +241,19 @@
     <list>
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.PracticePageTest2" />
-      <item itemvalue="TestNG.SignUpPageTest" />
-      <item itemvalue="TestNG.SignUpPageTest.TitleTextValidation" />
       <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.LoginPageTest.ForgotPassword" />
+      <item itemvalue="TestNG.LoginPageTest.LoginButton" />
+      <item itemvalue="TestNG.LoginPageTest.LoginDetails" />
+      <item itemvalue="TestNG.LoginPageTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginPageTest.ForgotPassword" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.LoginDetails" />
+        <item itemvalue="TestNG.LoginPageTest.LoginButton" />
         <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
-        <item itemvalue="TestNG.SignUpPageTest.TitleTextValidation" />
-        <item itemvalue="TestNG.SignUpPageTest" />
-        <item itemvalue="TestNG.PracticePageTest2" />
       </list>
     </recent_temporary>
   </component>
