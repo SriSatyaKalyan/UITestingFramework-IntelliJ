@@ -115,7 +115,7 @@ public class SignUpPageTest extends baseClass{
 	}
 	
 	//Method which has the needed credentials for the test to run in every iteration
-	//This Data Provider method has different kinds of credentials testing the aspects of the signup & error process
+	//This Data Provider method has different kinds of credentials testing the aspects of the sign up & error process
 	@DataProvider
 	public Object[][] SignupDetails(){
 		Object data[][] = new Object[4][7];

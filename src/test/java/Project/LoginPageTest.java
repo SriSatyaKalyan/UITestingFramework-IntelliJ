@@ -7,10 +7,14 @@ package Project;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -163,12 +167,18 @@ public class LoginPageTest extends baseClass {
 		driver.navigate().to(prop.getProperty("loginpage"));
 		
 		loginpageobjects.getForgotPassword().click();
-		
+
+//		WebDriverWait wait = new WebDriverWait(driver, 30);
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(), 'Home')]")));
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
 		if(loginpageobjects.getResetPassword().size() > 0) {
 			log.info("Reset Password button is present");
+			System.out.println("In the first conditional branch");
 			Assert.assertTrue(true);
 		}else {
 			log.error("Reset Password button is not present");
+			System.out.println("In the second conditional branch");
 			Assert.assertFalse(true);
 		}
 	}
