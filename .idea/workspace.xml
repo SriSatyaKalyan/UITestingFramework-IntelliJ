@@ -6,18 +6,9 @@
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/ForgotPassword.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/ForgotPassword.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/LoginButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/LoginButton.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/getConfirm.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/getConfirm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/titleTextValidation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/titleTextValidation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/datasheets.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/datasheets.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-regressiongroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-regressiongroup.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -21,7 +21,6 @@ public class homepageObjects {
 	By alerttextheading  = By.xpath("//div[@class='sumome-react-wysiwyg-move-handle'] //*[contains(text(),'Newsletter')]");
 	
 	public homepageObjects(WebDriver driver) {
-	// TODO Auto-generated constructor stub
 		this.driver = driver;		
 	}
 	
