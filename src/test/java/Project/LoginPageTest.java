@@ -58,10 +58,10 @@ public class LoginPageTest extends baseClass {
 		wait.until(ExpectedConditions.elementToBeClickable(homepageobjects.findNoThanks()));
 		homepageobjects.getNoThanksbutton().click();
 
-		System.out.println("Came here 1");
+//		System.out.println("Came here 1");
 		loginpageobjects.selectLogin().click();
 
-		System.out.println("Came here 2");
+//		System.out.println("Came here 2");
 		String title_text = loginpageobjects.getTitleText().getText();
 		//System.out.println(title_text);
 		String expected = "Rahul Shetty Academy";
