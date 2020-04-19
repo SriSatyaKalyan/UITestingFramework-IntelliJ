@@ -75,5 +75,5 @@ public class loginpageObjects {
 	public List<WebElement> getInvalidEmailError() {
 		return driver.findElements(invalidemailerrormessage);
 	}
-	
+
 }

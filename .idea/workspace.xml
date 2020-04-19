@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/OpenNewTab.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/OpenNewTab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/getSuggestedCountry.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/getSuggestedCountry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/loginpageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/loginpageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/signuppageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/signuppageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +53,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,30 +68,24 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
       <recent name="C:\Users\satya\Downloads\UITestingFramework" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.ForgotPassword">
+  <component name="RunManager" selected="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -87,14 +93,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.PopupPresence" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
+      <option name="METHOD_NAME" value="PopupPresence" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.TitleTextValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.HomePageTest" />
+      <option name="METHOD_NAME" value="TitleTextValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,44 +203,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.LoginButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
-      <option name="METHOD_NAME" value="LoginButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.LoginDetails" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
-      <option name="METHOD_NAME" value="LoginDetails" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegressionGroup" type="TestNG">
       <module name="UITestingFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-regressiongroup.xml" />
@@ -210,7 +221,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpPageTest.SignUpTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpPageTest.SignUpTest" type="TestNG" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -239,23 +250,36 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
-      <item itemvalue="TestNG.LoginPageTest.ForgotPassword" />
-      <item itemvalue="TestNG.LoginPageTest.LoginButton" />
-      <item itemvalue="TestNG.LoginPageTest.LoginDetails" />
       <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.LoginPageTest.ForgotPassword" />
+      <item itemvalue="TestNG.HomePageTest.PopupPresence" />
+      <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
+      <item itemvalue="TestNG.HomePageTest.TitleTextValidation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
+        <item itemvalue="TestNG.HomePageTest.TitleTextValidation" />
+        <item itemvalue="TestNG.HomePageTest.PopupPresence" />
         <item itemvalue="TestNG.LoginPageTest.ForgotPassword" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.LoginPageTest.LoginDetails" />
-        <item itemvalue="TestNG.LoginPageTest.LoginButton" />
-        <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -300,5 +324,47 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582938494281">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="449" y="153" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1582938494281" />
+    <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587325032570">
+      <screen x="-1920" y="1" width="1536" height="834" />
+    </state>
+    <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587325032570" />
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1583120265066">
+      <screen x="-1920" y="1" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1583120265066" />
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
+    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1583120265065">
+      <screen x="-1920" y="1" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1583120265065" />
+    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
+    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1583120265065">
+      <screen x="-1920" y="1" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1583120265065" />
+    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189306" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1583120265066">
+      <screen x="-1920" y="1" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1583120265066" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1587325015167">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.0.1920.1050@0.0.1536.832" timestamp="1579046695202" />
+    <state x="-1455" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1585605616442" />
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.1.1536.834@0.0.1536.832" timestamp="1587325015167" />
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583014957917" />
+    <state x="209" y="38" key="new project wizard" timestamp="1585612423431">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="-1711" y="39" key="new project wizard/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1585612405610" />
+    <state x="209" y="38" key="new project wizard/0.0.1536.832/-1920.1.1536.834@0.0.1536.832" timestamp="1585612423431" />
   </component>
 </project>

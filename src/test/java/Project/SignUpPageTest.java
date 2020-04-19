@@ -12,6 +12,7 @@ import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -81,7 +82,25 @@ public class SignUpPageTest extends baseClass{
 				signuppageobject.termsofuseCheckbox().click();
 		}
 
-		signuppageobject.signupButton().click();	
+		int size = driver.findElements(By.tagName("iframe")).size();
+		System.out.println("The number of frames are: " + size);
+
+//		driver.switchTo().frame(0);
+//		System.out.println("In the frame");
+//		signuppageobject.getCaptchaBox().click();
+//		driver.switchTo().defaultContent();
+
+		for(int i=0; i<=size; i++){
+			driver.switchTo().frame(i);
+			int total = driver.findElements(By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']")).size();
+			if(total > 0){
+				driver.findElement(By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']")).click();
+			}
+			System.out.println(total);
+			driver.switchTo().defaultContent();
+		}
+
+		signuppageobject.signupButton().click();
 		
 		log.info("ErrorExistence " + signuppageobject.ErrorMessage().size());
 		if (((List<WebElement>) signuppageobject.ErrorMessage()).size() > 0) {
@@ -124,7 +143,7 @@ public class SignUpPageTest extends baseClass{
 		baseClass base = new baseClass();
 		String[] strings = base.generateRandomWords(rand.nextInt(9) + 1);
 		
-		//4rth row
+		//1st row
 		//Working Email
 		data[0][0] = "Bat Woman";
  		data[0][1] = strings[rand.nextInt(5) + 1] + "@valhalla.com";

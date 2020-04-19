@@ -30,7 +30,8 @@ public class signuppageObjects {
 	By passworderrormessage = By.xpath("//*[contains(text(), 'Password confirmation')]");
 	By termsofuseerrormessage = By.xpath("//*[contains(text(), 'Terms of Use and Privacy Policy')]");
 	By verificationtext      = By.xpath("//*[contains(text(),'My Courses')]");
-	
+	By captchabox = By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']");
+
 	public signuppageObjects(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -86,5 +87,7 @@ public class signuppageObjects {
 	public WebElement verifyingText() {
 		return driver.findElement(verificationtext);
 	}
+
+	public WebElement getCaptchaBox () { return driver.findElement(captchabox);	}
 	
 }
