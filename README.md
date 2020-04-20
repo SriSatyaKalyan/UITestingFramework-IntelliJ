@@ -6,9 +6,9 @@
 The test cases were not built based on a set of specific test cases. They were designed to learn and to test each and every specific webpage of the website, which gives ample scope to leverage the multiple features of Selenium.
 
 The testing framework consists of 5 pages of a website. They are:
-1. Home Page Test
-2. Login Page Test
-3. Practice Page Test I
+1. [Home Page Test](1. Home Page Test)
+2. [Login Page Test](2. Login Page Test)
+3. [Practice Page Test I](3. Practice Page Test I)
 4. Practice Page Test II
 5. Sign Up Page Test
 
