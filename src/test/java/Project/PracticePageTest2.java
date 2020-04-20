@@ -247,7 +247,7 @@ public class PracticePageTest2 extends baseClass{
 	
 	//Test checking if the mouse hovering actioncan be performed and a required selection can be made	
 	@Test
-	public void mouseHoverselectTop() {
+	public void mouseHoverSelectTop() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverselectTop");
 		
@@ -263,7 +263,7 @@ public class PracticePageTest2 extends baseClass{
 	
 	//Test checking if the mouse hovering actioncan be performed and a required selection can be made
 	@Test
-	public void mouseHoverselectReload() {
+	public void mouseHoverSelectReload() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverselectReload");
 		

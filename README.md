@@ -6,9 +6,9 @@
 The test cases were not built based on a set of specific test cases. They were designed to learn and to test each and every specific webpage of the website, which gives ample scope to leverage the multiple features of Selenium.
 
 The testing framework consists of 5 pages of a website. They are:
-1. [Home Page Test](#1. Home Page Test "Go to Home Page Test")
-2. [Login Page Test](#2. Login Page Test)
-3. [Practice Page Test I](#3. Practice Page Test I)
+1. Home Page Test
+2. Login Page Test
+3. Practice Page Test I
 4. Practice Page Test II
 5. Sign Up Page Test
 
@@ -58,6 +58,28 @@ This test script verifies if the title of the web page consists of the expected 
 :question: This test script clicks on specific checkbox out of the three, driven by the 'data.properties' file. THERE IS NO VERIFICATION THOUGH.
 * ***selectDropDownOptions***
 This test script clicks on specific dropdown option out of the three, driven by the 'data.properties' file.
+
+#### 4. Practice Page Test II ####
+* ***OpenNewTab***
+* ***OpenNewWindow***
+* ***accessAllLinks***
+* ***elementHide***
+* ***elementShow***
+* ***getAlert***
+* ***getConfirm***
+* ***getElementDisplayedTitle***
+* ***getSwitchAlertTitle***
+* ***getSwitchTabTitle***
+* ***getSwitchWindowTitle***
+* ***getTable***
+* ***getTableTitle***
+* ***iFrameOperation***
+* ***iFrameTitle***
+* ***mouseHoverTitle***
+* ***mouseHoverSelectReload***
+* ***mouseHoverSelectTop***
+
+
 
 ### Results ###
 1) The tests will be run using Jenkins tool and the reports will be generated
