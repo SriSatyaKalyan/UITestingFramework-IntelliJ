@@ -14,10 +14,10 @@ The testing framework consists of 5 pages of a website. They are:
 
 The Practice Page aspect of the website contains a lot of information and hence, it was decided to split it into two different test scripts
 
-We will deep-dive into what the respective page scripts test below:
+We will deep-dive into what the respective page files test below:
 
 #### 1. Home Page Test ####
-This complete test script consists of three tests on the http://www.qaclickacademy.com/ page which is referred to as the Home Page:
+This complete test file consists of three tests on the http://www.qaclickacademy.com/ page which is referred to as the Home Page:
 * ***NavigationBarPresence***
 This test script verifies whether the Navigation Bar of the web page is displayed or not.
 * ***PopupPresence***
@@ -26,7 +26,7 @@ This test script verifies whether the pop-up which displays the information of N
 This test script extracts the text present on one of the headers of the web page and verifies it with an expected one called "Featured Courses".
 
 #### 2. Login Page Test ####
-This complete test script consists of five tests on the https://sso.teachable.com/secure/9521/users/sign_in?clean_login=true&reset_purchase_session=1 page which is referred to as the Login Page:
+This complete test file consists of five tests on the https://sso.teachable.com/secure/9521/users/sign_in?clean_login=true&reset_purchase_session=1 page which is referred to as the Login Page:
 * ***ForgotPassword***
 This test script verifies if clicking on the 'Forgot Password' link on the login page re-directs the user to the Reset Password page.
 * ***LoginButton***
@@ -39,7 +39,7 @@ This test verifies whether a particular set of {username, password} credentials 
 This test verifies whether the error message shows up after a random email is given in the 'Send Me Instructions' web page.
 
 #### 3. Practice Page Test I ####
-This complete test script consists of nine tests on the http://www.qaclickacademy.com/practice.php page which is referred to as the Practice Page:
+This complete test file consists of nine tests on the http://www.qaclickacademy.com/practice.php page which is referred to as the Practice Page:
 * ***CheckboxExampleTitle***
 This test script verifies if the title for the 'Checkbox Example' contains the expected text 'Checkbox'.
 * ***DropDownExampleTitle***
@@ -91,11 +91,18 @@ This test script verifies that the title of 'Web Table Example' section contains
 * ***iFrameTitle***
 :question: This test used to verify the title of the iframe with the expected text of "". This test is now marked as FAILED.
 * ***mouseHoverTitle***
-
+This test script verifies that the title of 'Mouse Hover Example' section contains 'Mouse Hover'
 * ***mouseHoverSelectReload***
+This test script verifies if clicking on the 'Reload' option of the 'Mouse Hover' button reloads the page
 * ***mouseHoverSelectTop***
+This test script verifies if clicking on the 'Top' option of the 'Mouse Hover' button takes us to the top of the page
 
-
+#### 5. Sign Up Page Test ####
+This test file consists of two tests on the "https://sso.teachable.com/secure/9521/users/sign_up?flow_school_id=9521" which is referred to as the SignUp page:
+* ***SignUpTest***
+:question: This test script verifies that different sets of credentials with their corresponding 'Subscription' and 'Terms of Use' checkbox selections are throwing the corresponding error messages
+* ***TitleTextValidation***
+This test script verifies the title of the sign up page with the expected text 'Rahul Shetty Academy'
 
 ### Results ###
 1) The tests will be run using Jenkins tool and the reports will be generated
