@@ -61,12 +61,19 @@ This test script clicks on specific dropdown option out of the three, driven by 
 
 #### 4. Practice Page Test II ####
 * ***OpenNewTab***
+This test script verifies if the title of the new tab which opens after clicking on the 'Open Tab' button is 'Rahul Shetty Academy'
 * ***OpenNewWindow***
+This test script verifies if the title of the new tab which opens after clicking on the 'Open Window' button is 'Selenium'
 * ***accessAllLinks***
+This test script verifies if the links in the footer of the page are working.The links are 'Practice Page', 'Apache JMeter' page, 'Appium page', SOAP UI' page and 'REST API' page
 * ***elementHide***
+This test script verifies if clicking on the 'Hide' button in the 'Element Displayed Example' will result in the corresponding text-entry box to be NOT displayed
 * ***elementShow***
+This test script verifies if clicking on the 'Show' button in the 'Element Displayed Example' will result in the corresponding text-entry box to be displayed
 * ***getAlert***
+This test script verifies if clicking on the 'Alert' button in the 'Switch to Alert Example' is generating an alert with the text entered in the corresponding text-entry box
 * ***getConfirm***
+This test script verifies if clicking on the 'Confirm' button in the 'Switch to Alert Example' is generating a pop-up with the text entered in the corresponding text-entry box
 * ***getElementDisplayedTitle***
 * ***getSwitchAlertTitle***
 * ***getSwitchTabTitle***

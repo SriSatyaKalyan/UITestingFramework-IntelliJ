@@ -283,7 +283,7 @@ public class PracticePageTest2 extends baseClass{
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.iFrameTitle");
 		
-		if (practicepageobjects.getiFrameTitle().getText().contains("")) {
+		if (practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy")) {
 			Assert.assertTrue(true);
 		}else {
 			Assert.assertFalse(true);
@@ -297,8 +297,8 @@ public class PracticePageTest2 extends baseClass{
 		log.info("PracticePageTest2.iFrameOperation");
 		
 		driver.switchTo().frame(practicepageobjects.getiFrame());
-		HomePageTest homepage = new HomePageTest();
-		homepage.TitleTextValidation();
+//		HomePageTest homepage = new HomePageTest();
+//		homepage.TitleTextValidation();
 		
 		driver.switchTo().defaultContent();
 		PracticePageTest2 page = new PracticePageTest2();
