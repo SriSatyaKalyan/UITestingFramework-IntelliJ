@@ -65,7 +65,7 @@ This test script verifies if the title of the new tab which opens after clicking
 * ***OpenNewWindow***
 This test script verifies if the title of the new tab which opens after clicking on the 'Open Window' button is 'Selenium'
 * ***accessAllLinks***
-This test script verifies if the links in the footer of the page are working.The links are 'Practice Page', 'Apache JMeter' page, 'Appium page', SOAP UI' page and 'REST API' page
+This test script verifies if the links in the footer of the page are working. The links are 'Practice Page', 'Apache JMeter' page, 'Appium page', SOAP UI' page and 'REST API' page
 * ***elementHide***
 This test script verifies if clicking on the 'Hide' button in the 'Element Displayed Example' will result in the corresponding text-entry box to be NOT displayed
 * ***elementShow***
@@ -75,14 +75,23 @@ This test script verifies if clicking on the 'Alert' button in the 'Switch to Al
 * ***getConfirm***
 This test script verifies if clicking on the 'Confirm' button in the 'Switch to Alert Example' is generating a pop-up with the text entered in the corresponding text-entry box
 * ***getElementDisplayedTitle***
+This test script verifies that the title of 'Element Displayed Example' section contains 'Element Displayed'
 * ***getSwitchAlertTitle***
+This test script verifies that the title of 'Switch To Alert Example' section contains 'Switch To Alert'
 * ***getSwitchTabTitle***
+This test script verifies that the title of 'Switch Tab Example' section contains 'Switch Tab Example'
 * ***getSwitchWindowTitle***
+This test script verifies that the title of 'Switch Window Example' section contains 'Switch Window Example'
 * ***getTable***
+This test script verifies that the combined price of all the courses in the 'Web Table Example' table is 235
 * ***getTableTitle***
+This test script verifies that the title of 'Web Table Example' section contains 'Web Table'
 * ***iFrameOperation***
+:question: This test script used to verify the text of the home page in the iframe but the homepage has changed. THIS TEST IS NOW FAILING.
 * ***iFrameTitle***
+:question: This test used to verify the title of the iframe with the expected text of "". This test is now marked as FAILED.
 * ***mouseHoverTitle***
+
 * ***mouseHoverSelectReload***
 * ***mouseHoverSelectTop***
 
@@ -91,6 +100,7 @@ This test script verifies if clicking on the 'Confirm' button in the 'Switch to 
 ### Results ###
 1) The tests will be run using Jenkins tool and the reports will be generated
 2) Extent Test reports will be used for better representation
+
 **Upcoming Modifications**
 * Headless Browser Integration
 * Establish a working connection with Jenkins

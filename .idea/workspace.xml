@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PracticePageTest2">
+  <component name="RunManager" selected="TestNG.PracticePageTest2.mouseHoverTitle">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -167,25 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest2.OpenNewTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest2" />
-      <option name="METHOD_NAME" value="OpenNewTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PracticePageTest2.iFrameOperation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
@@ -197,6 +178,25 @@
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest2" />
       <option name="METHOD_NAME" value="iFrameOperation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticePageTest2.mouseHoverTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest2" />
+      <option name="METHOD_NAME" value="mouseHoverTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -256,18 +256,18 @@
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
       <item itemvalue="TestNG.PracticePageTest2" />
-      <item itemvalue="TestNG.PracticePageTest2.OpenNewTab" />
       <item itemvalue="TestNG.PracticePageTest2.OpenNewTab (1)" />
       <item itemvalue="TestNG.HomePageTest.TitleTextValidation" />
       <item itemvalue="TestNG.PracticePageTest2.iFrameOperation" />
+      <item itemvalue="TestNG.PracticePageTest2.mouseHoverTitle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PracticePageTest2.mouseHoverTitle" />
         <item itemvalue="TestNG.PracticePageTest2" />
         <item itemvalue="TestNG.PracticePageTest2.iFrameOperation" />
         <item itemvalue="TestNG.HomePageTest.TitleTextValidation" />
         <item itemvalue="TestNG.PracticePageTest2.OpenNewTab (1)" />
-        <item itemvalue="TestNG.PracticePageTest2.OpenNewTab" />
       </list>
     </recent_temporary>
   </component>
@@ -340,25 +340,25 @@
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587325032570" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1587410187429">
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1587412686128">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587410187429" />
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587412686128" />
     <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1587410187429">
+    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1587412686128">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587410187429" />
+    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587412686128" />
     <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1587410187429">
+    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1587412686128">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587410187429" />
+    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587412686128" />
     <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189306" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1587410187429">
+    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1587412686128">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587410187429" />
+    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587412686128" />
     <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
     <state x="-1455" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1587398010423">
       <screen x="-1920" y="1" width="1536" height="834" />

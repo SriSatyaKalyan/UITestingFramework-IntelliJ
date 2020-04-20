@@ -238,7 +238,7 @@ public class PracticePageTest2 extends baseClass{
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverTitle");
 		
-		if (practicepageobjects.getMouseHoverTitle().getText().contains("Example")) {
+		if (practicepageobjects.getMouseHoverTitle().getText().contains("Mouse Hover")) {
 			Assert.assertTrue(true);
 		}else {
 			Assert.assertFalse(true);
