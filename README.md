@@ -1,18 +1,29 @@
-# UITestingFramework-IntelliJ #
+# UITestingFramework-IntelliJ # :watermelon:
 ---------------
-:octocat: A testing framework which runs few tests which put to test different UI aspects of the following website: http://www.qaclickacademy.com/
+:octocat: A Selenium testing framework which runs few tests which put to test different UI aspects of the following website:
+http://www.qaclickacademy.com/
 
 ## DESCRIPTION ##
-The test cases were not built based on a set of specific test cases. They were designed to learn and to test each and every specific webpage of the website, which gives ample scope to leverage the multiple features of Selenium.
+The test scripts were not built based on a set of specific test cases. They were designed to learn and to test each and every specific webpage of the website, which gives ample scope to leverage the multiple features of Selenium.
 
-The testing framework consists of 5 pages of a website. They are:
+The framework has used the following tools for handling the many aspects of testing and reporting:
+* TestNG
+* GitHub
+* Jenkins
+* Log4j2
+* Selenium
+* IntelliJ
+* Java
+* Maven
+
+The testing framework tests 5 pages of a website. They are:
 1. Home Page Test
 2. Login Page Test
 3. Practice Page Test I
 4. Practice Page Test II
 5. Sign Up Page Test
 
-The Practice Page aspect of the website contains a lot of information and hence, it was decided to split it into two different test scripts
+The Practice Page aspect of the website contains a lot of information and hence, it was decided to split it into two different test scripts.
 
 We will deep-dive into what the respective page files test below:
 
