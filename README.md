@@ -22,6 +22,7 @@ The testing framework tests 5 pages of a website. They are:
 3. Practice Page Test I
 4. Practice Page Test II
 5. Sign Up Page Test
+6. Miscellaneous Page Test
 
 The Practice Page aspect of the website contains a lot of information and hence, it was decided to split it into two different test scripts.
 
@@ -114,6 +115,11 @@ This test file consists of two tests on the "https://sso.teachable.com/secure/95
 :question: This test script verifies that different sets of credentials with their corresponding 'Subscription' and 'Terms of Use' checkbox selections are throwing the corresponding error messages
 * ***TitleTextValidation***
 This test script verifies the title of the sign up page with the expected text 'Rahul Shetty Academy'
+
+#### 6. Miscellaneous Page Test ####
+This test file consists of miscellaneous tests which are scripted to utilize features of Selenium which have not been demonstrated before
+* ***dragAndDropFrameElements***
+This test file verifies if using the Robot class for dragging and dropping elements between iframes would yield results. We drag and drop an element from one frame to another and capture a screenshot which can be used for verification.
 
 ### Results ###
 1) The tests will be run using Jenkins tool and the reports will be generated
