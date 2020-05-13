@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/MiscellaneousPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/MiscellaneousPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MiscellaneousPageTest.mouseHoverSelectReload">
+  <component name="RunManager" selected="TestNG.MiscellaneousPageTest.dragAndDropFrameElements">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -145,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiscellaneousPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MiscellaneousPageTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -156,6 +156,25 @@
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiscellaneousPageTest.dragAndDropFrameElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
+      <option name="METHOD_NAME" value="dragAndDropFrameElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -200,24 +219,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SignUpPageTest.SignUpTest" type="TestNG" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
@@ -250,19 +251,19 @@
       <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.SignUpPageTest" />
       <item itemvalue="TestNG.MiscellaneousPageTest.mouseHoverSelectReload" />
-      <item itemvalue="TestNG.MiscellaneousPageTest" />
       <item itemvalue="TestNG.MiscellaneousPageTest (1)" />
       <item itemvalue="TestNG.MiscellaneousPageTest (2)" />
+      <item itemvalue="TestNG.MiscellaneousPageTest.dragAndDropFrameElements" />
+      <item itemvalue="TestNG.MiscellaneousPageTest (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MiscellaneousPageTest.dragAndDropFrameElements" />
+        <item itemvalue="TestNG.MiscellaneousPageTest (1)" />
+        <item itemvalue="TestNG.MiscellaneousPageTest (3)" />
         <item itemvalue="TestNG.MiscellaneousPageTest.mouseHoverSelectReload" />
         <item itemvalue="TestNG.MiscellaneousPageTest (2)" />
-        <item itemvalue="TestNG.MiscellaneousPageTest (1)" />
-        <item itemvalue="TestNG.MiscellaneousPageTest" />
-        <item itemvalue="TestNG.SignUpPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -335,30 +336,30 @@
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587325032570" />
-    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1589402493419">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1589404555510">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589402493419" />
-    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1589402493419">
+    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
+    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1589404555510">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589402493419" />
-    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1589402493419">
+    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
+    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1589404555510">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189306" />
-    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589402493419" />
-    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1589402493419">
+    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1589404555510">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589402493419" />
+    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
     <state x="-1643" y="61" key="SettingsEditor" timestamp="1589399755087">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>

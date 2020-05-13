@@ -22,25 +22,31 @@ public class MiscellaneousPageTest extends baseClass {
         log.info("Driver is initialized");
         driver.manage().window().maximize();
         driver.get(prop.getProperty("miscellaneouspage"));
-        log.info("Navigated to SignUp Page");
+        log.info("Navigated to Miscellaneous Page");
     }
 
     @Test
-    public void mouseHoverSelectReload() throws InterruptedException, AWTException {
+    public void dragAndDropFrameElements() throws InterruptedException, AWTException, IOException {
 
-        int Xcoordinate1 = 300, Ycoordinate1 = 300;
-        int Xcoordinate2 = 500, Ycoordinate2 = 300;
+        int X_coordinate1 = 300;
+        int Y_coordinate1 = 300;
+        int X_coordinate2 = 500;
+        int Y_coordinate2 = 300;
 
         Robot robot = new Robot();
-        robot.mouseMove(Xcoordinate1, Ycoordinate1);
+        robot.mouseMove(X_coordinate1, Y_coordinate1);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 
         Thread.sleep(2000);
-        robot.mouseMove(Xcoordinate2, Ycoordinate2);
+        robot.mouseMove(X_coordinate2, Y_coordinate2);
 
         Thread.sleep(2000);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
+
+        baseClass base = new baseClass();
+        base.getScreenshot("dragAndDropFrameElements");
+        log.info("Check the 'dragAndDropFrameElements.png' file in 'TestFailureScreenshots' folder situated in the basepath");
     }
 
     //Closing the driver
