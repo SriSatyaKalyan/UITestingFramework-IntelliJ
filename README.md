@@ -1,6 +1,6 @@
-# UITestingFramework-IntelliJ # :watermelon:
+# UITestingFramework-IntelliJ #
 ---------------
-:octocat: A Selenium testing framework which runs few tests which put to test different UI aspects of the following website:
+:octocat: A Selenium :watermelon: testing framework which runs few tests which put to test different UI aspects of the following website:
 http://www.qaclickacademy.com/
 
 ## DESCRIPTION ##
