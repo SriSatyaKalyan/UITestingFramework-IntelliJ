@@ -4,7 +4,7 @@
 http://www.qaclickacademy.com/
 
 ## DESCRIPTION ##
-The test scripts were not built based on a set of specific test cases. They were designed to learn and to test each and every specific webpage of the website, which gives ample scope to leverage the multiple features of Selenium.
+The test scripts were not built based on a set of specific test cases. They were designed to learn and to test each and every specific webpage of the website, which gives ample scope to leverage the multiple features of Selenium. There are a total of 45 tests in this test suite.
 
 The framework has used the following tools for handling the many aspects of testing and reporting:
 * TestNG
@@ -72,6 +72,7 @@ This test script verifies if the title of the web page consists of the expected 
 This test script clicks on specific dropdown option out of the three, driven by the 'data.properties' file.
 
 #### 4. Practice Page Test II ####
+This test file is an extension of the test script above and consists of . This page is referred to as which is referred to as the Practice Page:
 * ***OpenNewTab***
 This test script verifies if the title of the new tab which opens after clicking on the 'Open Tab' button is 'Rahul Shetty Academy'
 * ***OpenNewWindow***

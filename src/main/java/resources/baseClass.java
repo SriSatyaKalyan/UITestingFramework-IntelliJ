@@ -12,20 +12,22 @@ import java.util.Iterator;
 import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class baseClass {
 	
@@ -49,6 +51,11 @@ public class baseClass {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
 
+//            The below lines are to set the pageLoadStrategy to 'eager' or 'none', thus avoiding the presence of 'Timed out receiving message from renderer: 0.100' message in the console logs
+//			DesiredCapabilities capabilities = new DesiredCapabilities();
+//			capabilities.setCapability("pageloadStrategy", "none");
+//			ChromeOptions chromeOptions = new ChromeOptions();
+//			chromeOptions.merge(capabilities);
 		}else if(browserName.equals("firefox")){	
 //			System.setProperty("webdriver.gecko.driver", "C:\\Users\\satya\\Desktop\\Eclipse Workspace\\Selenium Software\\geckodriver.exe");
             WebDriverManager.firefoxdriver().setup();

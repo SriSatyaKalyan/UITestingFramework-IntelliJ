@@ -27,8 +27,8 @@ public class LoginPageTest extends baseClass {
 	
 	//Creating instances of PageObjects
     //This public instantiation is not working as I am asked to instantiate them individually again in the individual test methods
-//	public loginpageObjects loginpageobjects = new loginpageObjects(driver);
-//	public homepageObjects homepageobjects = new homepageObjects(driver);
+	public loginpageObjects loginpageobjects = new loginpageObjects(driver);
+	public homepageObjects homepageobjects = new homepageObjects(driver);
 	
 	//Mandatory Step needed to make sure that the logs are shown
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
@@ -46,8 +46,8 @@ public class LoginPageTest extends baseClass {
 	//Verifying the presence of LoginButton
 	@Test (invocationCount = 2)
 	public void LoginButton() {
-		loginpageObjects loginpageobjects = new loginpageObjects(driver);
-		homepageObjects homepageobjects = new homepageObjects(driver);
+//		loginpageObjects loginpageobjects = new loginpageObjects(driver);
+//		homepageObjects homepageobjects = new homepageObjects(driver);
 
 		log.info("LoginPageTest.LoginButton");
 		
