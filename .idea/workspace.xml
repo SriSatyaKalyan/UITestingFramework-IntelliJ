@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="" />
+    <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/getSuggestedCountry.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/getSuggestedCountry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameTitle.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameTitle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/prints.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/ExtentReporterNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/baseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/MiscellaneousPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/MiscellaneousPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,22 +73,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540231910289" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
+      <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main\resources" />
+      <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main\java" />
+      <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main" />
+      <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
       <recent name="C:\Users\satya\Downloads\UITestingFramework" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\satya\Desktop\Eclipse Workspace\UITestingFramework-IntelliJ\src\main\java\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.MiscellaneousPageTest.dragAndDropFrameElements">
+  <component name="RunManager" selected="TestNG.LoginPageTest.SendInstructions">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -88,6 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImportantGroup" type="TestNG">
       <module name="UITestingFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
@@ -100,6 +135,25 @@
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.SendInstructions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.LoginPageTest" />
+      <option name="METHOD_NAME" value="SendInstructions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,7 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiscellaneousPageTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -133,64 +187,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiscellaneousPageTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiscellaneousPageTest.dragAndDropFrameElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
-      <option name="METHOD_NAME" value="dragAndDropFrameElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiscellaneousPageTest.mouseHoverSelectReload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
-      <option name="METHOD_NAME" value="mouseHoverSelectReload" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -210,6 +208,24 @@
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -248,19 +264,19 @@
       <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.MiscellaneousPageTest.mouseHoverSelectReload" />
       <item itemvalue="TestNG.MiscellaneousPageTest (1)" />
-      <item itemvalue="TestNG.MiscellaneousPageTest (2)" />
-      <item itemvalue="TestNG.MiscellaneousPageTest.dragAndDropFrameElements" />
-      <item itemvalue="TestNG.MiscellaneousPageTest (3)" />
+      <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
+      <item itemvalue="TestNG.PracticePageTest1" />
+      <item itemvalue="TestNG.SignUpPageTest" />
+      <item itemvalue="TestNG.LoginPageTest.SendInstructions" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MiscellaneousPageTest.dragAndDropFrameElements" />
+        <item itemvalue="TestNG.LoginPageTest.SendInstructions" />
+        <item itemvalue="TestNG.SignUpPageTest" />
+        <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
+        <item itemvalue="TestNG.PracticePageTest1" />
         <item itemvalue="TestNG.MiscellaneousPageTest (1)" />
-        <item itemvalue="TestNG.MiscellaneousPageTest (3)" />
-        <item itemvalue="TestNG.MiscellaneousPageTest.mouseHoverSelectReload" />
-        <item itemvalue="TestNG.MiscellaneousPageTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +337,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="76" key="#Project_Structure" timestamp="1589417518910">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589417518910" />
     <state x="-1827" y="94" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587399665877">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
@@ -333,42 +353,47 @@
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587325032570" />
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom" timestamp="1589404555510">
+    <state width="1493" height="249" key="GridCell.Tab.0.bottom" timestamp="1589425080818">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="244" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
-    <state width="1493" height="244" key="GridCell.Tab.0.center" timestamp="1589404555510">
+    <state width="1493" height="249" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589425080818" />
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589420332079" />
+    <state width="1493" height="249" key="GridCell.Tab.0.center" timestamp="1589425080818">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="244" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
-    <state width="1493" height="244" key="GridCell.Tab.0.left" timestamp="1589404555510">
+    <state width="1493" height="249" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589425080818" />
+    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589420332079" />
+    <state width="1493" height="249" key="GridCell.Tab.0.left" timestamp="1589425080818">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189306" />
-    <state width="1493" height="244" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
-    <state width="1493" height="244" key="GridCell.Tab.0.right" timestamp="1589404555510">
+    <state width="1493" height="249" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589425080818" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589420332079" />
+    <state width="1493" height="249" key="GridCell.Tab.0.right" timestamp="1589425080818">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
     <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583015189307" />
-    <state width="1493" height="244" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589404555510" />
-    <state x="-1643" y="61" key="SettingsEditor" timestamp="1589399755087">
-      <screen x="-1920" y="1" width="1536" height="834" />
+    <state width="1493" height="249" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589425080818" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589420332079" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1589418942768">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1643" y="61" key="SettingsEditor/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589399755087" />
-    <state x="277" y="60" key="SettingsEditor/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589187871496" />
-    <state x="-1455" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1589399842278">
-      <screen x="-1920" y="1" width="1536" height="834" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589418942768" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1589419136694">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1455" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587398010423" />
     <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.1.1536.834@0.0.1536.832" timestamp="1587325015167" />
     <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832/-1920.1.1920.1050@0.0.1536.832" timestamp="1583014957917" />
     <state x="-1455" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589399842278" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589419136694" />
     <state x="209" y="38" key="new project wizard" timestamp="1585612423431">
       <screen x="0" y="0" width="1536" height="832" />
     </state>

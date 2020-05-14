@@ -1,9 +1,8 @@
-/**
+package resources; /**
  * Author: Satya 
  * Purpose: This file is the baseclass which decides which browser the tests should run on
 */
 
-package resources;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -3,8 +3,6 @@
  * Purpose: This file is for the purpose of having ExtentReporter provide better insight into the test results
 */
 
-package resources;
-
 import java.io.File;
 import java.util.Calendar;
 import java.util.Date;

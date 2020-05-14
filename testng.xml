@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="QA Click Academy Suite">
+<suite name="UI Testing Framework Suite">
 
   <listeners>
   	<listener class-name="Project.listeners"/>
-  	<listener class-name="resources.ExtentReporterNG"/>
-  </listeners>
+<!--  	<listener class-name="resources.ExtentReporterNG"/>-->
+    </listeners>
 
   <test thread-count="5" name="Basic Tests">
   
@@ -32,5 +32,13 @@
     </classes>
     
   </test> <!-- Practice Tests -->
+
+    <test thread-count="5" name="Miscellaneous Tests">
+
+        <classes>
+            <class name="Project.MiscellaneousPageTest"/>
+        </classes>
+
+    </test> <!-- Miscellaneous Tests -->
 
 </suite> <!-- QA Click Academy Suite -->

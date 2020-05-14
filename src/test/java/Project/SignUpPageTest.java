@@ -6,7 +6,6 @@
 package Project;
 
 import java.io.IOException;
-import java.util.Hashtable;
 import java.util.List;
 import java.util.Random;
 
@@ -83,7 +82,7 @@ public class SignUpPageTest extends baseClass{
 		}
 
 		int size = driver.findElements(By.tagName("iframe")).size();
-		System.out.println("The number of frames are: " + size);
+//		System.out.println("The number of frames are: " + size);
 
 //		driver.switchTo().frame(0);
 //		System.out.println("In the frame");

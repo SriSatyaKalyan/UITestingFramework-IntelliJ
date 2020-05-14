@@ -6,6 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import resources.baseClass;
+
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.io.IOException;
@@ -27,7 +28,7 @@ public class MiscellaneousPageTest extends baseClass {
 
     @Test
     public void dragAndDropFrameElements() throws InterruptedException, AWTException, IOException {
-
+        log.info("dragAndDropFrameElements script is running");
         int X_coordinate1 = 300;
         int Y_coordinate1 = 300;
         int X_coordinate2 = 500;
