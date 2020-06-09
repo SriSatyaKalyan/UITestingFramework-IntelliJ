@@ -56,8 +56,10 @@ public class PracticePageTest1 extends baseClass {
 		log.info("PracticePageTest.RadioButtonExample");
 
 		if (practicepageobjects.getRadioButtonTitle().getText().contains("Radio Button")) {
+			log.info("Radio Button Title contains the Radio Button text");
 			Assert.assertTrue(true);
 		}else {
+			log.error("Radio Button Title DOES NOT contain the Radio Button text");
 			Assert.assertFalse(true);
 		}
 	}
@@ -73,15 +75,21 @@ public class PracticePageTest1 extends baseClass {
 		log.info("The radio button to be selected is " + radiobuttonnumber);
 		
 		if (radiobuttonnumber == 1) {
+			log.debug("Radio Button Number is 1");
 			if (!practicepageobjects.getRadioButton1().isSelected()) {
+				log.debug("Clicking on the Radio Button Number numbered 1");
 				practicepageobjects.getRadioButton1().click();
 			}
 		}else if (radiobuttonnumber == 2) {
+			log.debug("Radio Button Number is 2");
 			if (!practicepageobjects.getRadioButton2().isSelected()) {
+				log.debug("Clicking on the Radio Button Number numbered 2");
 				practicepageobjects.getRadioButton2().click();
 			}
 		}else {
+			log.debug("Radio Button Number is 3");
 			if (!practicepageobjects.getRadioButton3().isSelected()) {
+				log.debug("Clicking on the Radio Button Number numbered 3");
 				practicepageobjects.getRadioButton3().click();
 			}
 		}
@@ -98,8 +106,10 @@ public class PracticePageTest1 extends baseClass {
 		log.info("PracticePageTest.SuggestionClassTitle");
 
 		if (practicepageobjects.getSuggestionClass().getText().contains("Suggession Class")) {
+			log.info("Suggestion Class contains the text Suggession Class");
 			Assert.assertTrue(true);
 		}else {
+			log.error("Suggestion Class DOES NOT contain the text Suggession Class");
 			Assert.assertFalse(true);
 		}
 	} 
@@ -139,8 +149,10 @@ public class PracticePageTest1 extends baseClass {
 		log.info("PracticePageTest.DropDownExampleTitle");
 
 		if (practicepageobjects.getDropDownTitle().getText().contains("Dropdown Example")) {
+			log.info("DropDown title contains the Dropdown Example ");
 			Assert.assertTrue(true);
 		}else {
+			log.error("DropDown title DOES NOT contain the Dropdown Example ");
 			Assert.assertFalse(true);
 		}
 	}
@@ -157,6 +169,7 @@ public class PracticePageTest1 extends baseClass {
 			if(practicepageobjects.selectDropdownOptions().get(i).getText().contains(prop.getProperty("optionnumber"))) {
 				log.info("Selected the required option");
 				practicepageobjects.selectDropdownOptions().get(i).click();
+				log.debug("Inserted an explicit wait of 2 seconds");
 				Thread.sleep(2000);
 				Assert.assertTrue(true);
 			}
@@ -170,8 +183,10 @@ public class PracticePageTest1 extends baseClass {
 		log.info("PracticePageTest.CheckboxExampleTitle");
 
 		if (practicepageobjects.getCheckboxTitle().getText().contains("Checkbox")) {
+			log.info("Checkbox Title contains the Checkbox text");
 			Assert.assertTrue(true);
 		}else {
+			log.error("Checkbox Title DOES NOT contain the text");
 			Assert.assertFalse(true);
 		}
 	}
@@ -183,10 +198,13 @@ public class PracticePageTest1 extends baseClass {
 		log.info("PracticePageTest.selectCheckbox");
 
 		if(prop.getProperty("checkboxnumber").equals("1")) {
+			log.debug("Checkbox number is 1");
 			practicepageobjects.getCheckbox1().click();
 		}else if(prop.getProperty("checkboxnumber").equals("2")) {
+			log.debug("Checkbox number is 2");
 			practicepageobjects.getCheckbox2().click();
 		}else {
+			log.debug("Checkbox number is 3");
 			practicepageobjects.getCheckbox3().click();
 		}
 	}
