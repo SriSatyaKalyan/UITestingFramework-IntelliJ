@@ -54,37 +54,39 @@ public class LoginPageTest extends baseClass {
 		//Code snippet to get the popup out of the page
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(homepageobjects.findPopup()));
-		//System.out.println("Popup visible");
+		log.debug("Popup visible");
 		wait.until(ExpectedConditions.elementToBeClickable(homepageobjects.findNoThanks()));
 		homepageobjects.getNoThanksbutton().click();
 
-//		System.out.println("Came here 1");
 		loginpageobjects.selectLogin().click();
-
-//		System.out.println("Came here 2");
 		String title_text = loginpageobjects.getTitleText().getText();
-		//System.out.println(title_text);
+		log.debug(title_text);
 		String expected = "Rahul Shetty Academy";
 		
 		if (title_text.contains(expected)) {
+			log.info("Title text contains " + expected + " string");
 			Assert.assertTrue(true);
 		}else {
+			log.info("Title text  DOES NOT contain " + expected + " string");
 			Assert.assertFalse(true);
 		}
 	}
 
 	@Test(dataProvider = "LoginDetails")
 	public void LoginDetails(String username, String password, String text) throws IOException {
-        loginpageObjects loginpageobjects = new loginpageObjects(driver);
-
-	    log.info("LoginPageTest.LoginDetails");
-		driver.navigate().to(prop.getProperty("loginpage"));
-		
 		log.info("LoginPageTest.LoginDetails");
+
+		loginpageObjects loginpageobjects = new loginpageObjects(driver);
+
+		log.info("Navigating to the login page");
+		driver.navigate().to(prop.getProperty("loginpage"));
 		log.info(text);
-		
+
+		log.debug(username + " entered the emailId field");
 		loginpageobjects.emailId().sendKeys(username);
+		log.debug(password + " entered in the password field");
 		loginpageobjects.passwordId().sendKeys(password);
+		log.debug("Click on the Login button");
 		loginpageobjects.clickLogin().click();
 		
 		if(loginpageobjects.getErrorMessage().size() > 0) {
@@ -113,16 +115,19 @@ public class LoginPageTest extends baseClass {
 
 	@Test(dataProvider = "getDatafromExcelSheet")
 	public void LoginDetailswithExcelSheet(String username, String password, String text) throws IOException {
+		log.info("LoginPageTest.LoginDetailswithExcelSheet");
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 
-		log.info("LoginPageTest.LoginDetails");
+		log.info("Navigating to the Login Page");
 		driver.navigate().to(prop.getProperty("loginpage"));
 
-		log.info("LoginPageTest.LoginDetails");
 		log.info(text);
 
+		log.debug(username + " entered the emailId field");
 		loginpageobjects.emailId().sendKeys(username);
+		log.debug(password + " entered in the password field");
 		loginpageobjects.passwordId().sendKeys(password);
+		log.debug("Click on the Login button");
 		loginpageobjects.clickLogin().click();
 
 		if(loginpageobjects.getErrorMessage().size() > 0) {
@@ -133,6 +138,7 @@ public class LoginPageTest extends baseClass {
 
     @DataProvider
 	public Object[][] getDatafromExcelSheet() throws IOException {
+		log.info("LoginPageTest.getDatafromExcelSheet");
 		baseClass base = new baseClass();
 
         ArrayList<String> dataset1 = base.LoginDetailsfromExcelSheet("DataSet1");
@@ -161,17 +167,21 @@ public class LoginPageTest extends baseClass {
 	//Verifying the presence of "Reset Password" button after clicking on ForgotPassword icon
 	@Test
 	public void ForgotPassword() {
+		log.info("LoginPageTest.ForgotPassword");
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
 
-		log.info("LoginPageTest.ForgotPassword");
+        log.info("Navigating to the Login Page");
 		driver.navigate().to(prop.getProperty("loginpage"));
-		
+
+		log.info("Click on the Forgot Password button");
 		loginpageobjects.getForgotPassword().click();
 
 //		WebDriverWait wait = new WebDriverWait(driver, 30);
 //		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(), 'Home')]")));
+		log.info("Implicit wait of 30 seconds");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
+		log.debug("Entering the loop of checking the presence of the getResetPassword error message");
 		if(loginpageobjects.getResetPassword().size() > 0) {
 			log.info("Reset Password button is present");
 			//System.out.println("In the first conditional branch");
