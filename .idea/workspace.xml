@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/signuppageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/signuppageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <recent name="C:\Users\satya\Downloads\UITestingFramework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PracticePageTest2">
+  <component name="RunManager" selected="TestNG.SignUpPageTest.SignUpTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -344,32 +345,32 @@
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587325032570" />
-    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1591671685055">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1591673763268">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591671685055" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591673763268" />
     <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889699" />
-    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1591671685055">
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1591673763267">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591671685055" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591673763267" />
     <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1591671685055">
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1591673763267">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591671685055" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591673763267" />
     <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1591671685055">
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1591673763268">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591671685055" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591673763268" />
     <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
     <state width="1493" height="192" key="GridCell.Tab.1.bottom" timestamp="1589901838069">
@@ -405,6 +406,10 @@
     </state>
     <state x="-1711" y="39" key="new project wizard/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1585612405610" />
     <state x="209" y="38" key="new project wizard/0.0.1536.832/-1920.1.1536.834@0.0.1536.832" timestamp="1585612423431" />
+    <state x="-1495" y="189" key="run.anything.popup" timestamp="1591672443481">
+      <screen x="-1920" y="0" width="1536" height="834" />
+    </state>
+    <state x="-1495" y="189" key="run.anything.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591672443481" />
     <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1591671001285">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>

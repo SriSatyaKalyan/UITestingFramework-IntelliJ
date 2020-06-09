@@ -23,10 +23,7 @@ import pageObjects.signuppageObjects;
 import resources.baseClass;
 
 public class SignUpPageTest extends baseClass{
-	
-	//Creating instances of PageObjects
-//	public signuppageObjects signuppageobject = new signuppageObjects(driver);
-	
+
 	//Mandatory Step needed to make sure that the logs are shown
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 		
@@ -48,7 +45,7 @@ public class SignUpPageTest extends baseClass{
 		
 		String title_text = signuppageobject.getTitleText().getText();
 		String expected = "Rahul Shetty Academy";
-		System.out.println(title_text);
+		log.info("The title text is " + title_text);
 		
 		if(title_text.contains(expected)) {
 			log.info("Successfully validated Text Message on Practice Page");
@@ -65,19 +62,23 @@ public class SignUpPageTest extends baseClass{
 		signuppageObjects signuppageobject = new signuppageObjects(driver);
 		log.info("SignUpPageTest.SignUpTest");
 		log.info(credentialsinfo);
+
+		log.info("Entering the credentials in the SignUp fields");
 		signuppageobject.fullName().sendKeys(fullname);
 		signuppageobject.emailAddress().sendKeys(emailaddress);
 		
 		if (subscriptionCheckbox) {
 			if (!(signuppageobject.subscriptionCheckbox().isSelected())) {
-				signuppageobject.subscriptionCheckbox().click(); }	
+				log.info("Click on the Subscription Checkbox");
+				signuppageobject.subscriptionCheckbox().click(); }
 		}
-			
+
 		signuppageobject.password().sendKeys(password);
 		signuppageobject.confirmPassword().sendKeys(confirmpassword);
 		
 		if (termsofuseCheckbox) {
 			if (!(signuppageobject.termsofuseCheckbox().isSelected()))
+				log.info("The terms of checkbox is selected");
 				signuppageobject.termsofuseCheckbox().click();
 		}
 
@@ -91,11 +92,15 @@ public class SignUpPageTest extends baseClass{
 
 		for(int i=0; i<=size; i++){
 			driver.switchTo().frame(i);
-			int total = driver.findElements(By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']")).size();
+			int total = signuppageobject.getCaptchaBoxes().size();
+//					driver.findElements(By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']")).size();
 			if(total > 0){
-				driver.findElement(By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']")).click();
+				log.info("Click on the Captcha Checkbox");
+				signuppageobject.getCaptchaBox().click();
+//				driver.findElement(By.xpath("//div[@class = 'recaptcha-checkbox-checkmark']")).click();
 			}
-			System.out.println(total);
+			log.info("The number of the captcha boxes " + total);
+			log.info("Switching to the default content");
 			driver.switchTo().defaultContent();
 		}
 
@@ -126,6 +131,7 @@ public class SignUpPageTest extends baseClass{
 		}else {
 			System.out.println(signuppageobject.verifyingText().getText());
 			if (signuppageobject.verifyingText().getText().contains("Courses")) {
+				log.info("The verifying text contains the Courses text");
 				Assert.assertTrue(true);
 			}
 		}
@@ -188,6 +194,7 @@ public class SignUpPageTest extends baseClass{
 	//Closing the driver
 	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
+		log.info("Closing the browser");
 		driver.close();
 		driver = null;
 	}	
