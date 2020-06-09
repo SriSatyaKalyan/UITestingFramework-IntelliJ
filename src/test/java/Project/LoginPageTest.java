@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -44,7 +45,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Verifying the presence of LoginButton
-	@Test (invocationCount = 2)
+	@Test //(invocationCount = 2)
 	public void LoginButton() {
 //		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 //		homepageObjects homepageobjects = new homepageObjects(driver);
@@ -54,22 +55,26 @@ public class LoginPageTest extends baseClass {
 		//Code snippet to get the popup out of the page
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(homepageobjects.findPopup()));
-		log.debug("Popup visible");
+		log.info("Popup visible");
 		wait.until(ExpectedConditions.elementToBeClickable(homepageobjects.findNoThanks()));
-		homepageobjects.getNoThanksbutton().click();
+		Dimension sizeOne = homepageobjects.findNoThanks().getSize();
+		log.info(sizeOne);
+//		homepageobjects.getNoThanksbutton().click();
 
-		loginpageobjects.selectLogin().click();
-		String title_text = loginpageobjects.getTitleText().getText();
-		log.debug(title_text);
-		String expected = "Rahul Shetty Academy";
-		
-		if (title_text.contains(expected)) {
-			log.info("Title text contains " + expected + " string");
-			Assert.assertTrue(true);
-		}else {
-			log.info("Title text  DOES NOT contain " + expected + " string");
-			Assert.assertFalse(true);
-		}
+//		loginpageobjects.selectLogin().click();
+//		String title_text = loginpageobjects.getTitleText().getText();
+////		log.debug(title_text);
+//		String expected = prop.getProperty("expectedtabtitle");
+//
+//		Assert.assertTrue(title_text.contains(expected));
+
+//		if (title_text.contains(expected)) {
+//			log.info("Title text contains " + expected + " string");
+//			Assert.assertTrue(true);
+//		}else {
+//			log.info("Title text  DOES NOT contain " + expected + " string");
+//			Assert.assertFalse(true);
+//		}
 	}
 
 	@Test(dataProvider = "LoginDetails")
