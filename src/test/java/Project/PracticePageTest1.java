@@ -65,18 +65,21 @@ public class PracticePageTest1 extends baseClass{
             if (!practicepageobjects.getRadioButton1().isSelected()) {
                 log.debug("Clicking on the Radio Button Number numbered 1");
                 practicepageobjects.getRadioButton1().click();
+                Assert.assertTrue(practicepageobjects.getRadioButton1().isSelected());
             }
         } else if (radiobuttonnumber == 2) {
             log.debug("Radio Button Number is 2");
             if (!practicepageobjects.getRadioButton2().isSelected()) {
                 log.debug("Clicking on the Radio Button Number numbered 2");
                 practicepageobjects.getRadioButton2().click();
+                Assert.assertTrue(practicepageobjects.getRadioButton2().isSelected());
             }
         } else {
             log.debug("Radio Button Number is 3");
             if (!practicepageobjects.getRadioButton3().isSelected()) {
                 log.debug("Clicking on the Radio Button Number numbered 3");
                 practicepageobjects.getRadioButton3().click();
+                Assert.assertTrue(practicepageobjects.getRadioButton3().isSelected());
             }
         }
 
@@ -139,6 +142,7 @@ public class PracticePageTest1 extends baseClass{
         practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
         log.info("PracticePageTest.selectDropDownOptions");
 
+        log.info("Clicked on the dropdown menu");
         practicepageobjects.hitDropdownmenu().click();
 
         for (int i = 0; i < 3; i++) {
