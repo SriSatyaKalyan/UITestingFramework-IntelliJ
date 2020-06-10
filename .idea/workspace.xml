@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" afterDir="false" />
@@ -27,12 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -114,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTest1" type="TestNG" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -208,6 +203,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticePageTest1.selectDropDownOptions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
+      <option name="METHOD_NAME" value="selectDropDownOptions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegressionGroup" type="TestNG">
       <module name="UITestingFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-regressiongroup.xml" />
@@ -258,18 +272,19 @@
       <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
+      <item itemvalue="TestNG.PracticePageTest1" />
       <item itemvalue="TestNG.PracticePageTest1.SuggestionClassTitle" />
       <item itemvalue="TestNG.PracticePageTest1.DropDownExampleTitle" />
       <item itemvalue="TestNG.PracticePageTest1.CheckboxExampleTitle" />
       <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry" />
-      <item itemvalue="TestNG.PracticePageTest1" />
+      <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PracticePageTest1" />
+        <item itemvalue="TestNG.PracticePageTest1.DropDownExampleTitle" />
+        <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions" />
         <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry" />
         <item itemvalue="TestNG.PracticePageTest1.CheckboxExampleTitle" />
-        <item itemvalue="TestNG.PracticePageTest1.DropDownExampleTitle" />
         <item itemvalue="TestNG.PracticePageTest1.SuggestionClassTitle" />
       </list>
     </recent_temporary>
@@ -308,11 +323,10 @@
       <workItem from="1539910130909" duration="1192000" />
       <workItem from="1539981464957" duration="157000" />
       <workItem from="1540225936383" duration="1870000" />
+      <workItem from="1591820216229" duration="250000" />
+      <workItem from="1591824482488" duration="241000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47081000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -335,6 +349,10 @@
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state x="-1559" y="77" key="#Log_Highlighting_(ideolog)/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589465665657" />
+    <state x="-1559" y="75" key="#Notifications" timestamp="1591820267391">
+      <screen x="-1920" y="0" width="1536" height="834" />
+    </state>
+    <state x="-1559" y="75" key="#Notifications/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591820267391" />
     <state x="361" y="76" key="#Project_Structure" timestamp="1589417518910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -352,35 +370,35 @@
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state x="-1224" y="88" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591811264628" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1591755162084">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1591824756926">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591737033263" />
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591824756926" />
     <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889699" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1591755162084">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1591824756926">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591737033263" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591824756926" />
     <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1591755162083">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1591824756926">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591737033262" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591824756926" />
     <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162083" />
     <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1591755162084">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1591824756926">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591737033263" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591824756926" />
     <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
@@ -400,9 +418,14 @@
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state width="1493" height="192" key="GridCell.Tab.1.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589901838069" />
-    <state x="-1684" y="1" key="SettingsEditor" timestamp="1589469307707">
-      <screen x="-1920" y="1" width="1536" height="834" />
+    <state x="-1468" y="128" key="RollbackChangesDialog" timestamp="1591819750954">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
+    <state x="-1468" y="128" key="RollbackChangesDialog/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591819750954" />
+    <state x="-1684" y="0" key="SettingsEditor" timestamp="1591824204349">
+      <screen x="-1920" y="0" width="1536" height="834" />
+    </state>
+    <state x="-1684" y="0" key="SettingsEditor/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591824204349" />
     <state x="-1684" y="1" key="SettingsEditor/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589469307707" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589418942768" />
     <state x="-1455" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1591717490085">
@@ -422,10 +445,10 @@
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state x="-1495" y="189" key="run.anything.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591672443481" />
-    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1591671001285">
+    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1591819744888">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591671001285" />
+    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591819744888" />
     <state x="-1489" y="156" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589475995234" />
   </component>
 </project>
