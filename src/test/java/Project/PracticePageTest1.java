@@ -17,10 +17,6 @@ import resources.baseClass;
 
 public class PracticePageTest1 extends baseClass {
 	
-	//Creating instances of PageObjects
-	//This public instantiation is not working as I am asked to instantiate them individually again in the individual test methods
-//	public practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
-	
 	//Mandatory Step needed to make sure that the logs are shown
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
 	
@@ -39,14 +35,9 @@ public class PracticePageTest1 extends baseClass {
 	public void TitleTextValidation() {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.TitleTextValidation");
-		
-		if(practicepageobjects.getTitle().getText().contains("Practice Page")) {
-			log.info("Successfully validated Text Message on Practice Page");
-			Assert.assertTrue(practicepageobjects.getTitle().getText().contains("Practice Page"));
-		}else {
-			log.error("Error in validating Text Message on Practice Page");
-			Assert.assertFalse(true);
-		}
+
+		log.info("Assertion verifying that the Title text contains the Practice Page text");
+		Assert.assertTrue(practicepageobjects.getTitle().getText().contains("Practice Page"));
 	}
 	
 	//Validating the title on the RadioButtons section
@@ -55,13 +46,8 @@ public class PracticePageTest1 extends baseClass {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.RadioButtonExample");
 
-		if (practicepageobjects.getRadioButtonTitle().getText().contains("Radio Button")) {
-			log.info("Radio Button Title contains the Radio Button text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Radio Button Title DOES NOT contain the Radio Button text");
-			Assert.assertFalse(true);
-		}
+		log.info("Assertion verifying that the Title text contains the Radio Button text");
+		Assert.assertTrue(practicepageobjects.getRadioButtonTitle().getText().contains("Radio Button"));
 	}
 	
 	//Pressing Radio buttons
@@ -105,13 +91,8 @@ public class PracticePageTest1 extends baseClass {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.SuggestionClassTitle");
 
-		if (practicepageobjects.getSuggestionClass().getText().contains("Suggession Class")) {
-			log.info("Suggestion Class contains the text Suggession Class");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Suggestion Class DOES NOT contain the text Suggession Class");
-			Assert.assertFalse(true);
-		}
+		log.info("Assertion verifying that the Title text contains the Suggession Class text");
+		Assert.assertTrue(practicepageobjects.getSuggestionClass().getText().contains("Suggession Class"));
 	} 
 
 	//Test performed to get the suggested country. Check the test carefully for better understanding
@@ -119,11 +100,11 @@ public class PracticePageTest1 extends baseClass {
 	public void getSuggestedCountry() throws InterruptedException {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.getSuggestedCountry");
-		log.info("Change the 'countrykeyword' and 'country' property values in the properties file accordingly");
+//		log.info("Change the 'countrykeyword' and 'country' property values in the properties file accordingly");
 		practicepageobjects.getSuggestionBox().sendKeys(prop.getProperty("countrykeyword"));
 
 		int suggestionlistsize = driver.findElements(By.xpath("//*[@id='ui-id-1']/li")).size();
-		System.out.println("The number of suggestions are: " + suggestionlistsize);
+		log.info("The number of suggestions are: " + suggestionlistsize);
 		
 		int i = 0;
 		while(i < suggestionlistsize){
@@ -148,13 +129,8 @@ public class PracticePageTest1 extends baseClass {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.DropDownExampleTitle");
 
-		if (practicepageobjects.getDropDownTitle().getText().contains("Dropdown Example")) {
-			log.info("DropDown title contains the Dropdown Example ");
-			Assert.assertTrue(true);
-		}else {
-			log.error("DropDown title DOES NOT contain the Dropdown Example ");
-			Assert.assertFalse(true);
-		}
+		log.info("Assertion verifying that the Title text contains the Dropdown Example text");
+		Assert.assertTrue(practicepageobjects.getDropDownTitle().getText().contains("Dropdown Example"));
 	}
 	
 	//Test performing the selection of DropDown options and selecting one of them
@@ -168,12 +144,13 @@ public class PracticePageTest1 extends baseClass {
 		for (int i=0;i<3; i++) {
 			if(practicepageobjects.selectDropdownOptions().get(i).getText().contains(prop.getProperty("optionnumber"))) {
 				log.info("Selected the required option");
-				practicepageobjects.selectDropdownOptions().get(i).click();
-				log.debug("Inserted an explicit wait of 2 seconds");
-				Thread.sleep(2000);
-				Assert.assertTrue(true);
+				practicepageobjects.selectDropdownOptions().get(i).click();;
 			}
 		}
+
+		baseClass base = new baseClass();
+		base.getScreenshot("DropdownOptions");
+		log.info("Check the 'DropdownOptions.png' file in 'TestFailureScreenshots' folder situated in the basepath");
 	}
 	
 	//Verifying the title text for the Checkbox Example section
@@ -182,13 +159,8 @@ public class PracticePageTest1 extends baseClass {
 		practicepageObjects1 practicepageobjects = new practicepageObjects1(driver);
 		log.info("PracticePageTest.CheckboxExampleTitle");
 
-		if (practicepageobjects.getCheckboxTitle().getText().contains("Checkbox")) {
-			log.info("Checkbox Title contains the Checkbox text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Checkbox Title DOES NOT contain the text");
-			Assert.assertFalse(true);
-		}
+		log.info("Assertion verifying that the Title text contains the Checkbox text");
+		Assert.assertTrue(practicepageobjects.getCheckboxTitle().getText().contains("Checkbox"));
 	}
 	
 	//Selecting a particular checkbox which is random number between 1,2 and 3
@@ -207,6 +179,10 @@ public class PracticePageTest1 extends baseClass {
 			log.debug("Checkbox number is 3");
 			practicepageobjects.getCheckbox3().click();
 		}
+
+		baseClass base = new baseClass();
+		base.getScreenshot("CheckBoxSelections");
+		log.info("Check the 'CheckBoxSelections.png' file in 'TestFailureScreenshots' folder situated in the basepath");
 	}
 	
 	//Closing the driver
