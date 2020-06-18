@@ -14,18 +14,18 @@
           <include name="PopupPresence"/>
         </methods>
       </class> <!-- Project.HomePageTest -->
-      <class name="Project.PracticePageTest1">
+      <class name="Project.PracticePageTestI">
         <methods>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Project.PracticePageTest1 -->
-      <class name="Project.PracticePageTest2">
+      </class> <!-- Project.PracticePageTestI -->
+      <class name="Project.PracticePageTestII">
         <methods>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- Project.PracticePageTest2 -->
+      </class> <!-- Project.PracticePageTestII -->
       <class name="Project.SignUpPageTest">
         <methods>
           <include name="openBrowser"/>
@@ -48,20 +48,20 @@
           <include name="openBrowser"/>
         </methods>
       </class> <!-- Project.HomePageTest -->
-      <class name="Project.PracticePageTest1">
+      <class name="Project.PracticePageTestI">
         <methods>
           <include name="openBrowser"/>
           <include name="selectDropDownOptions"/>
           <include name="getSuggestedCountry"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Project.PracticePageTest1 -->
-      <class name="Project.PracticePageTest2">
+      </class> <!-- Project.PracticePageTestI -->
+      <class name="Project.PracticePageTestII">
         <methods>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- Project.PracticePageTest2 -->
+      </class> <!-- Project.PracticePageTestII -->
       <class name="Project.SignUpPageTest">
         <methods>
           <include name="openBrowser"/>

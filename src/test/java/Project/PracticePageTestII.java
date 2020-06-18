@@ -25,7 +25,7 @@ import org.testng.annotations.Test;
 import pageObjects.practicepageObjects2;
 import resources.baseClass;
 
-public class PracticePageTest2 extends baseClass{
+public class PracticePageTestII extends baseClass{
 	
 	//Creating instances of PageObjects
 	public practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
@@ -49,14 +49,8 @@ public class PracticePageTest2 extends baseClass{
 	public void getSwitchWindowTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getSwitchWindowTitle");
-		
-		if(practicepageobjects.getSwitchWindowTitle().getText().contains("Switch Window Example")) {
-			log.info("Switch Window Title contains Switch Window Example text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Switch Window Title DOES NOT contain Switch Window Example text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getSwitchWindowTitle().getText().contains("Switch Window Example"));
 	}
 	
 	//Test checking if a new window will be opened if the necessary actions are performed
@@ -70,14 +64,14 @@ public class PracticePageTest2 extends baseClass{
 		//Loop performing the iteration between various window handles and getting the expected title
 		for (String handle:driver.getWindowHandles()) {
 			log.info("Switching to another window handle");
-			
+
 			if(driver.switchTo().window(handle).getTitle().contains(prop.getProperty("expectedtitletext"))) {
 				log.info("The title of the page contains the expected text");
 				Assert.assertTrue(true);
 			}else {
 				log.info("The title of the page does not contain the expected text");
 				driver.close();
-			}	
+			}
 		}
 	}
 	
@@ -86,14 +80,8 @@ public class PracticePageTest2 extends baseClass{
 	public void getSwitchTabTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getSwitchTabTitle");
-		
-		if(practicepageobjects.getSwitchTabTitle().getText().contains("Switch Tab Example")) {
-			log.info("Switch Tab Title contains Switch Tab Example text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Switch Tab Title DOES NOT contain Switch Tab Example text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getSwitchTabTitle().getText().contains("Switch Tab Example"));
 	}
 	
 	//Test checking if a new tab will be opened when the necessary actions are performed
@@ -111,13 +99,8 @@ public class PracticePageTest2 extends baseClass{
 		
 		String oldwindowid = iterator.next();
 		String newwindowid = iterator.next();
-		if(driver.switchTo().window(newwindowid).getTitle().contains(prop.getProperty("expectedtabtitle"))) {
-			log.info("The title of the new tab contains the expected text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The title of the new tab does not contain the expected text");
-			Assert.assertFalse(true);
-		}	
+
+		Assert.assertTrue(driver.switchTo().window(newwindowid).getTitle().contains(prop.getProperty("expectedtabtitle")));
 	}
 	
 	//Verifying the title text for the SwitchAlert section
@@ -125,14 +108,8 @@ public class PracticePageTest2 extends baseClass{
 	public void getSwitchAlertTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getSwitchAlertTitle");
-		
-		if(practicepageobjects.getSwitchAlertTitle().getText().contains("Switch To Alert")) {
-			log.info("Switch Alert Title contains Switch To Alert text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Switch Alert Title DOES NOT contain Switch To Alert text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getSwitchAlertTitle().getText().contains("Switch To Alert"));
 	}
 	
 	//Test where we check if the alert box is opening as intended and if it is being dismissed
@@ -146,7 +123,7 @@ public class PracticePageTest2 extends baseClass{
 
 		log.info("Close the Alert Box");
 		practicepageobjects.clickAlertBox().click();
-		
+
 		if (driver.switchTo().alert().getText().contains(prop.getProperty("alertname1"))) {
 			log.info("Dismissing the alert because the alertname property is present");
 			driver.switchTo().alert().dismiss();
@@ -184,19 +161,13 @@ public class PracticePageTest2 extends baseClass{
 	public void getTableTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getTableTitle");
-		
-		if(practicepageobjects.getWebTableTitle().getText().contains("Web Table")) {
-			log.info("The Web Table Title contains the Web Table text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The Web Table Title contains the Web Table text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getWebTableTitle().getText().contains("Web Table"));
 	}
 	
 	//Test validating the total price produced if all the courses are taken
 	@Test
-	public void getTable() {
+	public void getTableTotalPrice() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getTable");
 		
@@ -207,6 +178,8 @@ public class PracticePageTest2 extends baseClass{
 		}
 		log.info("The total price of all the courses combined is " + totalprice);
 		log.info("The expected total price is 235");
+
+		Assert.assertTrue(totalprice == 235);
 	}
 	
 	//Verifying the title text for the ElementDisplayed section
@@ -214,14 +187,8 @@ public class PracticePageTest2 extends baseClass{
 	public void getElementDisplayedTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.getElementDisplayedTitle");
-		
-		if(practicepageobjects.getElementExampleTitle().getText().contains("Element Displayed")) {
-			log.info("The Element contains the Element Displayed text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The Element DOES NOT contain the Element Displayed text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getElementExampleTitle().getText().contains("Element Displayed"));
 	}
 	
 	//Test checking if the required element can be displayed
@@ -232,13 +199,8 @@ public class PracticePageTest2 extends baseClass{
 
 		log.info("Click on the Show Button of the Element");
 		practicepageobjects.getShowButton().click();
-		if (practicepageobjects.getElementBox().isDisplayed()) {
-			log.info("The Element Box is displayed");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The Element Box IS NOT displayed");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getElementBox().isDisplayed());
 	}
 	
 	//Test checking if the required element can be hidden
@@ -249,13 +211,8 @@ public class PracticePageTest2 extends baseClass{
 
 		log.info("Click on the Hide Button of the Element");
 		practicepageobjects.getHideButton().click();
-		if(practicepageobjects.getElementBox().isDisplayed()) {
-			log.info("The Element Box is displayed");
-			Assert.assertFalse(true);
-		}else {
-			log.error("The Element Box IS NOT displayed");
-			Assert.assertTrue(true);
-		}
+
+		Assert.assertFalse(practicepageobjects.getElementBox().isDisplayed());
 	}
 	
 	//Verifying the title text for the MouseHover section
@@ -263,14 +220,8 @@ public class PracticePageTest2 extends baseClass{
 	public void mouseHoverTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.mouseHoverTitle");
-		
-		if (practicepageobjects.getMouseHoverTitle().getText().contains("Mouse Hover")) {
-			log.info("The Mouse Hover Title contains the Mouse Hover text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The Mouse Hover Title DOES NOT contain the Mouse Hover text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getMouseHoverTitle().getText().contains("Mouse Hover"));
 	}
 	
 	//Test checking if the mouse hovering actioncan be performed and a required selection can be made	
@@ -312,14 +263,16 @@ public class PracticePageTest2 extends baseClass{
 	public void iFrameTitle() {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.iFrameTitle");
-		
-		if (practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy")) {
-			log.info("The i-frame Title contains the Rahul Shetty Academy text");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The i-frame Title DOES NOT contain the Rahul Shetty Academy text");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy"));
+
+//		if (practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy")) {
+//			log.info("The i-frame Title contains the Rahul Shetty Academy text");
+//			Assert.assertTrue(true);
+//		}else {
+//			log.error("The i-frame Title DOES NOT contain the Rahul Shetty Academy text");
+//			Assert.assertFalse(true);
+//		}
 	}
 	
 	//Test checking if an operation can be performed on the frame
@@ -336,7 +289,7 @@ public class PracticePageTest2 extends baseClass{
 		log.info("Switch to the default content");
 		driver.switchTo().defaultContent();
 
-		PracticePageTest2 page = new PracticePageTest2();
+		PracticePageTestII page = new PracticePageTestII();
 
 		log.info("Using the iFrameTitle function to run the test assertion");
 		page.iFrameTitle();

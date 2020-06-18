@@ -15,7 +15,7 @@ import org.openqa.selenium.By;
 import pageObjects.practicepageObjects1;
 import resources.baseClass;
 
-public class PracticePageTest1 extends baseClass{
+public class PracticePageTestI extends baseClass{
 
     //Mandatory Step needed to make sure that the logs are shown
     public static Logger log = LogManager.getLogger(baseClass.class.getName());
@@ -149,6 +149,7 @@ public class PracticePageTest1 extends baseClass{
             if (practicepageobjects.selectDropdownOptions().get(i).getText().contains(prop.getProperty("optionnumber"))) {
                 log.info("Selected the required option");
                 practicepageobjects.selectDropdownOptions().get(i).click();
+                Assert.assertTrue(practicepageobjects.selectDropdownOptions().get(i).isSelected());
             }
         }
 
@@ -176,12 +177,15 @@ public class PracticePageTest1 extends baseClass{
         if (prop.getProperty("checkboxnumber").equals("1")) {
             log.debug("Checkbox number is 1");
             practicepageobjects.getCheckbox1().click();
+            Assert.assertTrue(practicepageobjects.getCheckbox1().isSelected());
         } else if (prop.getProperty("checkboxnumber").equals("2")) {
             log.debug("Checkbox number is 2");
             practicepageobjects.getCheckbox2().click();
+            Assert.assertTrue(practicepageobjects.getCheckbox2().isSelected());
         } else {
             log.debug("Checkbox number is 3");
             practicepageobjects.getCheckbox3().click();
+            Assert.assertTrue(practicepageobjects.getCheckbox3().isSelected());
         }
 
         baseClass base = new baseClass();

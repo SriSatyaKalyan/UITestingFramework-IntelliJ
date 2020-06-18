@@ -3,8 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/CheckBoxSelections.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/CheckBoxSelections.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/DropdownOptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/DropdownOptions.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/Log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Log4j2_Package/Log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Project/PracticePageTest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Project/PracticePageTest1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Project/PracticePageTest2.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Project/PracticePageTest2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Project/class-use/PracticePageTest1.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Project/class-use/PracticePageTest1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Project/class-use/PracticePageTest2.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Project/class-use/PracticePageTest2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTestI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTestII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/QA Click Academy Suite/Practice Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/QA Click Academy Suite/Practice Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/QA Click Academy Suite/Practice Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/QA Click Academy Suite/Practice Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/QA Click Academy Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/QA Click Academy Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project.PracticePageTest1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project.PracticePageTest1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Project.PracticePageTest2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Project.PracticePageTest2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/QA Click Academy Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-importantgroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-importantgroup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-regressiongroup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-regressiongroup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +113,7 @@
       <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PracticePageTest1.RadioButtons">
+  <component name="RunManager" selected="TestNG.PracticePageTestII.accessAllLinks">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -128,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1" type="TestNG" nameIsGenerated="true">
+    <configuration name="PracticePageTestI" type="TestNG" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +160,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestI" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -146,7 +169,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1.CheckboxExampleTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTestII.accessAllLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +178,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="CheckboxExampleTitle" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
+      <option name="METHOD_NAME" value="accessAllLinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -165,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1.DropDownExampleTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTestII.iFrameOperation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +197,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="DropDownExampleTitle" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
+      <option name="METHOD_NAME" value="iFrameOperation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -184,7 +207,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1.RadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTestII.iFrameTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -193,8 +216,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="RadioButtons" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
+      <option name="METHOD_NAME" value="iFrameTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -203,7 +226,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1.getSuggestedCountry" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTestII.mouseHoverSelectTop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +235,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="getSuggestedCountry" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
+      <option name="METHOD_NAME" value="mouseHoverSelectTop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -222,7 +245,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTest1.selectDropDownOptions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticePageTestII.mouseHoverTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
         <pattern>
@@ -231,8 +254,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTest1" />
-      <option name="METHOD_NAME" value="selectDropDownOptions" />
+      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
+      <option name="METHOD_NAME" value="mouseHoverTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -291,20 +314,19 @@
       <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.PracticePageTest1" />
-      <item itemvalue="TestNG.PracticePageTest1.DropDownExampleTitle" />
-      <item itemvalue="TestNG.PracticePageTest1.CheckboxExampleTitle" />
-      <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry" />
-      <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions" />
-      <item itemvalue="TestNG.PracticePageTest1.RadioButtons" />
+      <item itemvalue="TestNG.PracticePageTestII.mouseHoverTitle" />
+      <item itemvalue="TestNG.PracticePageTestII.mouseHoverSelectTop" />
+      <item itemvalue="TestNG.PracticePageTestII.iFrameTitle" />
+      <item itemvalue="TestNG.PracticePageTestII.iFrameOperation" />
+      <item itemvalue="TestNG.PracticePageTestII.accessAllLinks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PracticePageTest1.RadioButtons" />
-        <item itemvalue="TestNG.PracticePageTest1.getSuggestedCountry" />
-        <item itemvalue="TestNG.PracticePageTest1.DropDownExampleTitle" />
-        <item itemvalue="TestNG.PracticePageTest1.selectDropDownOptions" />
-        <item itemvalue="TestNG.PracticePageTest1.CheckboxExampleTitle" />
+        <item itemvalue="TestNG.PracticePageTestII.accessAllLinks" />
+        <item itemvalue="TestNG.PracticePageTestII.iFrameOperation" />
+        <item itemvalue="TestNG.PracticePageTestII.iFrameTitle" />
+        <item itemvalue="TestNG.PracticePageTestII.mouseHoverSelectTop" />
+        <item itemvalue="TestNG.PracticePageTestII.mouseHoverTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +365,9 @@
       <workItem from="1539981464957" duration="157000" />
       <workItem from="1540225936383" duration="1870000" />
       <workItem from="1591820216229" duration="250000" />
-      <workItem from="1591824482488" duration="2350000" />
+      <workItem from="1591824482488" duration="5634000" />
+      <workItem from="1592231895323" duration="184000" />
+      <workItem from="1592497632668" duration="4868000" />
     </task>
     <servers />
   </component>
@@ -376,48 +400,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Project_Structure/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589417518910" />
-    <state x="-1827" y="94" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589476177028">
-      <screen x="-1920" y="1" width="1536" height="834" />
+    <state x="-1827" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591831895852">
+      <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state x="-1827" y="94" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587399665877" />
+    <state x="-1827" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591831895852" />
     <state x="-1827" y="94" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589476177028" />
     <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587325032570">
       <screen x="-1920" y="1" width="1536" height="834" />
     </state>
     <state x="-1517" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587325032570" />
-    <state x="-1224" y="88" key="FileChooserDialogImpl" timestamp="1591811264628">
+    <state x="-1224" y="88" key="FileChooserDialogImpl" timestamp="1592232078331">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
+    <state x="-1224" y="88" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592232078331" />
     <state x="-1224" y="88" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591811264628" />
-    <state width="1493" height="306" key="GridCell.Tab.0.bottom" timestamp="1591826843529">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1592508123045">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="306" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591826843529" />
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592508123045" />
     <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889699" />
-    <state width="1493" height="306" key="GridCell.Tab.0.center" timestamp="1591826843528">
+    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1592508123045">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="306" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591826843528" />
+    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592508123045" />
     <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="306" key="GridCell.Tab.0.left" timestamp="1591826843528">
+    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1592508123045">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="306" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591826843528" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592508123045" />
     <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162083" />
     <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="306" key="GridCell.Tab.0.right" timestamp="1591826843529">
+    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1592508123045">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="306" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591826843529" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592508123045" />
     <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
@@ -464,10 +490,10 @@
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state x="-1495" y="189" key="run.anything.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591672443481" />
-    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1591819744888">
+    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1592506033960">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
-    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1591819744888" />
+    <state x="-1489" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592506033960" />
     <state x="-1489" y="156" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589475995234" />
   </component>
 </project>
