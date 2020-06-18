@@ -264,15 +264,16 @@ public class PracticePageTestII extends baseClass{
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.iFrameTitle");
 
-		Assert.assertTrue(practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy"));
+		driver.switchTo().frame("courses-iframe");
+//		Assert.assertTrue(practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy"));
 
-//		if (practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy")) {
-//			log.info("The i-frame Title contains the Rahul Shetty Academy text");
-//			Assert.assertTrue(true);
-//		}else {
-//			log.error("The i-frame Title DOES NOT contain the Rahul Shetty Academy text");
-//			Assert.assertFalse(true);
-//		}
+		if (practicepageobjects.getiFrameTitle().getText().contains("Rahul Shetty Academy")) {
+			log.info("The i-frame Title contains the Rahul Shetty Academy text");
+			Assert.assertTrue(true);
+		}else {
+			log.error("The i-frame Title DOES NOT contain the Rahul Shetty Academy text");
+			Assert.assertFalse(true);
+		}
 	}
 	
 	//Test checking if an operation can be performed on the frame
@@ -323,11 +324,11 @@ public class PracticePageTestII extends baseClass{
 		}
 	}
 	
-	//Closing the driver
+//	Closing the driver
 	@AfterMethod(groups = {"must"})
 	public void closeBrowser() {
 		log.info("Closing the driver");
 		driver.quit();
 		driver = null;
-	}	
+	}
 }
