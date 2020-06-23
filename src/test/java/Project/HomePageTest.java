@@ -65,14 +65,18 @@ public class HomePageTest extends baseClass{
 		log.info("HomePageTest.TitleTextValidation");
 		String title_text = homepageobjects.getTitle().getText();
 		String expected = "FEATURED COURSES";
-		
-		if(title_text.contains(expected)) {
-			log.info("Successfully validated Text Message on Home Page");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Error in validating Text Message on Home Page");
-			Assert.assertFalse(true);
-		}
+
+		//Switched for Selenium to handle the success/failure messages
+		log.info("Assertion to check if the title_text contains the expected message");
+		Assert.assertTrue(title_text.contains(expected));
+
+//		if(title_text.contains(expected)) {
+//			log.info("Successfully validated Text Message on Home Page");
+//			Assert.assertTrue(true);
+//		}else {
+//			log.error("Error in validating Text Message on Home Page");
+//			Assert.assertFalse(true);
+//		}
 	}
 	
 	//Validating the presence of the navigation bar in the page

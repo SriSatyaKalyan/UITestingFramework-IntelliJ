@@ -20,8 +20,8 @@
            <class name="Project.HomePageTest"/>
            <class name="Project.LoginPageTest"/>
 
-           <class name="Project.PracticePageTest1"/>
-           <class name="Project.PracticePageTest2"/>
+           <class name="Project.PracticePageTestI"/>
+           <class name="Project.PracticePageTestII"/>
 
            <class name="Project.SignUpPageTest"/>
        </classes>

@@ -190,84 +190,84 @@ Session ID: 1980b3c04d49c35f2d326477688fc77e
       </class> <!-- Project.LoginPageTest -->
     </test> <!-- Basic Tests -->
     <test name="Practice Tests" duration-ms="335607" started-at="2018-08-06T00:16:36Z" finished-at="2018-08-06T00:22:11Z">
-      <class name="Project.PracticePageTest1">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="37509" started-at="2018-08-05T20:16:36Z" finished-at="2018-08-05T20:17:13Z">
+      <class name="Project.PracticePageTestI">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="37509" started-at="2018-08-05T20:16:36Z" finished-at="2018-08-05T20:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="CheckboxExampleTitle()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="CheckboxExampleTitle" duration-ms="79" started-at="2018-08-05T20:17:13Z" finished-at="2018-08-05T20:17:13Z">
+        <test-method status="PASS" signature="CheckboxExampleTitle()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="CheckboxExampleTitle" duration-ms="79" started-at="2018-08-05T20:17:13Z" finished-at="2018-08-05T20:17:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckboxExampleTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="308" started-at="2018-08-05T20:17:13Z" finished-at="2018-08-05T20:17:14Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="308" started-at="2018-08-05T20:17:13Z" finished-at="2018-08-05T20:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="9124" started-at="2018-08-05T20:17:14Z" finished-at="2018-08-05T20:17:23Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="9124" started-at="2018-08-05T20:17:14Z" finished-at="2018-08-05T20:17:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="DropDownExampleTitle()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="DropDownExampleTitle" duration-ms="108" started-at="2018-08-05T20:17:23Z" finished-at="2018-08-05T20:17:23Z">
+        <test-method status="PASS" signature="DropDownExampleTitle()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="DropDownExampleTitle" duration-ms="108" started-at="2018-08-05T20:17:23Z" finished-at="2018-08-05T20:17:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DropDownExampleTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="2101" started-at="2018-08-05T20:17:23Z" finished-at="2018-08-05T20:17:25Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="2101" started-at="2018-08-05T20:17:23Z" finished-at="2018-08-05T20:17:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="8777" started-at="2018-08-05T20:17:25Z" finished-at="2018-08-05T20:17:34Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="8777" started-at="2018-08-05T20:17:25Z" finished-at="2018-08-05T20:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="RadioButtonTitle()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="RadioButtonTitle" duration-ms="93" started-at="2018-08-05T20:17:34Z" finished-at="2018-08-05T20:17:34Z">
+        <test-method status="PASS" signature="RadioButtonTitle()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="RadioButtonTitle" duration-ms="93" started-at="2018-08-05T20:17:34Z" finished-at="2018-08-05T20:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioButtonTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="236" started-at="2018-08-05T20:17:34Z" finished-at="2018-08-05T20:17:34Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="236" started-at="2018-08-05T20:17:34Z" finished-at="2018-08-05T20:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="9125" started-at="2018-08-05T20:17:34Z" finished-at="2018-08-05T20:17:43Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="9125" started-at="2018-08-05T20:17:34Z" finished-at="2018-08-05T20:17:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="RadioButtons()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="RadioButtons" duration-ms="696" started-at="2018-08-05T20:17:43Z" finished-at="2018-08-05T20:17:44Z">
+        <test-method status="PASS" signature="RadioButtons()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="RadioButtons" duration-ms="696" started-at="2018-08-05T20:17:43Z" finished-at="2018-08-05T20:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioButtons -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2018-08-05T20:17:44Z" finished-at="2018-08-05T20:17:44Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2018-08-05T20:17:44Z" finished-at="2018-08-05T20:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="8663" started-at="2018-08-05T20:17:44Z" finished-at="2018-08-05T20:17:53Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="8663" started-at="2018-08-05T20:17:44Z" finished-at="2018-08-05T20:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SuggestionClassTitle()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="SuggestionClassTitle" duration-ms="103" started-at="2018-08-05T20:17:53Z" finished-at="2018-08-05T20:17:53Z">
+        <test-method status="PASS" signature="SuggestionClassTitle()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="SuggestionClassTitle" duration-ms="103" started-at="2018-08-05T20:17:53Z" finished-at="2018-08-05T20:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuggestionClassTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="236" started-at="2018-08-05T20:17:53Z" finished-at="2018-08-05T20:17:53Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="236" started-at="2018-08-05T20:17:53Z" finished-at="2018-08-05T20:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="8673" started-at="2018-08-05T20:17:53Z" finished-at="2018-08-05T20:18:02Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="8673" started-at="2018-08-05T20:17:53Z" finished-at="2018-08-05T20:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="TitleTextValidation()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="TitleTextValidation" duration-ms="80" started-at="2018-08-05T20:18:02Z" finished-at="2018-08-05T20:18:02Z">
+        <test-method status="PASS" signature="TitleTextValidation()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="TitleTextValidation" duration-ms="80" started-at="2018-08-05T20:18:02Z" finished-at="2018-08-05T20:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleTextValidation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="167" started-at="2018-08-05T20:18:02Z" finished-at="2018-08-05T20:18:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="167" started-at="2018-08-05T20:18:02Z" finished-at="2018-08-05T20:18:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="9325" started-at="2018-08-05T20:18:02Z" finished-at="2018-08-05T20:18:11Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="9325" started-at="2018-08-05T20:18:02Z" finished-at="2018-08-05T20:18:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="getSuggestedCountry()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="getSuggestedCountry" duration-ms="755" started-at="2018-08-05T20:18:11Z" finished-at="2018-08-05T20:18:12Z">
+        <test-method status="FAIL" signature="getSuggestedCountry()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="getSuggestedCountry" duration-ms="755" started-at="2018-08-05T20:18:11Z" finished-at="2018-08-05T20:18:12Z">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index: 3, Size: 3]]>
@@ -276,7 +276,7 @@ Session ID: 1980b3c04d49c35f2d326477688fc77e
               <![CDATA[java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
 	at java.util.ArrayList.rangeCheck(Unknown Source)
 	at java.util.ArrayList.get(Unknown Source)
-	at Project.PracticePageTest1.getSuggestedCountry(PracticePageTest1.java:133)
+	at Project.PracticePageTestI.getSuggestedCountry(PracticePageTest1.java:133)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -307,27 +307,27 @@ Session ID: 1980b3c04d49c35f2d326477688fc77e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSuggestedCountry -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="226" started-at="2018-08-05T20:18:12Z" finished-at="2018-08-05T20:18:13Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="226" started-at="2018-08-05T20:18:12Z" finished-at="2018-08-05T20:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="8791" started-at="2018-08-05T20:18:13Z" finished-at="2018-08-05T20:18:21Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="8791" started-at="2018-08-05T20:18:13Z" finished-at="2018-08-05T20:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="selectCheckbox()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="selectCheckbox" duration-ms="180" started-at="2018-08-05T20:18:21Z" finished-at="2018-08-05T20:18:22Z">
+        <test-method status="PASS" signature="selectCheckbox()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="selectCheckbox" duration-ms="180" started-at="2018-08-05T20:18:21Z" finished-at="2018-08-05T20:18:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCheckbox -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2018-08-05T20:18:22Z" finished-at="2018-08-05T20:18:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2018-08-05T20:18:22Z" finished-at="2018-08-05T20:18:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="openBrowser" is-config="true" duration-ms="9443" started-at="2018-08-05T20:18:22Z" finished-at="2018-08-05T20:18:31Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="openBrowser" is-config="true" duration-ms="9443" started-at="2018-08-05T20:18:22Z" finished-at="2018-08-05T20:18:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="selectDropDownOptions()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="selectDropDownOptions" duration-ms="380" started-at="2018-08-05T20:18:31Z" finished-at="2018-08-05T20:18:32Z">
+        <test-method status="FAIL" signature="selectDropDownOptions()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="selectDropDownOptions" duration-ms="380" started-at="2018-08-05T20:18:31Z" finished-at="2018-08-05T20:18:32Z">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index: 3, Size: 3]]>
@@ -336,7 +336,7 @@ Session ID: 1980b3c04d49c35f2d326477688fc77e
               <![CDATA[java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
 	at java.util.ArrayList.rangeCheck(Unknown Source)
 	at java.util.ArrayList.get(Unknown Source)
-	at Project.PracticePageTest1.selectDropDownOptions(PracticePageTest1.java:164)
+	at Project.PracticePageTestI.selectDropDownOptions(PracticePageTest1.java:164)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -367,229 +367,229 @@ Session ID: 1980b3c04d49c35f2d326477688fc77e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDropDownOptions -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest1@7d8995e]" name="closeBrowser" is-config="true" duration-ms="362" started-at="2018-08-05T20:18:32Z" finished-at="2018-08-05T20:18:32Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestI@7d8995e]" name="closeBrowser" is-config="true" duration-ms="362" started-at="2018-08-05T20:18:32Z" finished-at="2018-08-05T20:18:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Project.PracticePageTest1 -->
-      <class name="Project.PracticePageTest2">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9116" started-at="2018-08-05T20:18:32Z" finished-at="2018-08-05T20:18:41Z">
+      </class> <!-- Project.PracticePageTestI -->
+      <class name="Project.PracticePageTestII">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9116" started-at="2018-08-05T20:18:32Z" finished-at="2018-08-05T20:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="OpenNewTab()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="OpenNewTab" duration-ms="1646" started-at="2018-08-05T20:18:41Z" finished-at="2018-08-05T20:18:43Z">
+        <test-method status="PASS" signature="OpenNewTab()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="OpenNewTab" duration-ms="1646" started-at="2018-08-05T20:18:41Z" finished-at="2018-08-05T20:18:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenNewTab -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="65" started-at="2018-08-05T20:18:43Z" finished-at="2018-08-05T20:18:43Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="65" started-at="2018-08-05T20:18:43Z" finished-at="2018-08-05T20:18:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9560" started-at="2018-08-05T20:18:43Z" finished-at="2018-08-05T20:18:53Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9560" started-at="2018-08-05T20:18:43Z" finished-at="2018-08-05T20:18:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="OpenNewWindow()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="OpenNewWindow" duration-ms="1522" started-at="2018-08-05T20:18:53Z" finished-at="2018-08-05T20:18:54Z">
+        <test-method status="PASS" signature="OpenNewWindow()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="OpenNewWindow" duration-ms="1522" started-at="2018-08-05T20:18:53Z" finished-at="2018-08-05T20:18:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenNewWindow -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2083" started-at="2018-08-05T20:18:54Z" finished-at="2018-08-05T20:18:56Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2083" started-at="2018-08-05T20:18:54Z" finished-at="2018-08-05T20:18:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9155" started-at="2018-08-05T20:18:56Z" finished-at="2018-08-05T20:19:06Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9155" started-at="2018-08-05T20:18:56Z" finished-at="2018-08-05T20:19:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="accessAllLinks()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="accessAllLinks" duration-ms="16948" started-at="2018-08-05T20:19:06Z" finished-at="2018-08-05T20:19:22Z">
+        <test-method status="PASS" signature="accessAllLinks()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="accessAllLinks" duration-ms="16948" started-at="2018-08-05T20:19:06Z" finished-at="2018-08-05T20:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessAllLinks -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="83" started-at="2018-08-05T20:19:22Z" finished-at="2018-08-05T20:19:23Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="83" started-at="2018-08-05T20:19:22Z" finished-at="2018-08-05T20:19:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9629" started-at="2018-08-05T20:19:23Z" finished-at="2018-08-05T20:19:32Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9629" started-at="2018-08-05T20:19:23Z" finished-at="2018-08-05T20:19:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="elementHide()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="elementHide" duration-ms="220" started-at="2018-08-05T20:19:32Z" finished-at="2018-08-05T20:19:32Z">
+        <test-method status="PASS" signature="elementHide()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="elementHide" duration-ms="220" started-at="2018-08-05T20:19:32Z" finished-at="2018-08-05T20:19:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementHide -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2321" started-at="2018-08-05T20:19:32Z" finished-at="2018-08-05T20:19:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2321" started-at="2018-08-05T20:19:32Z" finished-at="2018-08-05T20:19:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9853" started-at="2018-08-05T20:19:35Z" finished-at="2018-08-05T20:19:45Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9853" started-at="2018-08-05T20:19:35Z" finished-at="2018-08-05T20:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="elementShow()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="elementShow" duration-ms="304" started-at="2018-08-05T20:19:45Z" finished-at="2018-08-05T20:19:45Z">
+        <test-method status="PASS" signature="elementShow()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="elementShow" duration-ms="304" started-at="2018-08-05T20:19:45Z" finished-at="2018-08-05T20:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementShow -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="200" started-at="2018-08-05T20:19:45Z" finished-at="2018-08-05T20:19:45Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="200" started-at="2018-08-05T20:19:45Z" finished-at="2018-08-05T20:19:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9104" started-at="2018-08-05T20:19:45Z" finished-at="2018-08-05T20:19:54Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9104" started-at="2018-08-05T20:19:45Z" finished-at="2018-08-05T20:19:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getAlert()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getAlert" duration-ms="349" started-at="2018-08-05T20:19:54Z" finished-at="2018-08-05T20:19:55Z">
+        <test-method status="PASS" signature="getAlert()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getAlert" duration-ms="349" started-at="2018-08-05T20:19:54Z" finished-at="2018-08-05T20:19:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlert -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2107" started-at="2018-08-05T20:19:55Z" finished-at="2018-08-05T20:19:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2107" started-at="2018-08-05T20:19:55Z" finished-at="2018-08-05T20:19:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="8948" started-at="2018-08-05T20:19:57Z" finished-at="2018-08-05T20:20:06Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="8948" started-at="2018-08-05T20:19:57Z" finished-at="2018-08-05T20:20:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getConfirm()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getConfirm" duration-ms="263" started-at="2018-08-05T20:20:06Z" finished-at="2018-08-05T20:20:06Z">
+        <test-method status="PASS" signature="getConfirm()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getConfirm" duration-ms="263" started-at="2018-08-05T20:20:06Z" finished-at="2018-08-05T20:20:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getConfirm -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2128" started-at="2018-08-05T20:20:06Z" finished-at="2018-08-05T20:20:08Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2128" started-at="2018-08-05T20:20:06Z" finished-at="2018-08-05T20:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="8756" started-at="2018-08-05T20:20:08Z" finished-at="2018-08-05T20:20:17Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="8756" started-at="2018-08-05T20:20:08Z" finished-at="2018-08-05T20:20:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getElementDisplayedTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getElementDisplayedTitle" duration-ms="105" started-at="2018-08-05T20:20:17Z" finished-at="2018-08-05T20:20:17Z">
+        <test-method status="PASS" signature="getElementDisplayedTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getElementDisplayedTitle" duration-ms="105" started-at="2018-08-05T20:20:17Z" finished-at="2018-08-05T20:20:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getElementDisplayedTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="240" started-at="2018-08-05T20:20:17Z" finished-at="2018-08-05T20:20:17Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="240" started-at="2018-08-05T20:20:17Z" finished-at="2018-08-05T20:20:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="8560" started-at="2018-08-05T20:20:17Z" finished-at="2018-08-05T20:20:26Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="8560" started-at="2018-08-05T20:20:17Z" finished-at="2018-08-05T20:20:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getSwitchAlertTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getSwitchAlertTitle" duration-ms="108" started-at="2018-08-05T20:20:26Z" finished-at="2018-08-05T20:20:26Z">
+        <test-method status="PASS" signature="getSwitchAlertTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getSwitchAlertTitle" duration-ms="108" started-at="2018-08-05T20:20:26Z" finished-at="2018-08-05T20:20:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSwitchAlertTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2104" started-at="2018-08-05T20:20:26Z" finished-at="2018-08-05T20:20:28Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2104" started-at="2018-08-05T20:20:26Z" finished-at="2018-08-05T20:20:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9356" started-at="2018-08-05T20:20:28Z" finished-at="2018-08-05T20:20:37Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9356" started-at="2018-08-05T20:20:28Z" finished-at="2018-08-05T20:20:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getSwitchTabTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getSwitchTabTitle" duration-ms="63" started-at="2018-08-05T20:20:37Z" finished-at="2018-08-05T20:20:37Z">
+        <test-method status="PASS" signature="getSwitchTabTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getSwitchTabTitle" duration-ms="63" started-at="2018-08-05T20:20:37Z" finished-at="2018-08-05T20:20:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSwitchTabTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="216" started-at="2018-08-05T20:20:37Z" finished-at="2018-08-05T20:20:38Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="216" started-at="2018-08-05T20:20:37Z" finished-at="2018-08-05T20:20:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="12277" started-at="2018-08-05T20:20:38Z" finished-at="2018-08-05T20:20:50Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="12277" started-at="2018-08-05T20:20:38Z" finished-at="2018-08-05T20:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getSwitchWindowTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getSwitchWindowTitle" duration-ms="81" started-at="2018-08-05T20:20:50Z" finished-at="2018-08-05T20:20:50Z">
+        <test-method status="PASS" signature="getSwitchWindowTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getSwitchWindowTitle" duration-ms="81" started-at="2018-08-05T20:20:50Z" finished-at="2018-08-05T20:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSwitchWindowTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="256" started-at="2018-08-05T20:20:50Z" finished-at="2018-08-05T20:20:50Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="256" started-at="2018-08-05T20:20:50Z" finished-at="2018-08-05T20:20:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="8525" started-at="2018-08-05T20:20:50Z" finished-at="2018-08-05T20:20:59Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="8525" started-at="2018-08-05T20:20:50Z" finished-at="2018-08-05T20:20:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getTable()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getTable" duration-ms="697" started-at="2018-08-05T20:20:59Z" finished-at="2018-08-05T20:20:59Z">
+        <test-method status="PASS" signature="getTable()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getTable" duration-ms="697" started-at="2018-08-05T20:20:59Z" finished-at="2018-08-05T20:20:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTable -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="204" started-at="2018-08-05T20:20:59Z" finished-at="2018-08-05T20:21:00Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="204" started-at="2018-08-05T20:20:59Z" finished-at="2018-08-05T20:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9231" started-at="2018-08-05T20:21:00Z" finished-at="2018-08-05T20:21:09Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9231" started-at="2018-08-05T20:21:00Z" finished-at="2018-08-05T20:21:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="getTableTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="getTableTitle" duration-ms="59" started-at="2018-08-05T20:21:09Z" finished-at="2018-08-05T20:21:09Z">
+        <test-method status="PASS" signature="getTableTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="getTableTitle" duration-ms="59" started-at="2018-08-05T20:21:09Z" finished-at="2018-08-05T20:21:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTableTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="332" started-at="2018-08-05T20:21:09Z" finished-at="2018-08-05T20:21:09Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="332" started-at="2018-08-05T20:21:09Z" finished-at="2018-08-05T20:21:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="13747" started-at="2018-08-05T20:21:09Z" finished-at="2018-08-05T20:21:23Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="13747" started-at="2018-08-05T20:21:09Z" finished-at="2018-08-05T20:21:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="iFrameOperation()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="iFrameOperation" duration-ms="216" started-at="2018-08-05T20:21:23Z" finished-at="2018-08-05T20:21:23Z">
+        <test-method status="PASS" signature="iFrameOperation()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="iFrameOperation" duration-ms="216" started-at="2018-08-05T20:21:23Z" finished-at="2018-08-05T20:21:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iFrameOperation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="224" started-at="2018-08-05T20:21:23Z" finished-at="2018-08-05T20:21:23Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="224" started-at="2018-08-05T20:21:23Z" finished-at="2018-08-05T20:21:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="9014" started-at="2018-08-05T20:21:23Z" finished-at="2018-08-05T20:21:32Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="9014" started-at="2018-08-05T20:21:23Z" finished-at="2018-08-05T20:21:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="iFrameTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="iFrameTitle" duration-ms="139" started-at="2018-08-05T20:21:32Z" finished-at="2018-08-05T20:21:33Z">
+        <test-method status="PASS" signature="iFrameTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="iFrameTitle" duration-ms="139" started-at="2018-08-05T20:21:32Z" finished-at="2018-08-05T20:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iFrameTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2327" started-at="2018-08-05T20:21:33Z" finished-at="2018-08-05T20:21:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2327" started-at="2018-08-05T20:21:33Z" finished-at="2018-08-05T20:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="8600" started-at="2018-08-05T20:21:35Z" finished-at="2018-08-05T20:21:43Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="8600" started-at="2018-08-05T20:21:35Z" finished-at="2018-08-05T20:21:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="mouseHoverTitle()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="mouseHoverTitle" duration-ms="218" started-at="2018-08-05T20:21:43Z" finished-at="2018-08-05T20:21:44Z">
+        <test-method status="PASS" signature="mouseHoverTitle()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="mouseHoverTitle" duration-ms="218" started-at="2018-08-05T20:21:43Z" finished-at="2018-08-05T20:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mouseHoverTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2325" started-at="2018-08-05T20:21:44Z" finished-at="2018-08-05T20:21:46Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2325" started-at="2018-08-05T20:21:44Z" finished-at="2018-08-05T20:21:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="8031" started-at="2018-08-05T20:21:46Z" finished-at="2018-08-05T20:21:54Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="8031" started-at="2018-08-05T20:21:46Z" finished-at="2018-08-05T20:21:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="mouseHoverselectReload()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="mouseHoverselectReload" duration-ms="2027" started-at="2018-08-05T20:21:54Z" finished-at="2018-08-05T20:21:56Z">
+        <test-method status="PASS" signature="mouseHoverselectReload()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="mouseHoverselectReload" duration-ms="2027" started-at="2018-08-05T20:21:54Z" finished-at="2018-08-05T20:21:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mouseHoverselectReload -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2078" started-at="2018-08-05T20:21:56Z" finished-at="2018-08-05T20:21:58Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2078" started-at="2018-08-05T20:21:56Z" finished-at="2018-08-05T20:21:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="openBrowser" is-config="true" duration-ms="10462" started-at="2018-08-05T20:21:58Z" finished-at="2018-08-05T20:22:09Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="openBrowser" is-config="true" duration-ms="10462" started-at="2018-08-05T20:21:58Z" finished-at="2018-08-05T20:22:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="mouseHoverselectTop()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="mouseHoverselectTop" duration-ms="360" started-at="2018-08-05T20:22:09Z" finished-at="2018-08-05T20:22:09Z">
+        <test-method status="PASS" signature="mouseHoverselectTop()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="mouseHoverselectTop" duration-ms="360" started-at="2018-08-05T20:22:09Z" finished-at="2018-08-05T20:22:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mouseHoverselectTop -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTest2@130d63be]" name="closeBrowser" is-config="true" duration-ms="2333" started-at="2018-08-05T20:22:09Z" finished-at="2018-08-05T20:22:11Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.PracticePageTestII@130d63be]" name="closeBrowser" is-config="true" duration-ms="2333" started-at="2018-08-05T20:22:09Z" finished-at="2018-08-05T20:22:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Project.PracticePageTest2 -->
+      </class> <!-- Project.PracticePageTestII -->
     </test> <!-- Practice Tests -->
     <test name="SignUp Tests" duration-ms="186024" started-at="2018-08-06T00:22:11Z" finished-at="2018-08-06T00:25:17Z">
       <class name="Project.SignUpPageTest">

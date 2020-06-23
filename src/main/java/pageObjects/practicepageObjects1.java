@@ -22,7 +22,7 @@ public class practicepageObjects1 {
 	By radiobutton1           = By.xpath("//input[@value='radio1']");
 	By radiobutton2           = By.xpath("//input[@value='radio2']");
 	By radiobutton3           = By.xpath("//input[@value='radio3']");
-	By suggestionbox          = By.xpath("//input[@type='text'] [@placeholder='Select Countries']");
+	By suggestionbox          = By.xpath("//input[@type='text'] [@placeholder='Type to Select Countries']");
 	By countrysuggestor       = By.xpath("(//li[@class='ui-menu-item'])");
 	By dropdownexample        = By.xpath("//*[contains(text(), 'Dropdown Example')]");
 	By dropdown               = By.xpath("//select[@id='dropdown-class-example']");

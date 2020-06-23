@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,8 +28,8 @@ public class LoginPageTest extends baseClass {
 	
 	//Creating instances of PageObjects
     //This public instantiation is not working as I am asked to instantiate them individually again in the individual test methods
-	public loginpageObjects loginpageobjects = new loginpageObjects(driver);
-	public homepageObjects homepageobjects = new homepageObjects(driver);
+//	public loginpageObjects loginpageobjects = new loginpageObjects(driver);
+//	public homepageObjects homepageobjects = new homepageObjects(driver);
 	
 	//Mandatory Step needed to make sure that the logs are shown
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
@@ -43,33 +44,22 @@ public class LoginPageTest extends baseClass {
 		log.info("Navigated to Home Page");
 	}
 	
-	//Verifying the presence of LoginButton
+	//Verifying that clicking on the LoginButton navigates us to the LoginPage
 	@Test (invocationCount = 2)
-	public void LoginButton() {
-//		loginpageObjects loginpageobjects = new loginpageObjects(driver);
-//		homepageObjects homepageobjects = new homepageObjects(driver);
-
+	public void LoginButton() throws InterruptedException {
 		log.info("LoginPageTest.LoginButton");
-		
-		//Code snippet to get the popup out of the page
-		WebDriverWait wait = new WebDriverWait(driver, 5);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(homepageobjects.findPopup()));
-		log.debug("Popup visible");
-		wait.until(ExpectedConditions.elementToBeClickable(homepageobjects.findNoThanks()));
-		homepageobjects.getNoThanksbutton().click();
 
-		loginpageobjects.selectLogin().click();
-		String title_text = loginpageobjects.getTitleText().getText();
-		log.debug(title_text);
-		String expected = "Rahul Shetty Academy";
-		
-		if (title_text.contains(expected)) {
-			log.info("Title text contains " + expected + " string");
-			Assert.assertTrue(true);
-		}else {
-			log.info("Title text  DOES NOT contain " + expected + " string");
-			Assert.assertFalse(true);
-		}
+		log.info("Creating an instance of the HomePageTest class to handle the PopUp");
+		HomePageTest homePageTest = new HomePageTest();
+		homePageTest.PopupPresence();
+
+		log.info("Clicking on the Login button of the page and verifying that it is redirecting us to the Login Page");
+		homepageObjects homepageobjects = new homepageObjects(driver);
+		homepageobjects.getLogin().click();
+
+		loginpageObjects loginpageobjects = new loginpageObjects(driver);
+//		String url = loginpageobjects.getURL();
+		Assert.assertEquals(loginpageobjects.getURL(), prop.getProperty("loginpage"));
 	}
 
 	@Test(dataProvider = "LoginDetails")
@@ -88,11 +78,10 @@ public class LoginPageTest extends baseClass {
 		loginpageobjects.passwordId().sendKeys(password);
 		log.debug("Click on the Login button");
 		loginpageobjects.clickLogin().click();
-		
-		if(loginpageobjects.getErrorMessage().size() > 0) {
-			log.info("Expected Error Message - Credentials Invalid");
-			Assert.assertTrue(true);
-		}
+
+		log.info("Expected Error Message - Credentials Invalid");
+//		log.info("The size of the ErrorMessage is " + loginpageobjects.getErrorMessage().size());
+		Assert.assertNotEquals(loginpageobjects.getErrorMessage().size(), 0);
 	}
 	
 	//Creating a DataProvider class which provides different parameters to the tests
@@ -130,10 +119,9 @@ public class LoginPageTest extends baseClass {
 		log.debug("Click on the Login button");
 		loginpageobjects.clickLogin().click();
 
-		if(loginpageobjects.getErrorMessage().size() > 0) {
-			log.info("Expected Error Message - Credentials Invalid");
-			Assert.assertTrue(true);
-		}
+		log.info("Expected Error Message - Credentials Invalid");
+//		log.info("The size of the ErrorMessage is " + loginpageobjects.getErrorMessage().size());
+		Assert.assertNotEquals(loginpageobjects.getErrorMessage().size(), 0);
 	}
 
     @DataProvider
@@ -176,21 +164,11 @@ public class LoginPageTest extends baseClass {
 		log.info("Click on the Forgot Password button");
 		loginpageobjects.getForgotPassword().click();
 
-//		WebDriverWait wait = new WebDriverWait(driver, 30);
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(), 'Home')]")));
 		log.info("Implicit wait of 30 seconds");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-		log.debug("Entering the loop of checking the presence of the getResetPassword error message");
-		if(loginpageobjects.getResetPassword().size() > 0) {
-			log.info("Reset Password button is present");
-			//System.out.println("In the first conditional branch");
-			Assert.assertTrue(true);
-		}else {
-			log.error("Reset Password button is not present");
-			//System.out.println("In the second conditional branch");
-			Assert.assertFalse(true);
-		}
+		log.info("Asserting that the getResetPassword error message is present");
+		Assert.assertNotEquals(loginpageobjects.getResetPassword().size(), 0);
 	}
 	
 	//Clicking on the ForgotPassword button and checking if the error message is being produced
@@ -208,13 +186,9 @@ public class LoginPageTest extends baseClass {
 		loginpageobjects.getresetemailId().sendKeys(prop.getProperty("randomemail"));
         action.moveToElement(loginpageobjects.sendInstructions()).click().build().perform();
 		//I am struggling because I want to hit "Enter" instead of the "Send Instructions" button
-		if (loginpageobjects.getInvalidEmailError().size() > 0) {
-			log.info("The invalid error message is present");
-			Assert.assertTrue(true);
-		}else {
-			log.error("The invalid error message is not present");
-			Assert.assertFalse(true);
-		}
+
+		log.info("Asserting that the getResetPassword error message is present");
+		Assert.assertNotEquals(loginpageobjects.getInvalidEmailError().size(), 0);
 	}
 	
 	//Closing the driver

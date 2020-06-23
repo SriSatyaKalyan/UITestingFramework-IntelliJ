@@ -33,7 +33,7 @@ public class practicepageObjects2 {
 	By mousehoverbutton        = By.id("mousehover");
 	public By mousehovertopbutton     = By.xpath("//*[contains(text(),'Top')]");
 	public By mousehoverreloadbutton  = By.xpath("//*[contains(text(),'Reload')]");
-	By iframetitle             = By.xpath("//*[contains(text(),'iFrame')]");
+	By iframetitle             = By.xpath("//legend[contains(text(),'iFrame Example')]");   //("//*[contains(text(),'iFrame')]");
 	By iframeobject            = By.id("courses-iframe");
 	By iframetext              = By.xpath("//div[@class='text-center']");
 	By linksbox                = By.xpath("//*[@id='gf-BIG']/table/tbody/tr/td[1]/ul");

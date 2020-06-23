@@ -2,6 +2,8 @@ package Project;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,6 +12,7 @@ import resources.baseClass;
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.io.IOException;
+import java.util.List;
 
 public class MiscellaneousPageTest extends baseClass {
 
@@ -48,6 +51,29 @@ public class MiscellaneousPageTest extends baseClass {
         baseClass base = new baseClass();
         base.getScreenshot("dragAndDropFrameElements");
         log.info("Check the 'dragAndDropFrameElements.png' file in 'TestFailureScreenshots' folder situated in the basepath");
+    }
+
+    //Opening all links on the Google home Page
+    @Test
+    public void openAllGoogleHomePageLinks() throws IOException, AWTException {
+        WebDriver driver = initializeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://www.google.com/");
+
+        driver.manage().deleteAllCookies();
+
+        Actions action = new Actions(driver);
+
+        List<WebElement> web = driver.findElements(By.tagName("a"));
+
+        for (int i = 0; i < web.size(); i++) {
+            if (web.get(i).isDisplayed()) {
+                action.moveToElement(web.get(i)).keyDown(Keys.CONTROL).click().build().perform();
+            } else {
+                String url = web.get(i).getAttribute("href");
+                ((JavascriptExecutor) driver).executeScript("window.open('" + url + "', '_blank');");
+            }
+        }
     }
 
     //Closing the driver
