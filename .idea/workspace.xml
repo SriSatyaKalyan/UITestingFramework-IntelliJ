@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/practicepageObjects2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/practicepageObjects2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Project/PracticePageTestII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/PracticePageTestII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/CheckBoxSelections.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/CheckBoxSelections.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/DropdownOptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/DropdownOptions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/LoginButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/LoginButton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/LoginDetails.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/LoginDetails.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameTitle.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameTitle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/MiscellaneousPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/MiscellaneousPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Project/SignUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Project/StackOverflowTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +101,7 @@
       <recent name="C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PracticePageTestII">
+  <component name="RunManager" selected="TestNG.SignUpPageTest.TitleTextValidation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -106,6 +117,17 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +150,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MiscellaneousPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiscellaneousPageTest.dragAndDropFrameElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.MiscellaneousPageTest" />
+      <option name="METHOD_NAME" value="dragAndDropFrameElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PracticePageTestI" type="TestNG" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
@@ -139,100 +198,6 @@
       <option name="PACKAGE_NAME" value="Project" />
       <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestI" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticePageTestII" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticePageTestII.accessAllLinks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
-      <option name="METHOD_NAME" value="accessAllLinks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticePageTestII.iFrameOperation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
-      <option name="METHOD_NAME" value="iFrameOperation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticePageTestII.iFrameTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
-      <option name="METHOD_NAME" value="iFrameTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticePageTestII.mouseHoverSelectTop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestII" />
-      <option name="METHOD_NAME" value="mouseHoverSelectTop" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -258,6 +223,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SignUpPageTest.SignUpTest" type="TestNG" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <extension name="coverage">
@@ -277,6 +260,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignUpPageTest.TitleTextValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project" />
+      <option name="MAIN_CLASS_NAME" value="Project.SignUpPageTest" />
+      <option name="METHOD_NAME" value="TitleTextValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -287,22 +289,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.PracticePageTestI" />
       <item itemvalue="TestNG.SignUpPageTest.SignUpTest" />
       <item itemvalue="TestNG.ImportantGroup" />
       <item itemvalue="TestNG.RegressionGroup" />
-      <item itemvalue="TestNG.PracticePageTestII.mouseHoverSelectTop" />
-      <item itemvalue="TestNG.PracticePageTestII.iFrameTitle" />
-      <item itemvalue="TestNG.PracticePageTestII.iFrameOperation" />
-      <item itemvalue="TestNG.PracticePageTestII.accessAllLinks" />
-      <item itemvalue="TestNG.PracticePageTestII" />
+      <item itemvalue="TestNG.MiscellaneousPageTest" />
+      <item itemvalue="TestNG.MiscellaneousPageTest.dragAndDropFrameElements" />
+      <item itemvalue="TestNG.SignUpPageTest" />
+      <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
+      <item itemvalue="TestNG.SignUpPageTest.TitleTextValidation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PracticePageTestII" />
-        <item itemvalue="TestNG.PracticePageTestII.iFrameTitle" />
-        <item itemvalue="TestNG.PracticePageTestII.accessAllLinks" />
-        <item itemvalue="TestNG.PracticePageTestII.iFrameOperation" />
-        <item itemvalue="TestNG.PracticePageTestII.mouseHoverSelectTop" />
+        <item itemvalue="TestNG.SignUpPageTest.TitleTextValidation" />
+        <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
+        <item itemvalue="TestNG.SignUpPageTest" />
+        <item itemvalue="TestNG.MiscellaneousPageTest.dragAndDropFrameElements" />
+        <item itemvalue="TestNG.MiscellaneousPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +346,10 @@
       <workItem from="1591820216229" duration="250000" />
       <workItem from="1591824482488" duration="5634000" />
       <workItem from="1592231895323" duration="184000" />
-      <workItem from="1592497632668" duration="10255000" />
+      <workItem from="1592497632668" duration="12575000" />
+      <workItem from="1592788566646" duration="1215000" />
+      <workItem from="1592831310045" duration="2378000" />
+      <workItem from="1592926084432" duration="2804000" />
     </task>
     <servers />
   </component>
@@ -391,35 +397,35 @@
     </state>
     <state x="-1224" y="88" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592232078331" />
     <state x="-1224" y="88" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591811264628" />
-    <state width="1493" height="232" key="GridCell.Tab.0.bottom" timestamp="1592517738564">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1592930707152">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="232" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592517738564" />
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592930707152" />
     <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889699" />
-    <state width="1493" height="232" key="GridCell.Tab.0.center" timestamp="1592517738563">
+    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1592930707152">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="232" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592517738563" />
+    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592930707152" />
     <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.center/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="232" key="GridCell.Tab.0.left" timestamp="1592517738563">
+    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1592930707151">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="232" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592517738563" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592930707151" />
     <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162083" />
     <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.left/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />
-    <state width="1493" height="232" key="GridCell.Tab.0.right" timestamp="1592517738563">
+    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1592930707152">
       <screen x="-1920" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.832/-1920.1.1536.834@-1920.1.1536.834" timestamp="1587418383271" />
-    <state width="1493" height="232" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592517738563" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1592930707152" />
     <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@0.0.1536.834" timestamp="1591755162084" />
     <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@-1920.1.1536.834" timestamp="1589925320588" />
     <state width="1493" height="324" key="GridCell.Tab.0.right/0.0.1536.834/-1920.1.1536.834@0.0.1536.834" timestamp="1589917889698" />

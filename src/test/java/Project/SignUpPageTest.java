@@ -46,14 +46,16 @@ public class SignUpPageTest extends baseClass{
 		String title_text = signuppageobject.getTitleText().getText();
 		String expected = "Rahul Shetty Academy";
 		log.info("The title text is " + title_text);
-		
-		if(title_text.contains(expected)) {
-			log.info("Successfully validated Text Message on Practice Page");
-			Assert.assertTrue(title_text.contains(expected));
-		}else {
-			log.error("Error in validating Text Message on Practice Page");
-			Assert.assertFalse(true);
-		}
+
+		Assert.assertTrue(title_text.contains(expected));
+
+//		if(title_text.contains(expected)) {
+//			log.info("Successfully validated Text Message on Practice Page");
+//			Assert.assertTrue(title_text.contains(expected));
+//		}else {
+//			log.error("Error in validating Text Message on Practice Page");
+//			Assert.assertFalse(true);
+//		}
 	}
 	
 	//Test which takes in the various credentials from the DataProvider method and sends them as input to the sign-in section
