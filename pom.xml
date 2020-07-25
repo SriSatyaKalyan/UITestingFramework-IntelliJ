@@ -171,8 +171,8 @@
 						<version>3.0</version>
 						<configuration>
 							<compilerVersion>1.8</compilerVersion>
-							<source>1.6</source>
-							<target>1.6</target>
+							<source>12.0.1</source>
+							<target>12.0.1</target>
 						</configuration>
 					</plugin>
 
