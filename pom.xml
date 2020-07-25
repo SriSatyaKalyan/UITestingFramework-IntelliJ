@@ -168,7 +168,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-compiler-plugin</artifactId>
-						<version>3.0</version>
+						<version>3.8.0</version>
 						<configuration>
 							<compilerVersion>12.0.1</compilerVersion>
 							<source>12.0.1</source>
@@ -204,7 +204,7 @@
 												maven-compiler-plugin
 											</artifactId>
 											<versionRange>
-												[3.0,)
+												3.8.0
 											</versionRange>
 											<goals>
 												<goal>compile</goal>
@@ -236,7 +236,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.0</version>
+					<version>3.8.0</version>
 					<configuration>
 						<compilerVersion>12.0.1</compilerVersion>
 						<source>12.0.1</source>
@@ -272,7 +272,7 @@
 											maven-compiler-plugin
 										</artifactId>
 										<versionRange>
-											[3.0,)
+											3.8.0
 										</versionRange>
 										<goals>
 											<goal>compile</goal>
@@ -303,7 +303,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-compiler-plugin</artifactId>
-						<version>3.0</version>
+						<version>3.8.0</version>
 						<configuration>
 							<compilerVersion>12.0.1</compilerVersion>
 							<source>12.0.1</source>
@@ -339,7 +339,7 @@
 												maven-compiler-plugin
 											</artifactId>
 											<versionRange>
-												[3.0,)
+												3.8.0
 											</versionRange>
 											<goals>
 												<goal>compile</goal>
