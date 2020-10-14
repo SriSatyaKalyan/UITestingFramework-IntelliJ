@@ -8,6 +8,31 @@
   <name>UITestingFramework</name>
   <url>http://maven.apache.org</url>
 
+  <build>
+
+<!--	  C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\-->
+<!--	  <sourceDirectory>C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main\java</sourceDirectory>-->
+<!--	  <scriptSourceDirectory>C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\main\scripts</scriptSourceDirectory>-->
+<!--	  <testSourceDirectory>C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\src\test\java</testSourceDirectory>-->
+<!--	  <outputDirectory>C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\target\classes</outputDirectory>-->
+<!--	  <testOutputDirectory>C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\target\test-classes</testOutputDirectory>-->
+
+	  <resources>
+		  <resource>
+			  <directory>src/main/java/resources</directory>
+		  </resource>
+	  </resources>
+
+	  <testResources>
+		  <testResource>
+			  <directory>src/main/java/Log4j2_Package</directory>
+		  </testResource>
+	  </testResources>
+
+<!--	  <directory>C:\Users\satya\eclipse-workspace\UITestingFramework-IntelliJ\target</directory>-->
+<!--	  <finalName>UITestingFramework-1.0-SNAPSHOT</finalName>-->
+  </build>
+
 	<properties>
 		<maven.compiler.source>12.0.1</maven.compiler.source>
 		<maven.compiler.target>12.0.1</maven.compiler.target>
@@ -155,8 +180,7 @@
 
   </dependencies>
 
-<profiles>
-
+  <profiles>
 	<!-- This profile is for all the test cases -->
 	<profile>
 		<id>Complete</id>
@@ -173,6 +197,7 @@
 							<compilerVersion>12.0.1</compilerVersion>
 							<source>12.0.1</source>
 							<target>12.0.1</target>
+							<release>12.0.1</release>
 						</configuration>
 					</plugin>
 
