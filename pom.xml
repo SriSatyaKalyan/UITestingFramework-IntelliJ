@@ -168,7 +168,7 @@
 	  <dependency>
 		  <groupId>org.apache.maven.plugins</groupId>
 		  <artifactId>maven-surefire-report-plugin</artifactId>
-		  <version>2.21.0</version>
+		  <version>3.0.0-M5</version>
 	  </dependency>
 
       <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
@@ -215,7 +215,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.21.0</version>
+						<version>3.0.0-M5</version>
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
@@ -283,7 +283,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.21.0</version>
+					<version>3.0.0-M5</version>
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
@@ -350,7 +350,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
-						<version>2.21.0</version>
+						<version>3.0.0-M5</version>
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>

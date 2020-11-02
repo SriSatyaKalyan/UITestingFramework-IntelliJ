@@ -10,8 +10,5 @@
         <module name="UITestingFramework-IntelliJ" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Framework" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
