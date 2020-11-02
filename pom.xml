@@ -34,7 +34,7 @@
   </build>
 
 	<properties>
-		<maven.compiler.source>12.0.1</maven.compiler.source>
+		<maven.compiler.source>12.0.1</maven.compiler.source>                 <!-- Here is the Maven version -->
 		<maven.compiler.target>12.0.1</maven.compiler.target>
 	</properties>
 
@@ -194,12 +194,23 @@
 						<artifactId>maven-compiler-plugin</artifactId>
 						<version>3.8.0</version>
 						<configuration>
-							<compilerVersion>1.8</compilerVersion>
-							<source>1.8</source>
-							<target>1.8</target>
-							<release>1.8</release>
+							<compilerVersion>12.0.1</compilerVersion>
+							<source>12.0.1</source>
+							<target>12.0.1</target>
 						</configuration>
 					</plugin>
+
+<!--					<plugin>-->
+<!--						<groupId>org.apache.maven.plugins</groupId>-->
+<!--						<artifactId>maven-compiler-plugin</artifactId>-->
+<!--						<version>3.8.0</version>-->
+<!--						<configuration>-->
+<!--							<compilerVersion>1.8</compilerVersion>-->
+<!--							<source>1.8</source>-->
+<!--							<target>1.8</target>-->
+<!--							<release>1.8</release>-->
+<!--						</configuration>-->
+<!--					</plugin>-->
 
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
