@@ -4,8 +4,8 @@
 
   <listeners>
   	<listener class-name="Project.listeners"/>
-<!--  	<listener class-name="resources.ExtentReporterNG"/>-->
-    </listeners>
+  	<listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
 
   <test thread-count="5" name="Basic Tests">
   

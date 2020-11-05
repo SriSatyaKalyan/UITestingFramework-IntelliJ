@@ -4,7 +4,7 @@
 
   <listeners>
   	<listener class-name="Project.listeners"/>
-<!--  	<listener class-name="resources.ExtentReporterNG"/>-->
+  	<listener class-name="resources.ExtentReporterNG"/>
   </listeners>
 
     <test name="Important Tests"> <!--> Creating groups for better execution of tests based on which group they belong to<-->
