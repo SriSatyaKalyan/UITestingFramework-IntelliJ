@@ -220,7 +220,7 @@
 						<version>3.0.0-M5</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
+								<suiteXmlFile>testng.xml</suiteXmlFile>
 								<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
 							</suiteXmlFiles>
 						</configuration>
