@@ -47,19 +47,18 @@
 		  <version>5.0.4</version>
 	  </dependency>
 
-	
 	<dependency>
 		<groupId>com.relevantcodes</groupId>
     	<artifactId>extentreports</artifactId>
     	<version>2.41.2</version>
 	</dependency>
   
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>junit</groupId>-->
+<!--      <artifactId>junit</artifactId>-->
+<!--      <version>3.8.1</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
   	
   	<dependency>
 		<groupId>org.seleniumhq.selenium</groupId>
@@ -115,7 +114,7 @@
 <!--		  <version>2.2</version>-->
 <!--	  </dependency>-->
 
-<!--	  &lt;!&ndash; https://mvnrepository.com/artifact/log4j/log4j &ndash;&gt;-->
+<!--	  https://mvnrepository.com/artifact/log4j/log4j   -->
 <!--	  <dependency>-->
 <!--		  <groupId>log4j</groupId>-->
 <!--		  <artifactId>log4j</artifactId>-->
@@ -209,7 +208,6 @@
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>testng.xml</suiteXmlFile>
-								<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
@@ -278,7 +276,6 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
-							<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -346,7 +343,6 @@
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>
-								<!--<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>-->
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
