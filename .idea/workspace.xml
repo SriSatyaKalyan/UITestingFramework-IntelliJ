@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SignUpTest.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng-regressiongroup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UITestingFramework-IntelliJ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-regressiongroup.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UITestingFramework-IntelliJ" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -211,30 +226,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticePageTestI.TitleTextValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UITestingFramework-IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-importantgroup.xml" />
-      <option name="PACKAGE_NAME" value="Project" />
-      <option name="MAIN_CLASS_NAME" value="Project.PracticePageTestI" />
-      <option name="METHOD_NAME" value="TitleTextValidation" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegressionGroup" type="TestNG">
       <module name="UITestingFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-regressiongroup.xml" />
@@ -288,17 +279,17 @@
       <item itemvalue="TestNG.RegressionGroup" />
       <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
       <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng-importantgroup.xml" />
-      <item itemvalue="TestNG.PracticePageTestI.TitleTextValidation" />
       <item itemvalue="TestNG.MiscellaneousPageTest.openAMEXLinks" />
       <item itemvalue="TestNG.MiscellaneousPageTest" />
+      <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng-regressiongroup.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng-importantgroup.xml" />
+        <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng-regressiongroup.xml" />
         <item itemvalue="TestNG.C:/Users/satya/eclipse-workspace/UITestingFramework-IntelliJ/testng.xml" />
         <item itemvalue="TestNG.MiscellaneousPageTest" />
         <item itemvalue="TestNG.MiscellaneousPageTest.openAMEXLinks" />
-        <item itemvalue="TestNG.PracticePageTestI.TitleTextValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -364,6 +355,7 @@
       <workItem from="1604420651391" duration="600000" />
       <workItem from="1604611635156" duration="2574000" />
       <workItem from="1604615684049" duration="3654000" />
+      <workItem from="1604623522587" duration="3127000" />
     </task>
     <servers />
   </component>
@@ -396,37 +388,37 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="696" y="88" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599851516311" />
-    <state width="1921" height="318" key="GridCell.Tab.0.bottom" timestamp="1604623492757">
-      <screen x="1920" y="0" width="1536" height="840" />
+    <state width="1921" height="318" key="GridCell.Tab.0.bottom" timestamp="1604624932186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1491" height="313" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1598288332936" />
     <state width="1921" height="342" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602640532248" />
     <state width="1921" height="342" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602646592686" />
-    <state width="1921" height="318" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604617102442" />
+    <state width="1921" height="318" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604624932186" />
     <state width="1921" height="318" key="GridCell.Tab.0.bottom/1920.0.1536.840/0.0.1920.1050@1920.0.1536.840" timestamp="1604623492757" />
-    <state width="1921" height="318" key="GridCell.Tab.0.center" timestamp="1604623492756">
-      <screen x="1920" y="0" width="1536" height="840" />
+    <state width="1921" height="318" key="GridCell.Tab.0.center" timestamp="1604624932186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1491" height="313" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1598288332935" />
     <state width="1921" height="342" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602640532248" />
     <state width="1921" height="342" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602646592685" />
-    <state width="1921" height="318" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604617102442" />
+    <state width="1921" height="318" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604624932186" />
     <state width="1921" height="318" key="GridCell.Tab.0.center/1920.0.1536.840/0.0.1920.1050@1920.0.1536.840" timestamp="1604623492756" />
-    <state width="1921" height="318" key="GridCell.Tab.0.left" timestamp="1604623492756">
-      <screen x="1920" y="0" width="1536" height="840" />
+    <state width="1921" height="318" key="GridCell.Tab.0.left" timestamp="1604624932185">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1491" height="313" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1598288332935" />
     <state width="1921" height="342" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602640532246" />
     <state width="1921" height="342" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602646592685" />
-    <state width="1921" height="318" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604617102442" />
+    <state width="1921" height="318" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604624932185" />
     <state width="1921" height="318" key="GridCell.Tab.0.left/1920.0.1536.840/0.0.1920.1050@1920.0.1536.840" timestamp="1604623492756" />
-    <state width="1921" height="318" key="GridCell.Tab.0.right" timestamp="1604623492757">
-      <screen x="1920" y="0" width="1536" height="840" />
+    <state width="1921" height="318" key="GridCell.Tab.0.right" timestamp="1604624932186">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1491" height="313" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1536.834@-1920.0.1536.834" timestamp="1598288332936" />
     <state width="1921" height="342" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602640532248" />
     <state width="1921" height="342" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602646592685" />
-    <state width="1921" height="318" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604617102442" />
+    <state width="1921" height="318" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1604624932186" />
     <state width="1921" height="318" key="GridCell.Tab.0.right/1920.0.1536.840/0.0.1920.1050@1920.0.1536.840" timestamp="1604623492757" />
     <state x="490" y="179" key="Maven.ArtifactSearchDialog" timestamp="1604614154580">
       <screen x="0" y="0" width="1920" height="1050" />
