@@ -4,7 +4,7 @@
   <groupId>Project</groupId>
   <artifactId>UITestingFramework</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <name>UITestingFramework</name>
   <url>http://maven.apache.org</url>
 
@@ -137,18 +137,25 @@
 	<!--These dependencies end here-->
 
     <!--WebDriverManager Dependency to handle all the driver binaries-->
-      <dependency>
-          <groupId>io.github.bonigarcia</groupId>
-          <artifactId>webdrivermanager</artifactId>
-         <version>3.3.0</version>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>io.github.bonigarcia</groupId>
-          <artifactId>webdrivermanager</artifactId>
-          <version>3.3.0</version>
-          <scope>compile</scope>
-      </dependency>
+	  <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+	  <dependency>
+		  <groupId>io.github.bonigarcia</groupId>
+		  <artifactId>webdrivermanager</artifactId>
+		  <version>4.2.2</version>
+	  </dependency>
+
+	  <!--      <dependency>-->
+<!--          <groupId>io.github.bonigarcia</groupId>-->
+<!--          <artifactId>webdrivermanager</artifactId>-->
+<!--         <version>3.3.0</version>-->
+<!--          <scope>test</scope>-->
+<!--      </dependency>-->
+<!--      <dependency>-->
+<!--          <groupId>io.github.bonigarcia</groupId>-->
+<!--          <artifactId>webdrivermanager</artifactId>-->
+<!--          <version>3.3.0</version>-->
+<!--          <scope>compile</scope>-->
+<!--      </dependency>-->
 
       <!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
       <dependency>
@@ -166,13 +173,19 @@
 
 	  <!--Adding sure-fire plugins for my satisfaction-->
 	  <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
+<!--	  <dependency>-->
+<!--		  <groupId>org.apache.maven.plugins</groupId>-->
+<!--		  <artifactId>maven-surefire-report-plugin</artifactId>-->
+<!--		  <version>3.0.0-M5</version>-->
+<!--	  </dependency>-->
+
 	  <dependency>
 		  <groupId>org.apache.maven.plugins</groupId>
-		  <artifactId>maven-surefire-report-plugin</artifactId>
-		  <version>3.0.0-M5</version>
+		  <artifactId>maven-surefire-plugin</artifactId>
+		  <version>2.22.2</version>
 	  </dependency>
 
-      <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
+	  <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
       <dependency>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
@@ -206,6 +219,7 @@
 						<artifactId>maven-surefire-plugin</artifactId>
 						<version>3.0.0-M5</version>
 						<configuration>
+							<testFailureIgnore>true</testFailureIgnore>
 							<suiteXmlFiles>
 								<suiteXmlFile>testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
@@ -274,6 +288,7 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M5</version>
 					<configuration>
+						<testFailureIgnore>true</testFailureIgnore>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng-regressiongroup.xml</suiteXmlFile>
 						</suiteXmlFiles>
@@ -341,6 +356,7 @@
 						<artifactId>maven-surefire-plugin</artifactId>
 						<version>3.0.0-M5</version>
 						<configuration>
+							<testFailureIgnore>true</testFailureIgnore>
 							<suiteXmlFiles>
 								<suiteXmlFile>testng-importantgroup.xml</suiteXmlFile>
 							</suiteXmlFiles>

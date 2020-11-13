@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a718be47-a13b-42b2-93b9-513771a9abe0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/CheckBoxSelections.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/CheckBoxSelections.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/DropdownOptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/DropdownOptions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/LoginButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/LoginButton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/LoginDetails.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/LoginDetails.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/LoginDetailswithExcelSheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/LoginDetailswithExcelSheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/Radiobuttons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/SendInstructions.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/dragAndDropFrameElements.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameOperation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestFailureScreenshots/iFrameTitle.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestFailureScreenshots/iFrameTitle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +352,8 @@
       <workItem from="1604611635156" duration="2574000" />
       <workItem from="1604615684049" duration="3654000" />
       <workItem from="1604623522587" duration="5564000" />
-      <workItem from="1604634717406" duration="774000" />
+      <workItem from="1604634717406" duration="6189000" />
+      <workItem from="1604799515643" duration="2997000" />
     </task>
     <servers />
   </component>
