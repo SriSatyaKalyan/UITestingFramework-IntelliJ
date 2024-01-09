@@ -6,6 +6,7 @@
 package Project;
 import static org.testng.Assert.assertTrue;
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -44,7 +45,7 @@ public class HomePageTest extends baseClass{
 		
 		//Code snippet to get the popup out of the page
 		log.info("Waiting for a period of 5 seconds the popup to come alive");
-		WebDriverWait wait = new WebDriverWait(driver, 5);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		log.info("Explicit wait for the visibility of the popup");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(homepageobjects.findPopup()));
 		log.info("Explicit wait for the visibility of 'No Thanks' button on the popup");

@@ -6,6 +6,7 @@
 package Project;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -233,7 +234,8 @@ public class PracticePageTestII extends baseClass{
 		Actions action = new Actions(driver);
 		action.moveToElement(practicepageobjects.getMouseButton()).build().perform();	
 		
-		WebDriverWait wait = new WebDriverWait(driver, 2);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+//				new WebDriverWait(driver, 2);
 		wait.until(ExpectedConditions.presenceOfElementLocated(practicepageobjects.mousehovertopbutton));
 		
 		practicepageobjects.getMouseHoverTopButton().click();
@@ -248,9 +250,9 @@ public class PracticePageTestII extends baseClass{
 		
 		Actions action = new Actions(driver);
 		log.info("Using Actions class to click on the Mouse Button");
-		action.moveToElement(practicepageobjects.getMouseButton()).build().perform();	
-		
-		WebDriverWait wait = new WebDriverWait(driver, 2);
+		action.moveToElement(practicepageobjects.getMouseButton()).build().perform();
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 		log.info("Implicit wait for the presence of the Mouse Hover Load Button");
 		wait.until(ExpectedConditions.presenceOfElementLocated(practicepageobjects.mousehoverreloadbutton));
 

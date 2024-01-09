@@ -39,7 +39,7 @@ public class baseClass {
 	public WebDriver initializeDriver() throws IOException {
 		
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/resources/data.properties");
 		prop.load(fis);
 
 		String browserName = prop.getProperty("browser");
@@ -65,7 +65,7 @@ public class baseClass {
             WebDriverManager.iedriver().setup();
             driver = new InternetExplorerDriver();
 		}else{
-            WebDriverManager.phantomjs().setup();
+//            WebDriverManager.phantomjs().setup();
             driver = new PhantomJSDriver();
         }
 		
