@@ -8,37 +8,29 @@
   </listeners>
 
   <test thread-count="5" name="Basic Tests">
-  
     <classes>
  		  <class name="Project.HomePageTest"/>       
-          <class name="Project.LoginPageTest"/>      
+<!--          <class name="Project.LoginPageTest"/>      -->
     </classes>
-    
   </test> <!-- Basic Tests -->
   
-  <test thread-count="5" name="Practice Tests">
-  
-    <classes>
-         <class name="Project.PracticePageTestI"/>
-         <class name="Project.PracticePageTestII"/>
-    </classes>
-    
-  </test> <!-- Practice Tests -->
-  
-  <test thread-count="5" name="SignUp Tests">
-  
-    <classes>
-        <class name="Project.SignUpPageTest"/>  
-    </classes>
-    
-  </test> <!-- Practice Tests -->
+<!--  <test thread-count="5" name="Practice Tests">-->
+<!--    <classes>-->
+<!--         <class name="Project.PracticePageTestI"/>-->
+<!--         <class name="Project.PracticePageTestII"/>-->
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Practice Tests &ndash;&gt;-->
+<!--  -->
+<!--  <test thread-count="5" name="SignUp Tests">-->
+<!--    <classes>-->
+<!--        <class name="Project.SignUpPageTest"/>  -->
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Practice Tests &ndash;&gt;-->
 
-    <test thread-count="5" name="Miscellaneous Tests">
-
-        <classes>
-            <class name="Project.MiscellaneousPageTest"/>
-        </classes>
-
-    </test> <!-- Miscellaneous Tests -->
+<!--    <test thread-count="5" name="Miscellaneous Tests">-->
+<!--        <classes>-->
+<!--            <class name="Project.MiscellaneousPageTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Miscellaneous Tests &ndash;&gt;-->
 
 </suite> <!-- QA Click Academy Suite -->

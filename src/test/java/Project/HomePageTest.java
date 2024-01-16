@@ -4,12 +4,12 @@
 */
 
 package Project;
-import static org.testng.Assert.assertTrue;
 import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -42,7 +42,9 @@ public class HomePageTest extends baseClass{
 		log.debug("Created instance for the homepageObjects");
 		JavascriptExecutor jsExec = (JavascriptExecutor)driver;
 		log.info("HomePageTest.PopupPresence");
-		
+
+		driver.findElement(By.xpath("//a[contains(text(), 'Blog')]")).click();
+
 		//Code snippet to get the popup out of the page
 		log.info("Waiting for a period of 5 seconds the popup to come alive");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -65,7 +67,8 @@ public class HomePageTest extends baseClass{
 		log.debug("Created instance for the homepageObjects");
 		log.info("HomePageTest.TitleTextValidation");
 		String title_text = homepageobjects.getTitle().getText();
-		String expected = "FEATURED COURSES";
+		log.info("The text is: " + title_text);
+		String expected = "Access all our Courses";
 
 		//Switched for Selenium to handle the success/failure messages
 		log.info("Assertion to check if the title_text contains the expected message");

@@ -13,8 +13,8 @@ public class homepageObjects {
 	
 	public WebDriver driver;
 	By loginbutton = By.xpath("//span[contains(text(),'Login')]");
-	By title       = By.xpath("//*[@id=\"content\"]/div/div/h2");
-	By navigationbar = By.xpath("//nav[@class='navbar-collapse collapse']");
+	By title       = By.xpath("//a[@class='main-btn']");
+	By navigationbar = By.xpath("//div[@class='navigation']");
 	By popup        =  By.xpath("//div[@class='sumome-react-wysiwyg-popup-animation-group']");
 	By nothanks = By.xpath("//div[@class='sumome-react-wysiwyg-component sumome-react-wysiwyg-popup-button sumome-react-wysiwyg-button'] //*[contains(text(),'THANKS')]");
 	By nothanksbutton    = By.xpath("//button[text()='NO THANKS']");
