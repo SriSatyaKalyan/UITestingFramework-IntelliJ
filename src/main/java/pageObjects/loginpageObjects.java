@@ -21,8 +21,8 @@ public class loginpageObjects {
 	By loginButton = By.xpath("//input[@type='submit']");
 	By titletext = By.xpath("//h1[contains(text(),'Log In')]");
 	By errormessage = By.xpath("//div[contains(text(), 'Invalid email or password')]");
-	By forgotpasswordbutton = By.xpath("//a[contains(text(), 'Forgot Password?')]");
-	By resetpasswordbutton = By.xpath("//h1[contains(text(), 'Reset Password')]");
+	By forgotpasswordbutton = By.xpath("//a[contains(text(), 'Forgot Password')]");
+	By resetpasswordbutton = By.xpath("//h3[contains(text(), 'Reset Password')]");
 	By instructionsbutton = By.xpath("//input[@value='Send Me Instructions']");
 	By resetemailBox    = By.xpath("//input[@id='user_email']");
 	By invalidemailerrormessage = By.xpath("//span[contains(text(),'find an account')]");

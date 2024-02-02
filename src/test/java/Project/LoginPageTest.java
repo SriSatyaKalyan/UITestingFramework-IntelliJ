@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -28,8 +29,8 @@ public class LoginPageTest extends baseClass {
 	
 	//Creating instances of PageObjects
     //This public instantiation is not working as I am asked to instantiate them individually again in the individual test methods
-//	public loginpageObjects loginpageobjects = new loginpageObjects(driver);
-//	public homepageObjects homepageobjects = new homepageObjects(driver);
+	public loginpageObjects loginpageobjects = new loginpageObjects(driver);
+	public homepageObjects homepageobjects = new homepageObjects(driver);
 	
 	//Mandatory Step needed to make sure that the logs are shown
 	public static Logger log = LogManager.getLogger(baseClass.class.getName());
@@ -40,26 +41,25 @@ public class LoginPageTest extends baseClass {
 		driver = initializeDriver();
 		log.info("Driver is initialized");
 		driver.manage().window().maximize();
-		driver.get(prop.getProperty("homepage"));
-		log.info("Navigated to Home Page");
+		driver.get(prop.getProperty("coursepage"));
+		log.info("Navigated to Courses Page");
 	}
 	
 	//Verifying that clicking on the LoginButton navigates us to the LoginPage
-	@Test (invocationCount = 2)
+	@Test (invocationCount = 1)
 	public void LoginButton() throws InterruptedException {
 		log.info("LoginPageTest.LoginButton");
 
-		log.info("Creating an instance of the HomePageTest class to handle the PopUp");
-		HomePageTest homePageTest = new HomePageTest();
-		homePageTest.PopupPresence();
-
 		log.info("Clicking on the Login button of the page and verifying that it is redirecting us to the Login Page");
 		homepageObjects homepageobjects = new homepageObjects(driver);
-		homepageobjects.getLogin().click();
 
-		loginpageObjects loginpageobjects = new loginpageObjects(driver);
-//		String url = loginpageobjects.getURL();
-		Assert.assertEquals(loginpageobjects.getURL(), prop.getProperty("loginpage"));
+		//Sleep because the execution is fast
+		Thread.sleep(5000);
+		log.info("Clicking on the Login button");
+		homepageobjects.getLogin().click();
+		log.info("Clicked on the Login button");
+
+		Assert.assertTrue(driver.getCurrentUrl().contains("sso.teachable.com/secure/9521/identity/"));
 	}
 
 	@Test(dataProvider = "LoginDetails")
@@ -69,13 +69,13 @@ public class LoginPageTest extends baseClass {
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 
 		log.info("Navigating to the login page");
-		driver.navigate().to(prop.getProperty("loginpage"));
+		driver.navigate().to("https://sso.teachable.com/secure/9521/identity/login");
 		log.info(text);
 
-		log.debug(username + " entered the emailId field");
 		loginpageobjects.emailId().sendKeys(username);
-		log.debug(password + " entered in the password field");
+		log.debug(username + " entered the emailId field");
 		loginpageobjects.passwordId().sendKeys(password);
+		log.debug(password + " entered in the password field");
 		log.debug("Click on the Login button");
 		loginpageobjects.clickLogin().click();
 

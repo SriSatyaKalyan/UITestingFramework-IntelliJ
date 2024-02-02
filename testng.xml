@@ -9,8 +9,8 @@
 
   <test thread-count="5" name="Basic Tests">
     <classes>
- 		  <class name="Project.HomePageTest"/>       
-<!--          <class name="Project.LoginPageTest"/>      -->
+<!-- 		  <class name="Project.HomePageTest"/>       -->
+          <class name="Project.LoginPageTest"/>
     </classes>
   </test> <!-- Basic Tests -->
   

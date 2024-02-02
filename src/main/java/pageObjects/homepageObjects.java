@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 public class homepageObjects {
 	
 	public WebDriver driver;
-	By loginbutton = By.xpath("//span[contains(text(),'Login')]");
+	By loginbutton = By.xpath("//a[@href='http://qaclickacademy.usefedora.com/sign_in']");
 	By title       = By.xpath("//a[@class='main-btn']");
 	By navigationbar = By.xpath("//div[@class='navigation']");
 	By popup        =  By.xpath("//div[@class='sumome-react-wysiwyg-popup-animation-group']");
