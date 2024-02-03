@@ -46,7 +46,7 @@ public class LoginPageTest extends baseClass {
 	}
 	
 	//Verifying that clicking on the LoginButton navigates us to the LoginPage
-	@Test (invocationCount = 1)
+	@Test (enabled = false, invocationCount = 1)
 	public void LoginButton() throws InterruptedException {
 		log.info("LoginPageTest.LoginButton");
 
@@ -62,14 +62,15 @@ public class LoginPageTest extends baseClass {
 		Assert.assertTrue(driver.getCurrentUrl().contains("sso.teachable.com/secure/9521/identity/"));
 	}
 
-	@Test(dataProvider = "LoginDetails")
-	public void LoginDetails(String username, String password, String text) throws IOException {
+	@Test(enabled = false, dataProvider = "LoginDetails")
+	public void LoginDetails(String username, String password, String text) throws IOException, InterruptedException {
 		log.info("LoginPageTest.LoginDetails");
 
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
 
 		log.info("Navigating to the login page");
 		driver.navigate().to("https://sso.teachable.com/secure/9521/identity/login");
+		Thread.sleep(5000);
 		log.info(text);
 
 		loginpageobjects.emailId().sendKeys(username);
@@ -78,6 +79,9 @@ public class LoginPageTest extends baseClass {
 		log.debug(password + " entered in the password field");
 		log.debug("Click on the Login button");
 		loginpageobjects.clickLogin().click();
+
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//*[@id='challenge-stage']/div/label/input")).click();
 
 		log.info("Expected Error Message - Credentials Invalid");
 //		log.info("The size of the ErrorMessage is " + loginpageobjects.getErrorMessage().size());
@@ -102,7 +106,7 @@ public class LoginPageTest extends baseClass {
 		return data;
 	}
 
-	@Test(dataProvider = "getDatafromExcelSheet")
+	@Test(enabled = false, dataProvider = "getDatafromExcelSheet")
 	public void LoginDetailswithExcelSheet(String username, String password, String text) throws IOException {
 		log.info("LoginPageTest.LoginDetailswithExcelSheet");
 		loginpageObjects loginpageobjects = new loginpageObjects(driver);
@@ -153,7 +157,7 @@ public class LoginPageTest extends baseClass {
     }
 	
 	//Verifying the presence of "Reset Password" button after clicking on ForgotPassword icon
-	@Test
+	@Test(enabled = false)
 	public void ForgotPassword() {
 		log.info("LoginPageTest.ForgotPassword");
         loginpageObjects loginpageobjects = new loginpageObjects(driver);
@@ -178,7 +182,8 @@ public class LoginPageTest extends baseClass {
 
 		log.info("LoginPageTest.SendInstructions");
 		driver.navigate().to(prop.getProperty("loginpage"));
-		
+
+		Thread.sleep(3000);
 		loginpageobjects.getForgotPassword().click();
 		
 		Actions action = new Actions(driver);

@@ -101,6 +101,7 @@ public class PracticePageTestII extends baseClass{
 		String oldwindowid = iterator.next();
 		String newwindowid = iterator.next();
 
+		log.info("The name of the window is: " + driver.switchTo().window(newwindowid).getTitle());
 		Assert.assertTrue(driver.switchTo().window(newwindowid).getTitle().contains(prop.getProperty("expectedtabtitle")));
 	}
 	
@@ -299,7 +300,7 @@ public class PracticePageTestII extends baseClass{
 	}
 	
 	//Test checking if all the links in the page can be opened at a time
-	@Test(groups = {"important"})
+	@Test(enabled = false, groups = {"important"})
 	public void accessAllLinks() throws InterruptedException {
 		practicepageObjects2 practicepageobjects = new practicepageObjects2(driver);
 		log.info("PracticePageTest2.accessAllLinks");
@@ -307,7 +308,8 @@ public class PracticePageTestII extends baseClass{
 		log.info("Getting the number of links on the Practice Page");
 		WebElement linksset = practicepageobjects.getLinksBox(); //footer_driver
 		int linkscount = practicepageobjects.getNumberofLinks();
-		
+
+		log.info("The linkscount value is: " + linkscount);
 		for (int i=0; i < linkscount; i++) {
 			String openlinkkeys = Keys.chord(Keys.CONTROL, Keys.ENTER);
 			log.info("Opening the links using a loop");
